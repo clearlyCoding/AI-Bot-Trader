@@ -12,7 +12,7 @@ API_KEY = "PK8TNPOIWE1B6PH2PHY0"
 API_SECRET = "RXSRJUYMNJpniHaFAZo7MUfoe1k2WMknbGcLTev8" 
 BASE_URL = "https://paper-api.alpaca.markets/v2"
 POLYGONKEY = "hwXFX1sSXE4ojhYyeKDA7BBJDlaLf6Pf"
-tickertest = 'AAPL'
+tickertest = 'SOXX'
 ALPACA_CREDS = {
     "API_KEY":API_KEY, 
     "API_SECRET": API_SECRET, 
@@ -22,12 +22,12 @@ ALPACA_CREDS = {
 class MLTrader(Strategy): 
     data = []
     order_number = 0
-    counter = 0
+    cash_history = 0
     last_action = ""
     action_price = 0
     diary = {}
     pages = {}
-    def initialize(self, symbol:str=tickertest, cash_at_risk:float=.25): 
+    def initialize(self, symbol:str=tickertest, cash_at_risk:float=.5): 
         self.symbol = symbol
         self.sleeptime = "10M"
         self.cash_at_risk = cash_at_risk
@@ -44,6 +44,7 @@ class MLTrader(Strategy):
 
         return cash, last_price, quantity
     def swing_session(self):
+        print ("Swing session strategy engaged")
         cash, last_price, quantityz = self.position_sizing()
         print(f"Position: {self.get_position(self.symbol)}")
         pos = self.get_position(self.symbol)
@@ -62,7 +63,7 @@ class MLTrader(Strategy):
 
     def slope_session(self):
         ##best 10 minute interval
-
+        print ("Slope session strategy engaged")
         cash, last_price, quantityz = self.position_sizing()
         print(f"Position: {self.get_position(self.symbol)}")
         pos = self.get_position(self.symbol)
@@ -86,11 +87,14 @@ class MLTrader(Strategy):
 
     def analyze_position(self):
         fcashflow = self.get_cash()
+        budget = self.initial_budget
         fpos = self.get_position(self.symbol)
         lastprice = self.get_last_price(self.symbol)
-        total_position_value = float(lastprice*fpos + fcashflow)
-        
-        return total_position_value
+        # total_position_value = float(lastprice*fpos + fcashflow)
+        analysis = "+"
+        if fcashflow < self.cash_at_risk * budget:
+            analysis = "-"
+        return analysis
 
 
     def get_sentiment(self): 
@@ -102,24 +106,32 @@ class MLTrader(Strategy):
         probability, sentiment = estimate_sentiment(news)
         return probability, sentiment 
 
+    def extract_date(self, datetimestring):
+    # Split the string on the comma and strip any leading/trailing whitespace
+        date_part = datetimestring.split(',')[0].strip()
+        date_part = datetime.strptime(date_part, '%Y-%m-%d').date()
+        return date_part
+
     def on_trading_iteration(self):
         cash, last_price, quantityz = self.position_sizing()
         today = self.get_datetime().strftime('%Y-%m-%d')
+        time = self.get_datetime().strftime('%H:%M:%S')
+        datetimestring = today + " , " + time
+        print(datetimestring)
         orderamt = 0
         dellist = []
         # probability, sentiment  = self.get_sentiment() 
-        print(f"Position: {self.get_position(self.symbol)}, free cash flow : {cash}")
+        
         pos = self.get_position(self.symbol)
         self.data.append(self.get_last_price(self.symbol))
-        slope_action=0
         if len (self.data) >=5:
             x = self.data[-5:]
             y = [1,2,3,4,5]
             coefficients = np.polyfit(x,y,1)
             slope = coefficients[0]
-            if slope> 0 and quantityz>0:
+            if slope> 0 and quantityz>0 and self.analyze_position() == "+":
                 order = self.create_order(self.symbol, quantity= quantityz, side = 'buy')
-                self.diary[today] = [last_price, quantityz]
+                self.diary[datetimestring] = [last_price, quantityz]
                 # self.pages[today] = self.diary[last_price]
                 self.submit_order(order)
                 slope_action =slope
@@ -129,30 +141,38 @@ class MLTrader(Strategy):
                     self.sell_all()
                     dellist.clear()
                     orderamt = 0          
-        for date, details in self.diary.items():
-            
-            
-            if last_price > details[0]*1.15:
-                orderamt += details[1]
-                print (f"purcahsed {details[1]} for {details[0]} on {date}, current price is {last_price} on {today}")
-                # details[1] =  0
-                
-        # for keys in self.diary:
-        #     if last_price > keys*1.15:
-        #         print(f"bought {self.diary[keys]} for {keys}")
-        #         orderamt += self.diary[keys]
-        #         dellist.append(keys)
-        # if pos and orderamt >0 and pos.quantity >= orderamt:
-        #     order = self.create_order(self.symbol, quantity= orderamt, side = "sell" )
-        #     self.submit_order (order)
-        # for items in dellist:
-        #     del self.diary[items]
 
-        today = self.get_datetime()
-        if today.strftime('%Y-%m-%d') == ('2023-12-29'):
+        for date, details in self.diary.items():
+            date1 = datetime.strptime(today, '%Y-%m-%d').date()
+            date2 = self.extract_date(date)
+            
+            difference_in_days = date1 - date2
+            
+            if last_price >= details[0]*1.15:
+                orderamt += details[1]
+                details[1] = 0  
+                # print (f"purcahsed {details[1]} for {details[0]} on {date}, current price is {last_price} on {today} - Stale Status {difference_in_days.days}")
+                
+            if int(difference_in_days.days) >=30 and details[0]*1.06 > last_price>= details[0]*1.001:
+                orderamt += details[1]
+                details[1] = 0
+            if 30> int(difference_in_days.days) >15 and details[0]*1.15 > last_price >= details[0]*1.06:
+                orderamt += details[1]  
+                details[1] = 0
+            
+
+        if orderamt > 0:
+            order = self.create_order(self.symbol, quantity= orderamt, side = "sell" ) #sell at 15% threshold profit
+            self.submit_order (order)
+            orderamt = 0
+
+        # print(f"Position: {self.get_position(self.symbol)}, free cash flow : {cash}")
+
+        # today = self.get_datetime()
+        # print (today.strftime('%Y-%m-%d'))
+        # print (self.diary)
+        if today == ('2023-12-21'):
             self.sell_all()
-        # total_value = self.analyze_position()
-        # print(total_value)
 
 
             
