@@ -36,13 +36,16 @@ class MLTrader(Strategy):
 
     def position_sizing(self): 
         cash = self.get_cash() 
-
+        budget = self.initial_budget
+        analysis = "+"
         last_price = self.get_last_price(self.symbol)
         quantity = round(cash * self.cash_at_risk / last_price,0)
         if cash - (quantity * last_price) <self.cash_at_risk * cash:
             quantity = 0 
+        if cash < self.cash_at_risk * budget:
+            analysis = "-"
+        return cash, last_price, quantity, analysis
 
-        return cash, last_price, quantity
     def swing_session(self):
         print ("Swing session strategy engaged")
         cash, last_price, quantityz = self.position_sizing()
@@ -62,39 +65,61 @@ class MLTrader(Strategy):
 
 
     def slope_session(self):
-        ##best 10 minute interval
-        print ("Slope session strategy engaged")
-        cash, last_price, quantityz = self.position_sizing()
-        print(f"Position: {self.get_position(self.symbol)}")
-        pos = self.get_position(self.symbol)
-        self.data.append(self.get_last_price(self.symbol))
-        slope_action=0
-        if len (self.data) >=5:
-            x = self.data[-5:]
+        #initializating the strat
+        cash, last_price, quant, temperment  = self.position_sizing()
+        today = self.get_datetime().strftime('%Y-%m-%d')
+        time = self.get_datetime().strftime('%H:%M:%S')
+        datetimestring = today + " , " + time
+        orderamt = 0
+        dellist = []
+        # probability, sentiment  = self.get_sentiment() 
+        self.data.append(self.get_last_price(self.symbol)) #uses the last 5 intervals to collect interval cost data (so collect costs and store them in this list)
+        if len (self.data) >=5: 
+            x = self.data[-5:] #check the last 5 intervals
             y = [1,2,3,4,5]
-            coefficients = np.polyfit(x,y,1)
-            slope = coefficients[0]
-            if slope >0:
-                order = self.create_order(self.symbol, quantity= quantityz, side = 'buy')
+            coefficients = np.polyfit(x,y,1)    #make a line of best fit
+            slope = coefficients[0] #get the slope lol
+            if slope> 0 and quant>0 and temperment == "+": #if position analysis is good then use the trend is moving positive - make a buy order at current price
+                order = self.create_order(self.symbol, quantity= quant, side = 'buy')
+                self.diary[datetimestring] = [last_price, quant] #creating diary of date as key, buy price and quantity as values
                 self.submit_order(order)
-                slope_action =slope
-            if pos and slope < slope_action:
-                self.sell_all()
+                self.action_price = last_price
+                self.last_action = "buy"
+                if cash <self.cash_at_risk*cash: #emergency contegency put into buy code, was noticing the buys were making cash go below 25k
+                    self.sell_all()
+                    dellist.clear()
+                    orderamt = 0          
+
+        #iterate over buy data dict
+        for date, details in self.diary.items():
+            date1 = datetime.strptime(today, '%Y-%m-%d').date()
+            date2 = self.extract_date(date)
+            
+            difference_in_days = date1 - date2 #counter for days passed
+            
+            if last_price >= details[0]*1.15: #doesn't matter time passed - if ur 15% above, sell that position
+                orderamt += details[1]
+                details[1] = 0  # quantity gets zeroed
+                
+            if int(difference_in_days.days) >=30 and details[0]*1.06 > last_price>= details[0]*1.001: # if the days passed are over 30, then sell possiitions taking all profits you can
+                orderamt += details[1]
+                details[1] = 0
+            if 30> int(difference_in_days.days) >15 and details[0]*1.15 > last_price >= details[0]*1.06: #if the days passed are over 15 days but under 30, then sell the positionsif you have atleast a 6% profit
+                orderamt += details[1]  
+                details[1] = 0
+            
+
+        if orderamt > 0:
+            order = self.create_order(self.symbol, quantity= orderamt, side = "sell" ) #Make a sell with the order amount - determined from above. 
+            self.submit_order (order)
+            orderamt = 0
+
     def get_dates(self): 
         today = self.get_datetime()
         three_days_prior = today - Timedelta(days=3)
         return today.strftime('%Y-%m-%d'), three_days_prior.strftime('%Y-%m-%d')
 
-    def analyze_position(self):
-        fcashflow = self.get_cash()
-        budget = self.initial_budget
-        fpos = self.get_position(self.symbol)
-        lastprice = self.get_last_price(self.symbol)
-        # total_position_value = float(lastprice*fpos + fcashflow)
-        analysis = "+"
-        if fcashflow < self.cash_at_risk * budget:
-            analysis = "-"
-        return analysis
+
 
 
     def get_sentiment(self): 
