@@ -1,0 +1,27 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2023-01-03 09:50:00-05:00,MLTrader,465d22495958455c808b3ac139ffc5a7,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-03 09:50:00-05:00,MLTrader,465d22495958455c808b3ac139ffc5a7,SOXX,buy,market,fill,1,gtc,0.0,1,stock,116.4367,429.0,0.0
+2023-01-03 10:00:00-05:00,MLTrader,ec70b10eb856491cb12d6f687039e040,NVDA,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-03 10:00:00-05:00,MLTrader,ec70b10eb856491cb12d6f687039e040,NVDA,buy,market,fill,1,gtc,0.0,1,stock,145.45,172.0,0.0
+2023-01-13 10:50:00-05:00,MLTrader,f65f92e037874965a0beed1f51a3914b,NVDA,sell,market,new,1,gtc,0.0,1,stock,,,
+2023-01-13 10:50:00-05:00,MLTrader,f65f92e037874965a0beed1f51a3914b,NVDA,sell,market,fill,1,gtc,0.0,1,stock,168.07,172.0,0.0
+2023-01-13 11:10:00-05:00,MLTrader,a5acb3e868b14a958a70960710ee0679,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-13 11:10:00-05:00,MLTrader,24c0058f538e4e13a7a5d3328e6b9dea,NVDA,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-13 11:10:00-05:00,MLTrader,a5acb3e868b14a958a70960710ee0679,SOXX,buy,market,fill,1,gtc,0.0,1,stock,127.7467,211.0,0.0
+2023-01-13 11:10:00-05:00,MLTrader,24c0058f538e4e13a7a5d3328e6b9dea,NVDA,buy,market,fill,1,gtc,0.0,1,stock,167.05,161.0,0.0
+2023-01-19 09:30:00-05:00,MLTrader,1d93da4a0114402ea1942cbb08511daf,NVDA,sell,market,new,1,gtc,0.0,1,stock,,,
+2023-01-19 09:30:00-05:00,MLTrader,1d93da4a0114402ea1942cbb08511daf,NVDA,sell,market,fill,1,gtc,0.0,1,stock,170.36,429.0,0.0
+2023-01-19 09:40:00-05:00,MLTrader,271e8c374f99487eb56d64097d9aa866,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-19 09:40:00-05:00,MLTrader,9d4ae8e707e9471c942c13e461358dac,NVDA,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-19 09:40:00-05:00,MLTrader,271e8c374f99487eb56d64097d9aa866,SOXX,buy,market,fill,1,gtc,0.0,1,stock,126.9133,288.0,0.0
+2023-01-19 09:40:00-05:00,MLTrader,9d4ae8e707e9471c942c13e461358dac,NVDA,buy,market,fill,1,gtc,0.0,1,stock,171.42,213.0,0.0
+2023-01-23 14:20:00-05:00,MLTrader,06043397e7db43e08c6c7af089824787,NVDA,sell,market,new,1,gtc,0.0,1,stock,,,
+2023-01-23 14:20:00-05:00,MLTrader,06043397e7db43e08c6c7af089824787,NVDA,sell,market,fill,1,gtc,0.0,1,stock,192.2359,161.0,0.0
+2023-01-26 09:40:00-05:00,MLTrader,84da032365d041a1ababaddabfd57eb2,NVDA,sell,market,new,1,gtc,0.0,1,stock,,,
+2023-01-26 09:40:00-05:00,MLTrader,84da032365d041a1ababaddabfd57eb2,NVDA,sell,market,fill,1,gtc,0.0,1,stock,199.3,213.0,0.0
+2023-01-26 09:50:00-05:00,MLTrader,8c2847549eb4464394669d46962b5110,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-26 09:50:00-05:00,MLTrader,4ebdc3531697466b9056919ef0c6d3b1,NVDA,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-26 09:50:00-05:00,MLTrader,8c2847549eb4464394669d46962b5110,SOXX,buy,market,fill,1,gtc,0.0,1,stock,134.96,272.0,0.0
+2023-01-26 09:50:00-05:00,MLTrader,4ebdc3531697466b9056919ef0c6d3b1,NVDA,buy,market,fill,1,gtc,0.0,1,stock,196.54,187.0,0.0
+2023-02-08 09:40:00-05:00,MLTrader,d899ec05ec094ca7b852bdc123b5eb9d,NVDA,sell,market,new,1,gtc,0.0,1,stock,,,
+2023-02-08 09:40:00-05:00,MLTrader,d899ec05ec094ca7b852bdc123b5eb9d,NVDA,sell,market,fill,1,gtc,0.0,1,stock,226.06,187.0,0.0

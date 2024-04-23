@@ -1,0 +1,25 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2023-01-03 11:10:00-05:00,MLTrader,2de173c859b74b0ea6db09958b01d6d4,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-03 11:10:00-05:00,MLTrader,2de173c859b74b0ea6db09958b01d6d4,SOXX,buy,market,fill,1,gtc,0.0,1,stock,115.1233,145.0,0.0
+2023-01-03 12:30:00-05:00,MLTrader,6b925755a1394fd79f9194bfb400495d,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-03 12:30:00-05:00,MLTrader,6b925755a1394fd79f9194bfb400495d,SOXX,buy,market,fill,1,gtc,0.0,1,stock,114.6767,145.0,0.0
+2023-01-03 12:50:00-05:00,MLTrader,f1703954b8d242dd8417ed31b0e5d8d3,NVDA,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-03 12:50:00-05:00,MLTrader,f1703954b8d242dd8417ed31b0e5d8d3,NVDA,buy,market,fill,1,gtc,0.0,1,stock,141.81,118.0,0.0
+2023-01-12 12:30:00-05:00,MLTrader,a562c1a2b04441e0a4762ccc1c3b625b,NVDA,sell,market,new,1,gtc,0.0,1,stock,,,
+2023-01-12 12:30:00-05:00,MLTrader,a562c1a2b04441e0a4762ccc1c3b625b,NVDA,sell,market,fill,1,gtc,0.0,1,stock,163.459,118.0,0.0
+2023-01-12 12:40:00-05:00,MLTrader,6ecf088355274abbbab251a07932b34b,AAPL,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-12 12:40:00-05:00,MLTrader,6ecf088355274abbbab251a07932b34b,AAPL,buy,market,fill,1,gtc,0.0,1,stock,134.1009,124.0,0.0
+2023-01-12 12:50:00-05:00,MLTrader,cc5f257d8d5345cd9fe0c9e6451df2e9,AAPL,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-12 12:50:00-05:00,MLTrader,cc5f257d8d5345cd9fe0c9e6451df2e9,AAPL,buy,market,fill,1,gtc,0.0,1,stock,133.883,124.0,0.0
+2023-01-19 09:30:00-05:00,MLTrader,b0a9743ac4a142a3af34c9ed4287fc55,AAPL,sell,market,new,1,gtc,0.0,1,stock,,,
+2023-01-19 09:30:00-05:00,MLTrader,b0a9743ac4a142a3af34c9ed4287fc55,AAPL,sell,market,fill,1,gtc,0.0,1,stock,134.08,290.0,0.0
+2023-01-19 10:30:00-05:00,MLTrader,556ebdf7829345ada627429bf6a6c6c5,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-19 10:30:00-05:00,MLTrader,9c70e8417c1c45e98245ae4122fbf7c3,AAPL,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-19 10:30:00-05:00,MLTrader,556ebdf7829345ada627429bf6a6c6c5,SOXX,buy,market,fill,1,gtc,0.0,1,stock,125.58,133.0,0.0
+2023-01-19 10:30:00-05:00,MLTrader,9c70e8417c1c45e98245ae4122fbf7c3,AAPL,buy,market,fill,1,gtc,0.0,1,stock,134.477,124.0,0.0
+2023-01-30 09:30:00-05:00,MLTrader,f4b45c722bc34f998682e1630314f1c6,AAPL,sell,market,new,1,gtc,0.0,1,stock,,,
+2023-01-30 09:30:00-05:00,MLTrader,f4b45c722bc34f998682e1630314f1c6,AAPL,sell,market,fill,1,gtc,0.0,1,stock,144.955,248.0,0.0
+2023-01-30 11:10:00-05:00,MLTrader,70f516037f934afdb6b7c85b661eba8c,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-30 11:10:00-05:00,MLTrader,70f516037f934afdb6b7c85b661eba8c,SOXX,buy,market,fill,1,gtc,0.0,1,stock,133.4133,125.0,0.0
+2023-01-30 11:20:00-05:00,MLTrader,eb8726cbe15c4c50aff0b17231dfd6b1,AAPL,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-30 11:20:00-05:00,MLTrader,eb8726cbe15c4c50aff0b17231dfd6b1,AAPL,buy,market,fill,1,gtc,0.0,1,stock,144.24,116.0,0.0

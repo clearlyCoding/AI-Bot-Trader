@@ -1,0 +1,1406 @@
+2024-04-23 16:24:57,942: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-04-23 16:24:59,569: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-04-23 16:24:59,570: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-23 16:24:59,571: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-04-23 16:24:59,571: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-23 16:24:59,572: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:24:59[0m
+2024-04-23 16:25:04,661: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,663: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,664: root: INFO: Current backtesting datetime 2023-01-03 09:40:00-05:00
+2024-04-23 16:25:04,665: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,665: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,666: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,667: root: INFO: Current backtesting datetime 2023-01-03 09:50:00-05:00
+2024-04-23 16:25:04,668: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,668: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,669: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,670: root: INFO: Current backtesting datetime 2023-01-03 10:00:00-05:00
+2024-04-23 16:25:04,671: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,671: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,672: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,673: root: INFO: Current backtesting datetime 2023-01-03 10:10:00-05:00
+2024-04-23 16:25:04,673: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,675: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,676: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,677: root: INFO: Current backtesting datetime 2023-01-03 10:20:00-05:00
+2024-04-23 16:25:04,677: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,679: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,680: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,681: root: INFO: Current backtesting datetime 2023-01-03 10:30:00-05:00
+2024-04-23 16:25:04,682: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,683: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,684: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,685: root: INFO: Current backtesting datetime 2023-01-03 10:40:00-05:00
+2024-04-23 16:25:04,686: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,687: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,688: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,689: root: INFO: Current backtesting datetime 2023-01-03 10:50:00-05:00
+2024-04-23 16:25:04,690: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,692: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,692: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,693: root: INFO: Current backtesting datetime 2023-01-03 11:00:00-05:00
+2024-04-23 16:25:04,694: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,701: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,702: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,703: root: INFO: Current backtesting datetime 2023-01-03 11:10:00-05:00
+2024-04-23 16:25:04,703: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,706: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,707: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,708: root: INFO: Current backtesting datetime 2023-01-03 11:20:00-05:00
+2024-04-23 16:25:04,708: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,712: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,713: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,714: root: INFO: Current backtesting datetime 2023-01-03 11:30:00-05:00
+2024-04-23 16:25:04,715: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,718: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,719: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,720: root: INFO: Current backtesting datetime 2023-01-03 11:40:00-05:00
+2024-04-23 16:25:04,720: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,724: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,725: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,725: root: INFO: Current backtesting datetime 2023-01-03 11:50:00-05:00
+2024-04-23 16:25:04,726: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,729: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,730: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,732: root: INFO: Current backtesting datetime 2023-01-03 12:00:00-05:00
+2024-04-23 16:25:04,733: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,736: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,737: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,738: root: INFO: Current backtesting datetime 2023-01-03 12:10:00-05:00
+2024-04-23 16:25:04,738: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,742: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,743: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,743: root: INFO: Current backtesting datetime 2023-01-03 12:20:00-05:00
+2024-04-23 16:25:04,744: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,748: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,756: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,757: root: INFO: Current backtesting datetime 2023-01-03 12:30:00-05:00
+2024-04-23 16:25:04,757: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,762: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,763: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,764: root: INFO: Current backtesting datetime 2023-01-03 12:40:00-05:00
+2024-04-23 16:25:04,764: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,769: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,770: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,771: root: INFO: Current backtesting datetime 2023-01-03 12:50:00-05:00
+2024-04-23 16:25:04,772: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,777: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,778: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,780: root: INFO: Current backtesting datetime 2023-01-03 13:00:00-05:00
+2024-04-23 16:25:04,780: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,786: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,787: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,788: root: INFO: Current backtesting datetime 2023-01-03 13:10:00-05:00
+2024-04-23 16:25:04,789: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,795: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,796: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,797: root: INFO: Current backtesting datetime 2023-01-03 13:20:00-05:00
+2024-04-23 16:25:04,798: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,804: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,804: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,805: root: INFO: Current backtesting datetime 2023-01-03 13:30:00-05:00
+2024-04-23 16:25:04,806: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,813: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,814: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,815: root: INFO: Current backtesting datetime 2023-01-03 13:40:00-05:00
+2024-04-23 16:25:04,815: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,823: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,824: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,825: root: INFO: Current backtesting datetime 2023-01-03 13:50:00-05:00
+2024-04-23 16:25:04,825: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,834: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,835: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,836: root: INFO: Current backtesting datetime 2023-01-03 14:00:00-05:00
+2024-04-23 16:25:04,836: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,845: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,846: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,847: root: INFO: Current backtesting datetime 2023-01-03 14:10:00-05:00
+2024-04-23 16:25:04,847: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,856: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,857: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,858: root: INFO: Current backtesting datetime 2023-01-03 14:20:00-05:00
+2024-04-23 16:25:04,858: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,868: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,869: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,870: root: INFO: Current backtesting datetime 2023-01-03 14:30:00-05:00
+2024-04-23 16:25:04,871: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,880: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,881: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,882: root: INFO: Current backtesting datetime 2023-01-03 14:40:00-05:00
+2024-04-23 16:25:04,883: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,893: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,894: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,895: root: INFO: Current backtesting datetime 2023-01-03 14:50:00-05:00
+2024-04-23 16:25:04,895: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,906: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,908: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,908: root: INFO: Current backtesting datetime 2023-01-03 15:00:00-05:00
+2024-04-23 16:25:04,909: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,921: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,922: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,923: root: INFO: Current backtesting datetime 2023-01-03 15:10:00-05:00
+2024-04-23 16:25:04,924: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,936: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,937: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,938: root: INFO: Current backtesting datetime 2023-01-03 15:20:00-05:00
+2024-04-23 16:25:04,939: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,952: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,954: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,955: root: INFO: Current backtesting datetime 2023-01-03 15:30:00-05:00
+2024-04-23 16:25:04,955: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,969: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,970: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,971: root: INFO: Current backtesting datetime 2023-01-03 15:40:00-05:00
+2024-04-23 16:25:04,972: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,986: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:04,987: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:04,988: root: INFO: Current backtesting datetime 2023-01-03 15:50:00-05:00
+2024-04-23 16:25:04,988: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:04[0m
+2024-04-23 16:25:05,003: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,004: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,005: root: INFO: Current backtesting datetime 2023-01-03 16:00:00-05:00
+2024-04-23 16:25:05,005: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-04-23 16:25:05,007: root: INFO: Current backtesting datetime 2023-01-03 15:59:00-05:00
+2024-04-23 16:25:05,008: asyncio: INFO: [MLTrader] Executing the before_market_closes lifecycle method
+2024-04-23 16:25:05,008: root: INFO: Current backtesting datetime 2023-01-03 16:00:00-05:00
+2024-04-23 16:25:05,008: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-04-23 16:25:05,009: root: INFO: Current backtesting datetime 2023-01-04 08:30:00-05:00
+2024-04-23 16:25:05,010: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-23 16:25:05,011: root: INFO: Current backtesting datetime 2023-01-04 09:30:00-05:00
+2024-04-23 16:25:05,011: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-23 16:25:05,012: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,028: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,029: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,030: root: INFO: Current backtesting datetime 2023-01-04 09:40:00-05:00
+2024-04-23 16:25:05,030: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,046: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,047: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,048: root: INFO: Current backtesting datetime 2023-01-04 09:50:00-05:00
+2024-04-23 16:25:05,049: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,065: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,066: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,067: root: INFO: Current backtesting datetime 2023-01-04 10:00:00-05:00
+2024-04-23 16:25:05,068: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,085: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,086: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,087: root: INFO: Current backtesting datetime 2023-01-04 10:10:00-05:00
+2024-04-23 16:25:05,087: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,104: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,105: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,106: root: INFO: Current backtesting datetime 2023-01-04 10:20:00-05:00
+2024-04-23 16:25:05,106: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,123: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,124: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,124: root: INFO: Current backtesting datetime 2023-01-04 10:30:00-05:00
+2024-04-23 16:25:05,125: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,141: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,142: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,143: root: INFO: Current backtesting datetime 2023-01-04 10:40:00-05:00
+2024-04-23 16:25:05,144: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,161: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,162: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,163: root: INFO: Current backtesting datetime 2023-01-04 10:50:00-05:00
+2024-04-23 16:25:05,164: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,181: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,182: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,183: root: INFO: Current backtesting datetime 2023-01-04 11:00:00-05:00
+2024-04-23 16:25:05,184: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,202: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,203: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,204: root: INFO: Current backtesting datetime 2023-01-04 11:10:00-05:00
+2024-04-23 16:25:05,204: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,223: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,224: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,225: root: INFO: Current backtesting datetime 2023-01-04 11:20:00-05:00
+2024-04-23 16:25:05,226: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,245: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,246: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,247: root: INFO: Current backtesting datetime 2023-01-04 11:30:00-05:00
+2024-04-23 16:25:05,248: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,269: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,270: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,271: root: INFO: Current backtesting datetime 2023-01-04 11:40:00-05:00
+2024-04-23 16:25:05,271: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,292: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,293: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,295: root: INFO: Current backtesting datetime 2023-01-04 11:50:00-05:00
+2024-04-23 16:25:05,296: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,321: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,322: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,323: root: INFO: Current backtesting datetime 2023-01-04 12:00:00-05:00
+2024-04-23 16:25:05,324: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,346: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,347: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,347: root: INFO: Current backtesting datetime 2023-01-04 12:10:00-05:00
+2024-04-23 16:25:05,348: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,370: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,372: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,373: root: INFO: Current backtesting datetime 2023-01-04 12:20:00-05:00
+2024-04-23 16:25:05,373: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,395: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,396: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,397: root: INFO: Current backtesting datetime 2023-01-04 12:30:00-05:00
+2024-04-23 16:25:05,398: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,425: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,426: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,427: root: INFO: Current backtesting datetime 2023-01-04 12:40:00-05:00
+2024-04-23 16:25:05,428: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,452: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,453: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,454: root: INFO: Current backtesting datetime 2023-01-04 12:50:00-05:00
+2024-04-23 16:25:05,455: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,479: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,481: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,482: root: INFO: Current backtesting datetime 2023-01-04 13:00:00-05:00
+2024-04-23 16:25:05,482: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,506: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,507: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,508: root: INFO: Current backtesting datetime 2023-01-04 13:10:00-05:00
+2024-04-23 16:25:05,509: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,533: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,534: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,535: root: INFO: Current backtesting datetime 2023-01-04 13:20:00-05:00
+2024-04-23 16:25:05,535: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,559: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,561: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,562: root: INFO: Current backtesting datetime 2023-01-04 13:30:00-05:00
+2024-04-23 16:25:05,563: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,587: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,588: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,589: root: INFO: Current backtesting datetime 2023-01-04 13:40:00-05:00
+2024-04-23 16:25:05,590: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,615: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,617: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,618: root: INFO: Current backtesting datetime 2023-01-04 13:50:00-05:00
+2024-04-23 16:25:05,618: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,650: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,651: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,652: root: INFO: Current backtesting datetime 2023-01-04 14:00:00-05:00
+2024-04-23 16:25:05,653: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,679: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,681: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,682: root: INFO: Current backtesting datetime 2023-01-04 14:10:00-05:00
+2024-04-23 16:25:05,682: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,709: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,710: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,711: root: INFO: Current backtesting datetime 2023-01-04 14:20:00-05:00
+2024-04-23 16:25:05,712: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,738: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,740: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,741: root: INFO: Current backtesting datetime 2023-01-04 14:30:00-05:00
+2024-04-23 16:25:05,741: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,768: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,770: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,771: root: INFO: Current backtesting datetime 2023-01-04 14:40:00-05:00
+2024-04-23 16:25:05,771: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,798: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,799: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,800: root: INFO: Current backtesting datetime 2023-01-04 14:50:00-05:00
+2024-04-23 16:25:05,800: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,828: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,829: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,830: root: INFO: Current backtesting datetime 2023-01-04 15:00:00-05:00
+2024-04-23 16:25:05,831: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,859: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,860: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,861: root: INFO: Current backtesting datetime 2023-01-04 15:10:00-05:00
+2024-04-23 16:25:05,862: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,890: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,892: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,893: root: INFO: Current backtesting datetime 2023-01-04 15:20:00-05:00
+2024-04-23 16:25:05,893: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,924: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,926: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,927: root: INFO: Current backtesting datetime 2023-01-04 15:30:00-05:00
+2024-04-23 16:25:05,927: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,957: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,958: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,960: root: INFO: Current backtesting datetime 2023-01-04 15:40:00-05:00
+2024-04-23 16:25:05,961: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,990: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:05,992: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:05,993: root: INFO: Current backtesting datetime 2023-01-04 15:50:00-05:00
+2024-04-23 16:25:05,993: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:05[0m
+2024-04-23 16:25:06,023: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,024: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,025: root: INFO: Current backtesting datetime 2023-01-04 16:00:00-05:00
+2024-04-23 16:25:06,026: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-04-23 16:25:06,027: root: INFO: Current backtesting datetime 2023-01-04 15:59:00-05:00
+2024-04-23 16:25:06,027: asyncio: INFO: [MLTrader] Executing the before_market_closes lifecycle method
+2024-04-23 16:25:06,028: root: INFO: Current backtesting datetime 2023-01-04 16:00:00-05:00
+2024-04-23 16:25:06,028: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-04-23 16:25:06,029: root: INFO: Current backtesting datetime 2023-01-05 08:30:00-05:00
+2024-04-23 16:25:06,030: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-23 16:25:06,030: root: INFO: Current backtesting datetime 2023-01-05 09:30:00-05:00
+2024-04-23 16:25:06,031: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-23 16:25:06,032: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,061: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,063: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,064: root: INFO: Current backtesting datetime 2023-01-05 09:40:00-05:00
+2024-04-23 16:25:06,065: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,095: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,096: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,097: root: INFO: Current backtesting datetime 2023-01-05 09:50:00-05:00
+2024-04-23 16:25:06,098: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,129: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,130: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,132: root: INFO: Current backtesting datetime 2023-01-05 10:00:00-05:00
+2024-04-23 16:25:06,132: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,163: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,165: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,166: root: INFO: Current backtesting datetime 2023-01-05 10:10:00-05:00
+2024-04-23 16:25:06,166: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,199: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,200: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,201: root: INFO: Current backtesting datetime 2023-01-05 10:20:00-05:00
+2024-04-23 16:25:06,202: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,235: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,236: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,237: root: INFO: Current backtesting datetime 2023-01-05 10:30:00-05:00
+2024-04-23 16:25:06,237: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,271: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,273: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,274: root: INFO: Current backtesting datetime 2023-01-05 10:40:00-05:00
+2024-04-23 16:25:06,274: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,315: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,317: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,318: root: INFO: Current backtesting datetime 2023-01-05 10:50:00-05:00
+2024-04-23 16:25:06,318: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,352: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,354: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,355: root: INFO: Current backtesting datetime 2023-01-05 11:00:00-05:00
+2024-04-23 16:25:06,355: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,390: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,392: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,393: root: INFO: Current backtesting datetime 2023-01-05 11:10:00-05:00
+2024-04-23 16:25:06,393: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,428: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,430: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,431: root: INFO: Current backtesting datetime 2023-01-05 11:20:00-05:00
+2024-04-23 16:25:06,432: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,467: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,468: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,469: root: INFO: Current backtesting datetime 2023-01-05 11:30:00-05:00
+2024-04-23 16:25:06,470: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,506: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,507: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,508: root: INFO: Current backtesting datetime 2023-01-05 11:40:00-05:00
+2024-04-23 16:25:06,509: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,546: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,548: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,549: root: INFO: Current backtesting datetime 2023-01-05 11:50:00-05:00
+2024-04-23 16:25:06,549: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,588: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,589: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,590: root: INFO: Current backtesting datetime 2023-01-05 12:00:00-05:00
+2024-04-23 16:25:06,590: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,629: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,630: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,631: root: INFO: Current backtesting datetime 2023-01-05 12:10:00-05:00
+2024-04-23 16:25:06,632: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,671: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,672: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,673: root: INFO: Current backtesting datetime 2023-01-05 12:20:00-05:00
+2024-04-23 16:25:06,674: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,713: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,714: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,715: root: INFO: Current backtesting datetime 2023-01-05 12:30:00-05:00
+2024-04-23 16:25:06,716: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,756: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,757: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,758: root: INFO: Current backtesting datetime 2023-01-05 12:40:00-05:00
+2024-04-23 16:25:06,759: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,799: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,800: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,801: root: INFO: Current backtesting datetime 2023-01-05 12:50:00-05:00
+2024-04-23 16:25:06,802: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,842: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,843: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,844: root: INFO: Current backtesting datetime 2023-01-05 13:00:00-05:00
+2024-04-23 16:25:06,845: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,886: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,887: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,888: root: INFO: Current backtesting datetime 2023-01-05 13:10:00-05:00
+2024-04-23 16:25:06,889: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,939: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,940: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,941: root: INFO: Current backtesting datetime 2023-01-05 13:20:00-05:00
+2024-04-23 16:25:06,941: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,983: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:06,985: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:06,986: root: INFO: Current backtesting datetime 2023-01-05 13:30:00-05:00
+2024-04-23 16:25:06,986: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:06[0m
+2024-04-23 16:25:07,029: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,030: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,031: root: INFO: Current backtesting datetime 2023-01-05 13:40:00-05:00
+2024-04-23 16:25:07,032: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,085: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,087: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,088: root: INFO: Current backtesting datetime 2023-01-05 13:50:00-05:00
+2024-04-23 16:25:07,089: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,141: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,142: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,143: root: INFO: Current backtesting datetime 2023-01-05 14:00:00-05:00
+2024-04-23 16:25:07,143: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,188: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,189: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,190: root: INFO: Current backtesting datetime 2023-01-05 14:10:00-05:00
+2024-04-23 16:25:07,191: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,235: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,237: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,238: root: INFO: Current backtesting datetime 2023-01-05 14:20:00-05:00
+2024-04-23 16:25:07,239: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,288: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,290: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,291: root: INFO: Current backtesting datetime 2023-01-05 14:30:00-05:00
+2024-04-23 16:25:07,292: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,338: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,339: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,340: root: INFO: Current backtesting datetime 2023-01-05 14:40:00-05:00
+2024-04-23 16:25:07,341: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,386: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,388: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,389: root: INFO: Current backtesting datetime 2023-01-05 14:50:00-05:00
+2024-04-23 16:25:07,389: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,436: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,437: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,438: root: INFO: Current backtesting datetime 2023-01-05 15:00:00-05:00
+2024-04-23 16:25:07,439: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,487: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,488: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,489: root: INFO: Current backtesting datetime 2023-01-05 15:10:00-05:00
+2024-04-23 16:25:07,490: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,537: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,538: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,539: root: INFO: Current backtesting datetime 2023-01-05 15:20:00-05:00
+2024-04-23 16:25:07,539: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,587: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,588: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,589: root: INFO: Current backtesting datetime 2023-01-05 15:30:00-05:00
+2024-04-23 16:25:07,589: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,637: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,638: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,639: root: INFO: Current backtesting datetime 2023-01-05 15:40:00-05:00
+2024-04-23 16:25:07,640: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,687: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,688: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,689: root: INFO: Current backtesting datetime 2023-01-05 15:50:00-05:00
+2024-04-23 16:25:07,690: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,737: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,738: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,739: root: INFO: Current backtesting datetime 2023-01-05 16:00:00-05:00
+2024-04-23 16:25:07,740: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-04-23 16:25:07,741: root: INFO: Current backtesting datetime 2023-01-05 15:59:00-05:00
+2024-04-23 16:25:07,742: asyncio: INFO: [MLTrader] Executing the before_market_closes lifecycle method
+2024-04-23 16:25:07,742: root: INFO: Current backtesting datetime 2023-01-05 16:00:00-05:00
+2024-04-23 16:25:07,742: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-04-23 16:25:07,743: root: INFO: Current backtesting datetime 2023-01-06 08:30:00-05:00
+2024-04-23 16:25:07,744: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-23 16:25:07,745: root: INFO: Current backtesting datetime 2023-01-06 09:30:00-05:00
+2024-04-23 16:25:07,745: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-23 16:25:07,746: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,794: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,795: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,796: root: INFO: Current backtesting datetime 2023-01-06 09:40:00-05:00
+2024-04-23 16:25:07,797: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,846: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,847: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,848: root: INFO: Current backtesting datetime 2023-01-06 09:50:00-05:00
+2024-04-23 16:25:07,849: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,898: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,899: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,900: root: INFO: Current backtesting datetime 2023-01-06 10:00:00-05:00
+2024-04-23 16:25:07,901: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,950: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:07,951: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:07,952: root: INFO: Current backtesting datetime 2023-01-06 10:10:00-05:00
+2024-04-23 16:25:07,953: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:07[0m
+2024-04-23 16:25:08,002: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,004: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,004: root: INFO: Current backtesting datetime 2023-01-06 10:20:00-05:00
+2024-04-23 16:25:08,005: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,056: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,057: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,058: root: INFO: Current backtesting datetime 2023-01-06 10:30:00-05:00
+2024-04-23 16:25:08,059: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,111: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,113: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,113: root: INFO: Current backtesting datetime 2023-01-06 10:40:00-05:00
+2024-04-23 16:25:08,114: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,167: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,169: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,170: root: INFO: Current backtesting datetime 2023-01-06 10:50:00-05:00
+2024-04-23 16:25:08,171: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,224: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,225: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,226: root: INFO: Current backtesting datetime 2023-01-06 11:00:00-05:00
+2024-04-23 16:25:08,227: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,281: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,283: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,284: root: INFO: Current backtesting datetime 2023-01-06 11:10:00-05:00
+2024-04-23 16:25:08,284: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,338: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,340: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,341: root: INFO: Current backtesting datetime 2023-01-06 11:20:00-05:00
+2024-04-23 16:25:08,341: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,396: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,397: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,398: root: INFO: Current backtesting datetime 2023-01-06 11:30:00-05:00
+2024-04-23 16:25:08,399: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,454: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,456: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,457: root: INFO: Current backtesting datetime 2023-01-06 11:40:00-05:00
+2024-04-23 16:25:08,457: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,512: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,514: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,515: root: INFO: Current backtesting datetime 2023-01-06 11:50:00-05:00
+2024-04-23 16:25:08,515: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,571: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,573: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,573: root: INFO: Current backtesting datetime 2023-01-06 12:00:00-05:00
+2024-04-23 16:25:08,574: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,631: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,632: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,633: root: INFO: Current backtesting datetime 2023-01-06 12:10:00-05:00
+2024-04-23 16:25:08,634: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,691: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,693: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,694: root: INFO: Current backtesting datetime 2023-01-06 12:20:00-05:00
+2024-04-23 16:25:08,694: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,752: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,754: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,755: root: INFO: Current backtesting datetime 2023-01-06 12:30:00-05:00
+2024-04-23 16:25:08,755: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,814: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,815: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,817: root: INFO: Current backtesting datetime 2023-01-06 12:40:00-05:00
+2024-04-23 16:25:08,817: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,886: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,888: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,890: root: INFO: Current backtesting datetime 2023-01-06 12:50:00-05:00
+2024-04-23 16:25:08,891: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,955: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:08,956: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:08,957: root: INFO: Current backtesting datetime 2023-01-06 13:00:00-05:00
+2024-04-23 16:25:08,958: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:08[0m
+2024-04-23 16:25:09,021: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,023: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,024: root: INFO: Current backtesting datetime 2023-01-06 13:10:00-05:00
+2024-04-23 16:25:09,025: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,085: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,087: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,088: root: INFO: Current backtesting datetime 2023-01-06 13:20:00-05:00
+2024-04-23 16:25:09,088: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,149: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,150: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,151: root: INFO: Current backtesting datetime 2023-01-06 13:30:00-05:00
+2024-04-23 16:25:09,152: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,217: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,219: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,220: root: INFO: Current backtesting datetime 2023-01-06 13:40:00-05:00
+2024-04-23 16:25:09,221: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,287: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,288: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,289: root: INFO: Current backtesting datetime 2023-01-06 13:50:00-05:00
+2024-04-23 16:25:09,290: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,353: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,354: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,355: root: INFO: Current backtesting datetime 2023-01-06 14:00:00-05:00
+2024-04-23 16:25:09,356: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,422: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,424: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,425: root: INFO: Current backtesting datetime 2023-01-06 14:10:00-05:00
+2024-04-23 16:25:09,425: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,489: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,490: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,491: root: INFO: Current backtesting datetime 2023-01-06 14:20:00-05:00
+2024-04-23 16:25:09,491: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,555: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,556: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,557: root: INFO: Current backtesting datetime 2023-01-06 14:30:00-05:00
+2024-04-23 16:25:09,558: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,622: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,623: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,624: root: INFO: Current backtesting datetime 2023-01-06 14:40:00-05:00
+2024-04-23 16:25:09,625: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,690: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,691: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,692: root: INFO: Current backtesting datetime 2023-01-06 14:50:00-05:00
+2024-04-23 16:25:09,693: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,759: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,760: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,761: root: INFO: Current backtesting datetime 2023-01-06 15:00:00-05:00
+2024-04-23 16:25:09,762: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,828: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,830: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,831: root: INFO: Current backtesting datetime 2023-01-06 15:10:00-05:00
+2024-04-23 16:25:09,831: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,898: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,900: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,901: root: INFO: Current backtesting datetime 2023-01-06 15:20:00-05:00
+2024-04-23 16:25:09,902: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,969: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:09,971: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:09,972: root: INFO: Current backtesting datetime 2023-01-06 15:30:00-05:00
+2024-04-23 16:25:09,972: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:09[0m
+2024-04-23 16:25:10,040: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,042: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:10,043: root: INFO: Current backtesting datetime 2023-01-06 15:40:00-05:00
+2024-04-23 16:25:10,043: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,119: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,120: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:10,121: root: INFO: Current backtesting datetime 2023-01-06 15:50:00-05:00
+2024-04-23 16:25:10,122: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,189: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,191: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:10,191: root: INFO: Current backtesting datetime 2023-01-06 16:00:00-05:00
+2024-04-23 16:25:10,192: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-04-23 16:25:10,194: root: INFO: Current backtesting datetime 2023-01-06 15:59:00-05:00
+2024-04-23 16:25:10,194: asyncio: INFO: [MLTrader] Executing the before_market_closes lifecycle method
+2024-04-23 16:25:10,195: root: INFO: Current backtesting datetime 2023-01-06 16:00:00-05:00
+2024-04-23 16:25:10,195: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-04-23 16:25:10,196: root: INFO: Current backtesting datetime 2023-01-09 08:30:00-05:00
+2024-04-23 16:25:10,196: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-23 16:25:10,197: root: INFO: Current backtesting datetime 2023-01-09 09:30:00-05:00
+2024-04-23 16:25:10,197: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-23 16:25:10,198: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,267: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,268: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:10,269: root: INFO: Current backtesting datetime 2023-01-09 09:40:00-05:00
+2024-04-23 16:25:10,270: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,339: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,340: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:10,341: root: INFO: Current backtesting datetime 2023-01-09 09:50:00-05:00
+2024-04-23 16:25:10,342: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,449: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,451: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:10,453: root: INFO: Current backtesting datetime 2023-01-09 10:00:00-05:00
+2024-04-23 16:25:10,454: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,529: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,532: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:10,534: root: INFO: Current backtesting datetime 2023-01-09 10:10:00-05:00
+2024-04-23 16:25:10,535: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,607: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,609: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:10,610: root: INFO: Current backtesting datetime 2023-01-09 10:20:00-05:00
+2024-04-23 16:25:10,610: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,681: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,683: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:10,684: root: INFO: Current backtesting datetime 2023-01-09 10:30:00-05:00
+2024-04-23 16:25:10,685: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,756: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,758: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:10,759: root: INFO: Current backtesting datetime 2023-01-09 10:40:00-05:00
+2024-04-23 16:25:10,759: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,831: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,834: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:10,835: root: INFO: Current backtesting datetime 2023-01-09 10:50:00-05:00
+2024-04-23 16:25:10,835: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,949: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:10,950: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:10,951: root: INFO: Current backtesting datetime 2023-01-09 11:00:00-05:00
+2024-04-23 16:25:10,952: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:10[0m
+2024-04-23 16:25:11,030: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,031: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:11,032: root: INFO: Current backtesting datetime 2023-01-09 11:10:00-05:00
+2024-04-23 16:25:11,033: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,108: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,109: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:11,110: root: INFO: Current backtesting datetime 2023-01-09 11:20:00-05:00
+2024-04-23 16:25:11,111: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,186: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,188: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:11,189: root: INFO: Current backtesting datetime 2023-01-09 11:30:00-05:00
+2024-04-23 16:25:11,190: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,267: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,269: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:11,270: root: INFO: Current backtesting datetime 2023-01-09 11:40:00-05:00
+2024-04-23 16:25:11,271: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,347: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,348: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:11,350: root: INFO: Current backtesting datetime 2023-01-09 11:50:00-05:00
+2024-04-23 16:25:11,350: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,426: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,427: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:11,428: root: INFO: Current backtesting datetime 2023-01-09 12:00:00-05:00
+2024-04-23 16:25:11,429: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,506: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,507: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:11,508: root: INFO: Current backtesting datetime 2023-01-09 12:10:00-05:00
+2024-04-23 16:25:11,509: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,586: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,588: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:11,589: root: INFO: Current backtesting datetime 2023-01-09 12:20:00-05:00
+2024-04-23 16:25:11,590: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,669: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,670: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:11,671: root: INFO: Current backtesting datetime 2023-01-09 12:30:00-05:00
+2024-04-23 16:25:11,671: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,750: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,752: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:11,752: root: INFO: Current backtesting datetime 2023-01-09 12:40:00-05:00
+2024-04-23 16:25:11,753: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,832: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,834: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:11,835: root: INFO: Current backtesting datetime 2023-01-09 12:50:00-05:00
+2024-04-23 16:25:11,835: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,916: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,918: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:11,918: root: INFO: Current backtesting datetime 2023-01-09 13:00:00-05:00
+2024-04-23 16:25:11,919: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:11,999: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:11[0m
+2024-04-23 16:25:12,001: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:12,001: root: INFO: Current backtesting datetime 2023-01-09 13:10:00-05:00
+2024-04-23 16:25:12,002: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,100: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,102: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:12,103: root: INFO: Current backtesting datetime 2023-01-09 13:20:00-05:00
+2024-04-23 16:25:12,103: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,184: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,185: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:12,186: root: INFO: Current backtesting datetime 2023-01-09 13:30:00-05:00
+2024-04-23 16:25:12,187: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,269: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,270: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:12,271: root: INFO: Current backtesting datetime 2023-01-09 13:40:00-05:00
+2024-04-23 16:25:12,272: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,353: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,355: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:12,356: root: INFO: Current backtesting datetime 2023-01-09 13:50:00-05:00
+2024-04-23 16:25:12,356: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,437: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,439: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:12,440: root: INFO: Current backtesting datetime 2023-01-09 14:00:00-05:00
+2024-04-23 16:25:12,440: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,522: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,523: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:12,524: root: INFO: Current backtesting datetime 2023-01-09 14:10:00-05:00
+2024-04-23 16:25:12,525: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,606: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,607: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:12,608: root: INFO: Current backtesting datetime 2023-01-09 14:20:00-05:00
+2024-04-23 16:25:12,609: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,691: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,693: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:12,693: root: INFO: Current backtesting datetime 2023-01-09 14:30:00-05:00
+2024-04-23 16:25:12,694: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,777: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,778: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:12,779: root: INFO: Current backtesting datetime 2023-01-09 14:40:00-05:00
+2024-04-23 16:25:12,780: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,863: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,865: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:12,866: root: INFO: Current backtesting datetime 2023-01-09 14:50:00-05:00
+2024-04-23 16:25:12,867: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,950: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:12,951: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:12,952: root: INFO: Current backtesting datetime 2023-01-09 15:00:00-05:00
+2024-04-23 16:25:12,953: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:12[0m
+2024-04-23 16:25:13,035: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,037: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:13,038: root: INFO: Current backtesting datetime 2023-01-09 15:10:00-05:00
+2024-04-23 16:25:13,038: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,121: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,123: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:13,124: root: INFO: Current backtesting datetime 2023-01-09 15:20:00-05:00
+2024-04-23 16:25:13,124: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,208: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,209: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:13,210: root: INFO: Current backtesting datetime 2023-01-09 15:30:00-05:00
+2024-04-23 16:25:13,211: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,294: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,295: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:13,296: root: INFO: Current backtesting datetime 2023-01-09 15:40:00-05:00
+2024-04-23 16:25:13,297: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,380: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,382: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:13,383: root: INFO: Current backtesting datetime 2023-01-09 15:50:00-05:00
+2024-04-23 16:25:13,383: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,466: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,467: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:13,468: root: INFO: Current backtesting datetime 2023-01-09 16:00:00-05:00
+2024-04-23 16:25:13,469: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-04-23 16:25:13,470: root: INFO: Current backtesting datetime 2023-01-09 15:59:00-05:00
+2024-04-23 16:25:13,471: asyncio: INFO: [MLTrader] Executing the before_market_closes lifecycle method
+2024-04-23 16:25:13,471: root: INFO: Current backtesting datetime 2023-01-09 16:00:00-05:00
+2024-04-23 16:25:13,471: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-04-23 16:25:13,472: root: INFO: Current backtesting datetime 2023-01-10 08:30:00-05:00
+2024-04-23 16:25:13,472: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-23 16:25:13,474: root: INFO: Current backtesting datetime 2023-01-10 09:30:00-05:00
+2024-04-23 16:25:13,474: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-23 16:25:13,475: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,559: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,560: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:13,561: root: INFO: Current backtesting datetime 2023-01-10 09:40:00-05:00
+2024-04-23 16:25:13,562: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,644: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,645: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:13,646: root: INFO: Current backtesting datetime 2023-01-10 09:50:00-05:00
+2024-04-23 16:25:13,647: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,731: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,732: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:13,733: root: INFO: Current backtesting datetime 2023-01-10 10:00:00-05:00
+2024-04-23 16:25:13,733: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,817: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,819: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:13,819: root: INFO: Current backtesting datetime 2023-01-10 10:10:00-05:00
+2024-04-23 16:25:13,820: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,905: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,906: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:13,907: root: INFO: Current backtesting datetime 2023-01-10 10:20:00-05:00
+2024-04-23 16:25:13,908: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,992: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:13,994: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:13,995: root: INFO: Current backtesting datetime 2023-01-10 10:30:00-05:00
+2024-04-23 16:25:13,995: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:13[0m
+2024-04-23 16:25:14,081: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,083: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:14,083: root: INFO: Current backtesting datetime 2023-01-10 10:40:00-05:00
+2024-04-23 16:25:14,084: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,170: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,171: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:14,172: root: INFO: Current backtesting datetime 2023-01-10 10:50:00-05:00
+2024-04-23 16:25:14,173: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,259: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,260: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:14,261: root: INFO: Current backtesting datetime 2023-01-10 11:00:00-05:00
+2024-04-23 16:25:14,262: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,347: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,349: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:14,350: root: INFO: Current backtesting datetime 2023-01-10 11:10:00-05:00
+2024-04-23 16:25:14,350: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,436: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,438: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:14,439: root: INFO: Current backtesting datetime 2023-01-10 11:20:00-05:00
+2024-04-23 16:25:14,439: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,526: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,527: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:14,528: root: INFO: Current backtesting datetime 2023-01-10 11:30:00-05:00
+2024-04-23 16:25:14,529: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,616: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,618: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:14,619: root: INFO: Current backtesting datetime 2023-01-10 11:40:00-05:00
+2024-04-23 16:25:14,619: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,707: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,708: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:14,709: root: INFO: Current backtesting datetime 2023-01-10 11:50:00-05:00
+2024-04-23 16:25:14,710: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,798: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,799: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:14,800: root: INFO: Current backtesting datetime 2023-01-10 12:00:00-05:00
+2024-04-23 16:25:14,800: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,894: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:14,895: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:14,896: root: INFO: Current backtesting datetime 2023-01-10 12:10:00-05:00
+2024-04-23 16:25:14,897: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:14[0m
+2024-04-23 16:25:15,009: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,010: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:15,011: root: INFO: Current backtesting datetime 2023-01-10 12:20:00-05:00
+2024-04-23 16:25:15,012: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,103: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,104: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:15,105: root: INFO: Current backtesting datetime 2023-01-10 12:30:00-05:00
+2024-04-23 16:25:15,105: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,197: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,198: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:15,199: root: INFO: Current backtesting datetime 2023-01-10 12:40:00-05:00
+2024-04-23 16:25:15,199: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,290: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,292: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:15,293: root: INFO: Current backtesting datetime 2023-01-10 12:50:00-05:00
+2024-04-23 16:25:15,293: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,385: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,386: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:15,387: root: INFO: Current backtesting datetime 2023-01-10 13:00:00-05:00
+2024-04-23 16:25:15,388: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,499: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,500: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:15,502: root: INFO: Current backtesting datetime 2023-01-10 13:10:00-05:00
+2024-04-23 16:25:15,502: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,614: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,616: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:15,617: root: INFO: Current backtesting datetime 2023-01-10 13:20:00-05:00
+2024-04-23 16:25:15,617: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,710: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,711: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:15,712: root: INFO: Current backtesting datetime 2023-01-10 13:30:00-05:00
+2024-04-23 16:25:15,713: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,805: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,807: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:15,808: root: INFO: Current backtesting datetime 2023-01-10 13:40:00-05:00
+2024-04-23 16:25:15,808: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,903: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:15,904: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:15,905: root: INFO: Current backtesting datetime 2023-01-10 13:50:00-05:00
+2024-04-23 16:25:15,906: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:15[0m
+2024-04-23 16:25:16,000: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,001: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:16,002: root: INFO: Current backtesting datetime 2023-01-10 14:00:00-05:00
+2024-04-23 16:25:16,003: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,098: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,099: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:16,100: root: INFO: Current backtesting datetime 2023-01-10 14:10:00-05:00
+2024-04-23 16:25:16,101: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,196: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,198: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:16,199: root: INFO: Current backtesting datetime 2023-01-10 14:20:00-05:00
+2024-04-23 16:25:16,199: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,294: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,296: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:16,297: root: INFO: Current backtesting datetime 2023-01-10 14:30:00-05:00
+2024-04-23 16:25:16,297: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,394: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,395: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:16,396: root: INFO: Current backtesting datetime 2023-01-10 14:40:00-05:00
+2024-04-23 16:25:16,397: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,494: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,495: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:16,496: root: INFO: Current backtesting datetime 2023-01-10 14:50:00-05:00
+2024-04-23 16:25:16,497: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,594: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,595: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:16,596: root: INFO: Current backtesting datetime 2023-01-10 15:00:00-05:00
+2024-04-23 16:25:16,597: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,715: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,716: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:16,717: root: INFO: Current backtesting datetime 2023-01-10 15:10:00-05:00
+2024-04-23 16:25:16,718: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,816: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,817: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:16,818: root: INFO: Current backtesting datetime 2023-01-10 15:20:00-05:00
+2024-04-23 16:25:16,818: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,918: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:16,919: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:16,920: root: INFO: Current backtesting datetime 2023-01-10 15:30:00-05:00
+2024-04-23 16:25:16,921: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:16[0m
+2024-04-23 16:25:17,021: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,023: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:17,024: root: INFO: Current backtesting datetime 2023-01-10 15:40:00-05:00
+2024-04-23 16:25:17,024: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,124: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,125: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:17,127: root: INFO: Current backtesting datetime 2023-01-10 15:50:00-05:00
+2024-04-23 16:25:17,127: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,228: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,229: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:17,230: root: INFO: Current backtesting datetime 2023-01-10 16:00:00-05:00
+2024-04-23 16:25:17,231: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-04-23 16:25:17,232: root: INFO: Current backtesting datetime 2023-01-10 15:59:00-05:00
+2024-04-23 16:25:17,232: asyncio: INFO: [MLTrader] Executing the before_market_closes lifecycle method
+2024-04-23 16:25:17,233: root: INFO: Current backtesting datetime 2023-01-10 16:00:00-05:00
+2024-04-23 16:25:17,233: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-04-23 16:25:17,234: root: INFO: Current backtesting datetime 2023-01-11 08:30:00-05:00
+2024-04-23 16:25:17,235: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-23 16:25:17,235: root: INFO: Current backtesting datetime 2023-01-11 09:30:00-05:00
+2024-04-23 16:25:17,235: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-23 16:25:17,237: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,338: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,340: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:17,341: root: INFO: Current backtesting datetime 2023-01-11 09:40:00-05:00
+2024-04-23 16:25:17,341: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,443: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,444: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:17,446: root: INFO: Current backtesting datetime 2023-01-11 09:50:00-05:00
+2024-04-23 16:25:17,446: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,550: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,552: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:17,553: root: INFO: Current backtesting datetime 2023-01-11 10:00:00-05:00
+2024-04-23 16:25:17,553: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,656: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,657: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:17,658: root: INFO: Current backtesting datetime 2023-01-11 10:10:00-05:00
+2024-04-23 16:25:17,659: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,762: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,763: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:17,764: root: INFO: Current backtesting datetime 2023-01-11 10:20:00-05:00
+2024-04-23 16:25:17,764: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,890: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,891: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:17,892: root: INFO: Current backtesting datetime 2023-01-11 10:30:00-05:00
+2024-04-23 16:25:17,893: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,998: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:17[0m
+2024-04-23 16:25:17,999: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:18,000: root: INFO: Current backtesting datetime 2023-01-11 10:40:00-05:00
+2024-04-23 16:25:18,001: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,105: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,107: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:18,108: root: INFO: Current backtesting datetime 2023-01-11 10:50:00-05:00
+2024-04-23 16:25:18,108: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,213: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,215: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:18,215: root: INFO: Current backtesting datetime 2023-01-11 11:00:00-05:00
+2024-04-23 16:25:18,216: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,322: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,324: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:18,325: root: INFO: Current backtesting datetime 2023-01-11 11:10:00-05:00
+2024-04-23 16:25:18,326: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,432: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,434: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:18,435: root: INFO: Current backtesting datetime 2023-01-11 11:20:00-05:00
+2024-04-23 16:25:18,435: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,541: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,543: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:18,543: root: INFO: Current backtesting datetime 2023-01-11 11:30:00-05:00
+2024-04-23 16:25:18,544: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,651: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,653: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:18,653: root: INFO: Current backtesting datetime 2023-01-11 11:40:00-05:00
+2024-04-23 16:25:18,654: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,785: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,787: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:18,787: root: INFO: Current backtesting datetime 2023-01-11 11:50:00-05:00
+2024-04-23 16:25:18,788: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,897: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:18,898: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:18,900: root: INFO: Current backtesting datetime 2023-01-11 12:00:00-05:00
+2024-04-23 16:25:18,900: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:18[0m
+2024-04-23 16:25:19,009: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,010: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:19,011: root: INFO: Current backtesting datetime 2023-01-11 12:10:00-05:00
+2024-04-23 16:25:19,012: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,127: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,129: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:19,130: root: INFO: Current backtesting datetime 2023-01-11 12:20:00-05:00
+2024-04-23 16:25:19,130: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,240: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,242: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:19,243: root: INFO: Current backtesting datetime 2023-01-11 12:30:00-05:00
+2024-04-23 16:25:19,243: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,354: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,356: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:19,357: root: INFO: Current backtesting datetime 2023-01-11 12:40:00-05:00
+2024-04-23 16:25:19,357: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,469: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,470: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:19,471: root: INFO: Current backtesting datetime 2023-01-11 12:50:00-05:00
+2024-04-23 16:25:19,472: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,583: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,585: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:19,585: root: INFO: Current backtesting datetime 2023-01-11 13:00:00-05:00
+2024-04-23 16:25:19,586: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,698: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,699: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:19,700: root: INFO: Current backtesting datetime 2023-01-11 13:10:00-05:00
+2024-04-23 16:25:19,701: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,813: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,814: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:19,815: root: INFO: Current backtesting datetime 2023-01-11 13:20:00-05:00
+2024-04-23 16:25:19,815: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,929: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:19,931: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:19,932: root: INFO: Current backtesting datetime 2023-01-11 13:30:00-05:00
+2024-04-23 16:25:19,932: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:19[0m
+2024-04-23 16:25:20,051: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,053: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:20,054: root: INFO: Current backtesting datetime 2023-01-11 13:40:00-05:00
+2024-04-23 16:25:20,054: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,168: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,170: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:20,171: root: INFO: Current backtesting datetime 2023-01-11 13:50:00-05:00
+2024-04-23 16:25:20,171: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,286: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,288: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:20,289: root: INFO: Current backtesting datetime 2023-01-11 14:00:00-05:00
+2024-04-23 16:25:20,289: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,404: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,406: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:20,407: root: INFO: Current backtesting datetime 2023-01-11 14:10:00-05:00
+2024-04-23 16:25:20,407: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,523: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,524: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:20,525: root: INFO: Current backtesting datetime 2023-01-11 14:20:00-05:00
+2024-04-23 16:25:20,526: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,642: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,644: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:20,644: root: INFO: Current backtesting datetime 2023-01-11 14:30:00-05:00
+2024-04-23 16:25:20,645: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,762: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,764: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:20,765: root: INFO: Current backtesting datetime 2023-01-11 14:40:00-05:00
+2024-04-23 16:25:20,765: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,883: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:20,884: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:20,885: root: INFO: Current backtesting datetime 2023-01-11 14:50:00-05:00
+2024-04-23 16:25:20,885: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:20[0m
+2024-04-23 16:25:21,007: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,009: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:21,010: root: INFO: Current backtesting datetime 2023-01-11 15:00:00-05:00
+2024-04-23 16:25:21,011: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,129: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,130: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:21,131: root: INFO: Current backtesting datetime 2023-01-11 15:10:00-05:00
+2024-04-23 16:25:21,132: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,251: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,252: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:21,253: root: INFO: Current backtesting datetime 2023-01-11 15:20:00-05:00
+2024-04-23 16:25:21,254: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,374: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,376: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:21,377: root: INFO: Current backtesting datetime 2023-01-11 15:30:00-05:00
+2024-04-23 16:25:21,378: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,499: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,500: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:21,501: root: INFO: Current backtesting datetime 2023-01-11 15:40:00-05:00
+2024-04-23 16:25:21,502: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,624: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,625: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:21,626: root: INFO: Current backtesting datetime 2023-01-11 15:50:00-05:00
+2024-04-23 16:25:21,627: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,749: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,751: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:21,751: root: INFO: Current backtesting datetime 2023-01-11 16:00:00-05:00
+2024-04-23 16:25:21,752: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-04-23 16:25:21,753: root: INFO: Current backtesting datetime 2023-01-11 15:59:00-05:00
+2024-04-23 16:25:21,754: asyncio: INFO: [MLTrader] Executing the before_market_closes lifecycle method
+2024-04-23 16:25:21,754: root: INFO: Current backtesting datetime 2023-01-11 16:00:00-05:00
+2024-04-23 16:25:21,754: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-04-23 16:25:21,755: root: INFO: Current backtesting datetime 2023-01-12 08:30:00-05:00
+2024-04-23 16:25:21,756: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-23 16:25:21,756: root: INFO: Current backtesting datetime 2023-01-12 09:30:00-05:00
+2024-04-23 16:25:21,756: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-23 16:25:21,758: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,882: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:21,884: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:21,884: root: INFO: Current backtesting datetime 2023-01-12 09:40:00-05:00
+2024-04-23 16:25:21,885: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:21[0m
+2024-04-23 16:25:22,008: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,010: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:22,011: root: INFO: Current backtesting datetime 2023-01-12 09:50:00-05:00
+2024-04-23 16:25:22,012: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,135: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,137: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:22,138: root: INFO: Current backtesting datetime 2023-01-12 10:00:00-05:00
+2024-04-23 16:25:22,138: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,261: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,263: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:22,264: root: INFO: Current backtesting datetime 2023-01-12 10:10:00-05:00
+2024-04-23 16:25:22,264: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,387: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,389: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:22,389: root: INFO: Current backtesting datetime 2023-01-12 10:20:00-05:00
+2024-04-23 16:25:22,390: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,514: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,515: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:22,516: root: INFO: Current backtesting datetime 2023-01-12 10:30:00-05:00
+2024-04-23 16:25:22,516: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,641: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,643: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:22,644: root: INFO: Current backtesting datetime 2023-01-12 10:40:00-05:00
+2024-04-23 16:25:22,645: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,770: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,772: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:22,773: root: INFO: Current backtesting datetime 2023-01-12 10:50:00-05:00
+2024-04-23 16:25:22,773: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,926: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:22,927: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:22,928: root: INFO: Current backtesting datetime 2023-01-12 11:00:00-05:00
+2024-04-23 16:25:22,929: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:22[0m
+2024-04-23 16:25:23,054: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,056: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:23,057: root: INFO: Current backtesting datetime 2023-01-12 11:10:00-05:00
+2024-04-23 16:25:23,057: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,183: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,184: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:23,185: root: INFO: Current backtesting datetime 2023-01-12 11:20:00-05:00
+2024-04-23 16:25:23,186: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,311: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,313: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:23,314: root: INFO: Current backtesting datetime 2023-01-12 11:30:00-05:00
+2024-04-23 16:25:23,315: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,441: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,443: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:23,443: root: INFO: Current backtesting datetime 2023-01-12 11:40:00-05:00
+2024-04-23 16:25:23,444: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,599: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,600: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:23,601: root: INFO: Current backtesting datetime 2023-01-12 11:50:00-05:00
+2024-04-23 16:25:23,602: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,733: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,735: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:23,735: root: INFO: Current backtesting datetime 2023-01-12 12:00:00-05:00
+2024-04-23 16:25:23,736: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,863: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,865: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:23,866: root: INFO: Current backtesting datetime 2023-01-12 12:10:00-05:00
+2024-04-23 16:25:23,866: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,995: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:23,996: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:23,997: root: INFO: Current backtesting datetime 2023-01-12 12:20:00-05:00
+2024-04-23 16:25:23,997: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:23[0m
+2024-04-23 16:25:24,129: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,131: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:24,132: root: INFO: Current backtesting datetime 2023-01-12 12:30:00-05:00
+2024-04-23 16:25:24,132: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,262: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,264: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:24,265: root: INFO: Current backtesting datetime 2023-01-12 12:40:00-05:00
+2024-04-23 16:25:24,265: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,396: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,398: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:24,399: root: INFO: Current backtesting datetime 2023-01-12 12:50:00-05:00
+2024-04-23 16:25:24,399: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,532: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,533: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:24,534: root: INFO: Current backtesting datetime 2023-01-12 13:00:00-05:00
+2024-04-23 16:25:24,534: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,666: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,667: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:24,668: root: INFO: Current backtesting datetime 2023-01-12 13:10:00-05:00
+2024-04-23 16:25:24,669: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,800: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,802: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:24,803: root: INFO: Current backtesting datetime 2023-01-12 13:20:00-05:00
+2024-04-23 16:25:24,803: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,936: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:24,938: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:24,939: root: INFO: Current backtesting datetime 2023-01-12 13:30:00-05:00
+2024-04-23 16:25:24,939: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:24[0m
+2024-04-23 16:25:25,071: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,073: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:25,074: root: INFO: Current backtesting datetime 2023-01-12 13:40:00-05:00
+2024-04-23 16:25:25,074: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,237: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,239: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:25,239: root: INFO: Current backtesting datetime 2023-01-12 13:50:00-05:00
+2024-04-23 16:25:25,240: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,373: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,374: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:25,375: root: INFO: Current backtesting datetime 2023-01-12 14:00:00-05:00
+2024-04-23 16:25:25,375: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,509: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,511: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:25,512: root: INFO: Current backtesting datetime 2023-01-12 14:10:00-05:00
+2024-04-23 16:25:25,512: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,677: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,679: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:25,680: root: INFO: Current backtesting datetime 2023-01-12 14:20:00-05:00
+2024-04-23 16:25:25,680: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,816: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,818: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:25,819: root: INFO: Current backtesting datetime 2023-01-12 14:30:00-05:00
+2024-04-23 16:25:25,819: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,954: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:25,956: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:25,957: root: INFO: Current backtesting datetime 2023-01-12 14:40:00-05:00
+2024-04-23 16:25:25,957: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:25[0m
+2024-04-23 16:25:26,095: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,096: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:26,098: root: INFO: Current backtesting datetime 2023-01-12 14:50:00-05:00
+2024-04-23 16:25:26,098: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,264: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,266: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:26,267: root: INFO: Current backtesting datetime 2023-01-12 15:00:00-05:00
+2024-04-23 16:25:26,267: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,403: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,405: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:26,406: root: INFO: Current backtesting datetime 2023-01-12 15:10:00-05:00
+2024-04-23 16:25:26,406: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,542: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,544: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:26,544: root: INFO: Current backtesting datetime 2023-01-12 15:20:00-05:00
+2024-04-23 16:25:26,545: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,681: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,684: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:26,684: root: INFO: Current backtesting datetime 2023-01-12 15:30:00-05:00
+2024-04-23 16:25:26,685: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,821: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,822: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:26,823: root: INFO: Current backtesting datetime 2023-01-12 15:40:00-05:00
+2024-04-23 16:25:26,824: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,959: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:26,960: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:26,961: root: INFO: Current backtesting datetime 2023-01-12 15:50:00-05:00
+2024-04-23 16:25:26,962: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:26[0m
+2024-04-23 16:25:27,098: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,099: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:27,100: root: INFO: Current backtesting datetime 2023-01-12 16:00:00-05:00
+2024-04-23 16:25:27,101: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-04-23 16:25:27,103: root: INFO: Current backtesting datetime 2023-01-12 15:59:00-05:00
+2024-04-23 16:25:27,103: asyncio: INFO: [MLTrader] Executing the before_market_closes lifecycle method
+2024-04-23 16:25:27,104: root: INFO: Current backtesting datetime 2023-01-12 16:00:00-05:00
+2024-04-23 16:25:27,104: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-04-23 16:25:27,105: root: INFO: Current backtesting datetime 2023-01-13 08:30:00-05:00
+2024-04-23 16:25:27,105: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-23 16:25:27,106: root: INFO: Current backtesting datetime 2023-01-13 09:30:00-05:00
+2024-04-23 16:25:27,106: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-23 16:25:27,107: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,244: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,245: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:27,246: root: INFO: Current backtesting datetime 2023-01-13 09:40:00-05:00
+2024-04-23 16:25:27,247: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,386: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,387: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:27,388: root: INFO: Current backtesting datetime 2023-01-13 09:50:00-05:00
+2024-04-23 16:25:27,389: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,526: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,527: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:27,528: root: INFO: Current backtesting datetime 2023-01-13 10:00:00-05:00
+2024-04-23 16:25:27,529: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,666: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,668: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:27,669: root: INFO: Current backtesting datetime 2023-01-13 10:10:00-05:00
+2024-04-23 16:25:27,669: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,808: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,809: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:27,810: root: INFO: Current backtesting datetime 2023-01-13 10:20:00-05:00
+2024-04-23 16:25:27,810: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,948: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:27,949: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:27,950: root: INFO: Current backtesting datetime 2023-01-13 10:30:00-05:00
+2024-04-23 16:25:27,950: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:27[0m
+2024-04-23 16:25:28,090: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,091: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:28,092: root: INFO: Current backtesting datetime 2023-01-13 10:40:00-05:00
+2024-04-23 16:25:28,093: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,232: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,233: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:28,234: root: INFO: Current backtesting datetime 2023-01-13 10:50:00-05:00
+2024-04-23 16:25:28,234: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,374: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,375: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:28,376: root: INFO: Current backtesting datetime 2023-01-13 11:00:00-05:00
+2024-04-23 16:25:28,377: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,522: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,524: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:28,525: root: INFO: Current backtesting datetime 2023-01-13 11:10:00-05:00
+2024-04-23 16:25:28,525: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,667: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,668: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:28,669: root: INFO: Current backtesting datetime 2023-01-13 11:20:00-05:00
+2024-04-23 16:25:28,670: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,811: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,812: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:28,813: root: INFO: Current backtesting datetime 2023-01-13 11:30:00-05:00
+2024-04-23 16:25:28,814: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,956: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:28,958: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:28,959: root: INFO: Current backtesting datetime 2023-01-13 11:40:00-05:00
+2024-04-23 16:25:28,959: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:28[0m
+2024-04-23 16:25:29,101: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,102: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:29,103: root: INFO: Current backtesting datetime 2023-01-13 11:50:00-05:00
+2024-04-23 16:25:29,104: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,244: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,245: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:29,246: root: INFO: Current backtesting datetime 2023-01-13 12:00:00-05:00
+2024-04-23 16:25:29,246: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,387: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,388: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:29,389: root: INFO: Current backtesting datetime 2023-01-13 12:10:00-05:00
+2024-04-23 16:25:29,390: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,537: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,539: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:29,539: root: INFO: Current backtesting datetime 2023-01-13 12:20:00-05:00
+2024-04-23 16:25:29,540: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,683: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,684: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:29,685: root: INFO: Current backtesting datetime 2023-01-13 12:30:00-05:00
+2024-04-23 16:25:29,686: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,829: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,830: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:29,831: root: INFO: Current backtesting datetime 2023-01-13 12:40:00-05:00
+2024-04-23 16:25:29,832: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,976: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 16:25:29[0m
+2024-04-23 16:25:29,977: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 16:25:29,978: root: INFO: Current backtesting datetime 2023-01-13 12:50:00-05:00
+2024-04-23 16:25:29,979: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 16:25:29[0m

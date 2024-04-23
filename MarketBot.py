@@ -12,7 +12,7 @@ API_KEY = "PK8TNPOIWE1B6PH2PHY0"
 API_SECRET = "RXSRJUYMNJpniHaFAZo7MUfoe1k2WMknbGcLTev8" 
 BASE_URL = "https://paper-api.alpaca.markets/v2"
 POLYGONKEY = "hwXFX1sSXE4ojhYyeKDA7BBJDlaLf6Pf"
-tickertest = 'SOXX'
+tickertest = ['NVDA','SOXX', 'AAPL']
 ALPACA_CREDS = {
     "API_KEY":API_KEY, 
     "API_SECRET": API_SECRET, 
@@ -20,33 +20,44 @@ ALPACA_CREDS = {
 }
 
 class MLTrader(Strategy): 
-    data = []
+    data = {}
     order_number = 0
     cash_history = 0
     last_action = ""
     action_price = 0
     diary = {}
     pages = {}
-    def initialize(self, symbol:str=tickertest, cash_at_risk:float=.5): 
+    order =[]
+    def initialize(self, symbol:str=tickertest, budget_buffer_risk:float=.75): 
         self.symbol = symbol
+        for items in self.symbol:
+            self.data[items] = []
         self.sleeptime = "10M"
-        self.cash_at_risk = cash_at_risk
+        self.risk_p = budget_buffer_risk
         self.asset = Asset(self.symbol, asset_type=Asset.AssetType.STOCK)
         self.api = REST(base_url=BASE_URL, key_id=API_KEY, secret_key=API_SECRET)
 
-    def position_sizing(self): 
-        cash = self.get_cash() 
-        budget = self.initial_budget
-        analysis = "+"
-        last_price = self.get_last_price(self.symbol)
-        quantity = round(cash * self.cash_at_risk / last_price,0)
-        if cash - (quantity * last_price) <self.cash_at_risk * cash:
-            quantity = 0 
-        if cash < self.cash_at_risk * budget:
-            analysis = "-"
-        return cash, last_price, quantity, analysis
+    def position_sizing(self, symbol, list):
+        SLOPE_PERIODS = 5
+        r = self.risk_p
+        b = self.initial_budget
+        t = len(self.symbol)
+        lpt = self.get_last_price(symbol)
+        temperment = "+"
+        cash = self.get_cash()
+        fcf_t = r*b/t 
+        if len(list) >=SLOPE_PERIODS:
+            slope = self.slope_extract(list)
+            if slope > 0 and cash > (b - (r*b)): #keeps budget floor
+                qty_t = round(fcf_t/lpt,0)
+            else:
+                qty_t = 0
+                temperment = '-'
 
-    def swing_session(self):
+        return fcf_t, qty_t, lpt, temperment
+
+
+    def swing_session(self): #old 
         print ("Swing session strategy engaged")
         cash, last_price, quantityz = self.position_sizing()
         print(f"Position: {self.get_position(self.symbol)}")
@@ -63,55 +74,56 @@ class MLTrader(Strategy):
             self.sell_all()
             self.last_action = "sell"
 
-
-    def slope_session(self):
+    def slope_extract (self, list):
+        y = [1,2,3,4,5]
+        coefficients = np.polyfit(list,y,1)    #make a line of best fit
+        slope = coefficients[0] #get the slope lol
+        return slope
+    
+    def slope_session(self, symbol):
         #initializating the strat
-        cash, last_price, quant, temperment  = self.position_sizing()
+        
         today = self.get_datetime().strftime('%Y-%m-%d')
         time = self.get_datetime().strftime('%H:%M:%S')
         datetimestring = today + " , " + time
         orderamt = 0
-        dellist = []
         # probability, sentiment  = self.get_sentiment() 
-        self.data.append(self.get_last_price(self.symbol)) #uses the last 5 intervals to collect interval cost data (so collect costs and store them in this list)
-        if len (self.data) >=5: 
-            x = self.data[-5:] #check the last 5 intervals
-            y = [1,2,3,4,5]
-            coefficients = np.polyfit(x,y,1)    #make a line of best fit
-            slope = coefficients[0] #get the slope lol
-            if slope> 0 and quant>0 and temperment == "+": #if position analysis is good then use the trend is moving positive - make a buy order at current price
-                order = self.create_order(self.symbol, quantity= quant, side = 'buy')
-                self.diary[datetimestring] = [last_price, quant] #creating diary of date as key, buy price and quantity as values
-                self.submit_order(order)
-                self.action_price = last_price
-                self.last_action = "buy"
-                if cash <self.cash_at_risk*cash: #emergency contegency put into buy code, was noticing the buys were making cash go below 25k
-                    self.sell_all()
-                    dellist.clear()
-                    orderamt = 0          
-
+        self.data[symbol].append(self.get_last_price(symbol)) #uses the last 5 intervals to collect interval cost data (so collect costs and store them in this list)
+        if len (self.data[symbol]) >=5: 
+            fcf_t, qty_f, lpt, temperment  = self.position_sizing(symbol, self.data[symbol][-5:]) #check the last 5 intervals            
+            if qty_f > 0 and temperment == "+": #if position analysis is good then use the trend is moving positive - make a buy order at current price
+                self.cash_history+= qty_f*lpt
+                if self.get_cash() - self.cash_history > self.initial_budget - (self.risk_p * self.initial_budget): #ensures that budget floor is mantained
+                    self.order.append(self.create_order(symbol, quantity= qty_f, side = 'buy'))
+                    self.diary[datetimestring] = [lpt, qty_f, symbol] #creating diary of date as key, buy price and quantity as values
+      
         #iterate over buy data dict
         for date, details in self.diary.items():
             date1 = datetime.strptime(today, '%Y-%m-%d').date()
             date2 = self.extract_date(date)
-            
+            current_tick = details[2]
+            lpt = self.get_last_price(symbol)
             difference_in_days = date1 - date2 #counter for days passed
             
-            if last_price >= details[0]*1.15: #doesn't matter time passed - if ur 15% above, sell that position
+
+            if current_tick == symbol and lpt <= details[0]*0.975 : #doesn't matter time passed - if ur 97.5% or below, sell that position
+                orderamt += details[1]
+                details[1] = 0  # quantity gets zeroed
+
+            if current_tick == symbol and lpt >= details[0]*1.15 : #doesn't matter time passed - if ur 15% above, sell that position
                 orderamt += details[1]
                 details[1] = 0  # quantity gets zeroed
                 
-            if int(difference_in_days.days) >=30 and details[0]*1.06 > last_price>= details[0]*1.001: # if the days passed are over 30, then sell possiitions taking all profits you can
+            if current_tick == symbol and int(difference_in_days.days) >=30 and details[0]*1.06 > lpt>= details[0]*1.001: # if the days passed are over 30, then sell possiitions taking all profits you can
                 orderamt += details[1]
                 details[1] = 0
-            if 30> int(difference_in_days.days) >15 and details[0]*1.15 > last_price >= details[0]*1.06: #if the days passed are over 15 days but under 30, then sell the positionsif you have atleast a 6% profit
+            if current_tick == symbol and 30> int(difference_in_days.days) >15 and details[0]*1.15 > lpt >= details[0]*1.06: #if the days passed are over 15 days but under 30, then sell the positionsif you have atleast a 6% profit
                 orderamt += details[1]  
                 details[1] = 0
             
 
         if orderamt > 0:
-            order = self.create_order(self.symbol, quantity= orderamt, side = "sell" ) #Make a sell with the order amount - determined from above. 
-            self.submit_order (order)
+            self.order.append(self.create_order(current_tick, quantity= orderamt, side = "sell" )) #Make a sell with the order amount - determined from above. 
             orderamt = 0
 
     def get_dates(self): 
@@ -137,67 +149,21 @@ class MLTrader(Strategy):
         date_part = datetime.strptime(date_part, '%Y-%m-%d').date()
         return date_part
 
+    
     def on_trading_iteration(self):
-        cash, last_price, quantityz = self.position_sizing()
-        today = self.get_datetime().strftime('%Y-%m-%d')
-        time = self.get_datetime().strftime('%H:%M:%S')
-        datetimestring = today + " , " + time
-        print(datetimestring)
-        orderamt = 0
-        dellist = []
-        # probability, sentiment  = self.get_sentiment() 
-        
-        pos = self.get_position(self.symbol)
-        self.data.append(self.get_last_price(self.symbol))
-        if len (self.data) >=5:
-            x = self.data[-5:]
-            y = [1,2,3,4,5]
-            coefficients = np.polyfit(x,y,1)
-            slope = coefficients[0]
-            if slope> 0 and quantityz>0 and self.analyze_position() == "+":
-                order = self.create_order(self.symbol, quantity= quantityz, side = 'buy')
-                self.diary[datetimestring] = [last_price, quantityz]
-                # self.pages[today] = self.diary[last_price]
-                self.submit_order(order)
-                slope_action =slope
-                self.action_price = last_price
-                self.last_action = "buy"
-                if cash <self.cash_at_risk*cash:
-                    self.sell_all()
-                    dellist.clear()
-                    orderamt = 0          
+        for items in self.symbol:
+            self.slope_session(items)
+        if len(self.order) > 0:
+            self.submit_orders(self.order)
+            self.order.clear()
+            self.cash_history = 0
 
-        for date, details in self.diary.items():
-            date1 = datetime.strptime(today, '%Y-%m-%d').date()
-            date2 = self.extract_date(date)
             
-            difference_in_days = date1 - date2
-            
-            if last_price >= details[0]*1.15:
-                orderamt += details[1]
-                details[1] = 0  
-                # print (f"purcahsed {details[1]} for {details[0]} on {date}, current price is {last_price} on {today} - Stale Status {difference_in_days.days}")
-                
-            if int(difference_in_days.days) >=30 and details[0]*1.06 > last_price>= details[0]*1.001:
-                orderamt += details[1]
-                details[1] = 0
-            if 30> int(difference_in_days.days) >15 and details[0]*1.15 > last_price >= details[0]*1.06:
-                orderamt += details[1]  
-                details[1] = 0
-            
-
-        if orderamt > 0:
-            order = self.create_order(self.symbol, quantity= orderamt, side = "sell" ) #sell at 15% threshold profit
-            self.submit_order (order)
-            orderamt = 0
-
         # print(f"Position: {self.get_position(self.symbol)}, free cash flow : {cash}")
 
         # today = self.get_datetime()
         # print (today.strftime('%Y-%m-%d'))
         # print (self.diary)
-        if today == ('2023-12-21'):
-            self.sell_all()
 
 
             
@@ -205,11 +171,11 @@ class MLTrader(Strategy):
 
 
 start_date = datetime(2023,1,1)
-end_date = datetime(2023,5,31) 
+end_date = datetime(2023,12,31) 
 broker = Alpaca(ALPACA_CREDS) 
 strategy = MLTrader(name='mlstrat', broker=broker, 
                     parameters={"symbol":tickertest, 
-                                "cash_at_risk":.5})
+                                "budget_buffer_risk":.75})
 
 
 data_source = PolygonDataBacktesting(
@@ -222,8 +188,8 @@ strategy.backtest(
     PolygonDataBacktesting, 
     start_date, 
     end_date, 
-    benchmark_asset = tickertest,
-    api_key=POLYGONKEY
+    benchmark_asset = 'SPY',
+    api_key=POLYGONKEY,
 )
 # trader = Trader()
 # trader.add_strategy(strategy)
