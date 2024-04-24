@@ -1,0 +1,95 @@
+2024-04-23 09:17:01,210: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-04-23 09:17:02,845: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-04-23 09:17:02,846: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-23 09:17:02,847: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-04-23 09:17:02,848: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-23 09:17:02,849: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 09:17:02[0m
+2024-04-23 09:17:04,732: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:05,849: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,810: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,811: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,812: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 09:17:07,813: root: INFO: Current backtesting datetime 2023-01-03 09:40:00-05:00
+2024-04-23 09:17:07,814: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,814: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,815: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,815: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,816: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 09:17:07,817: root: INFO: Current backtesting datetime 2023-01-03 09:50:00-05:00
+2024-04-23 09:17:07,818: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,819: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,819: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,820: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,821: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 09:17:07,822: root: INFO: Current backtesting datetime 2023-01-03 10:00:00-05:00
+2024-04-23 09:17:07,822: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,823: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,823: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,823: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,824: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,824: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 09:17:07,825: root: INFO: Current backtesting datetime 2023-01-03 10:10:00-05:00
+2024-04-23 09:17:07,826: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,827: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,828: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,828: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 09:17:07,829: root: INFO: Current backtesting datetime 2023-01-03 10:20:00-05:00
+2024-04-23 09:17:07,830: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,830: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,831: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,832: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 09:17:07,833: root: INFO: Current backtesting datetime 2023-01-03 10:30:00-05:00
+2024-04-23 09:17:07,834: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,835: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,836: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,836: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 09:17:07,837: root: INFO: Current backtesting datetime 2023-01-03 10:40:00-05:00
+2024-04-23 09:17:07,838: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,838: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,839: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,839: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,840: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 09:17:07,841: root: INFO: Current backtesting datetime 2023-01-03 10:50:00-05:00
+2024-04-23 09:17:07,842: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,842: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,843: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,843: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,844: asyncio: INFO: [MLTrader] [34mSleeping for 600 seconds[0m
+2024-04-23 09:17:07,845: root: INFO: Current backtesting datetime 2023-01-03 11:00:00-05:00
+2024-04-23 09:17:07,845: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-23 09:17:07[0m
+2024-04-23 09:17:07,846: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,846: asyncio: WARNING: [MLTrader] Selling all positions for MLTrader strategy
+2024-04-23 09:17:07,847: asyncio: ERROR: [MLTrader] unsupported operand type(s) for -: 'method' and 'float'
+2024-04-23 09:17:07,849: asyncio: ERROR: [MLTrader] Traceback (most recent call last):
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 148, in on_trading_iteration
+    self.slope_session(items)
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 85, in slope_session
+    if self.initial_budget*self.cash_at_risk > self.get_cash - last_price*quant:
+                                               ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'method' and 'float'
+
+2024-04-23 09:17:07,850: asyncio: INFO: [MLTrader] Executing the on_bot_crash event method
+2024-04-23 09:17:11,020: root: INFO: Backtesting finished
+2024-04-23 09:17:11,536: root: INFO: There were no trades in this backtest.
+2024-04-23 09:17:11,881: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-04-23 09:17:11,883: backtest_stats: INFO: Backtest took 0:00:10.676186 for a speed of 0.000
