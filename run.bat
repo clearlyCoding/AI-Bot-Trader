@@ -1,0 +1,3 @@
+python MarketBot.py
+
+pause

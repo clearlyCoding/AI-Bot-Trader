@@ -8,11 +8,11 @@ from alpaca_trade_api import REST  # type: ignore
 from timedelta import Timedelta  # type: ignore
 from finbert_utils import estimate_sentiment
 import numpy as np
-API_KEY = "PK8TNPOIWE1B6PH2PHY0" 
-API_SECRET = "RXSRJUYMNJpniHaFAZo7MUfoe1k2WMknbGcLTev8" 
+API_KEY = "PKJYF05FPJGXH57IXVUK" 
+API_SECRET = "t4siryHdAd5gfwTxsfZbMCkwfafvPzJIFEspuuaq" 
 BASE_URL = "https://paper-api.alpaca.markets/v2"
 POLYGONKEY = "hwXFX1sSXE4ojhYyeKDA7BBJDlaLf6Pf"
-tickertest = ['NVDA','SOXX', 'AAPL']
+tickertest = ['NVDA','SOXX','AAPL']
 ALPACA_CREDS = {
     "API_KEY":API_KEY, 
     "API_SECRET": API_SECRET, 
@@ -32,7 +32,7 @@ class MLTrader(Strategy):
         self.symbol = symbol
         for items in self.symbol:
             self.data[items] = []
-        self.sleeptime = "10M"
+        self.sleeptime = "1s"
         self.risk_p = budget_buffer_risk
         self.asset = Asset(self.symbol, asset_type=Asset.AssetType.STOCK)
         self.api = REST(base_url=BASE_URL, key_id=API_KEY, secret_key=API_SECRET)
@@ -43,6 +43,7 @@ class MLTrader(Strategy):
         b = self.initial_budget
         t = len(self.symbol)
         lpt = self.get_last_price(symbol)
+        print(f"{lpt} current for {symbol}")
         temperment = "+"
         cash = self.get_cash()
         fcf_t = r*b/t 
@@ -50,12 +51,13 @@ class MLTrader(Strategy):
             slope = self.slope_extract(list)
             if slope > 0 and cash > (b - (r*b)): #keeps budget floor
                 qty_t = round(fcf_t/lpt,0)
+                print (f"{qty_t} qty determined.")
             else:
+                print (f"conditions not met, PROC= {slope} current cash = {cash}, willing {b-(r*b)}.")
                 qty_t = 0
                 temperment = '-'
 
         return fcf_t, qty_t, lpt, temperment
-
 
     def swing_session(self): #old 
         print ("Swing session strategy engaged")
@@ -74,6 +76,10 @@ class MLTrader(Strategy):
             self.sell_all()
             self.last_action = "sell"
 
+    def simple_check(self):
+        symbol = 'SOXX'
+        order = self.create_order(symbol, quantity= 10, side = 'buy')
+        self.submit_order(order)
     def slope_extract (self, list):
         y = [1,2,3,4,5]
         coefficients = np.polyfit(list,y,1)    #make a line of best fit
@@ -96,7 +102,11 @@ class MLTrader(Strategy):
                 if self.get_cash() - self.cash_history > self.initial_budget - (self.risk_p * self.initial_budget): #ensures that budget floor is mantained
                     self.order.append(self.create_order(symbol, quantity= qty_f, side = 'buy'))
                     self.diary[datetimestring] = [lpt, qty_f, symbol] #creating diary of date as key, buy price and quantity as values
-      
+                else:
+                    print (f"Trade not added: current cost for purchase: {qty_f*lpt}, current cash requirement for orders = {self.cash_history}, current cash available = {self.get_cash()}, current floor = {self.initial_budget - (self.risk_p * self.initial_budget)}")
+                    self.cash_history-= qty_f*lpt
+        else:
+            print (f"Collecting 5 iterations for {symbol}. Currently at {len(self.data[symbol])}")
         #iterate over buy data dict
         for date, details in self.diary.items():
             date1 = datetime.strptime(today, '%Y-%m-%d').date()
@@ -106,15 +116,18 @@ class MLTrader(Strategy):
             difference_in_days = date1 - date2 #counter for days passed
             
 
-            if current_tick == symbol and lpt <= details[0]*0.975 : #doesn't matter time passed - if ur 97.5% or below, sell that position
+            if current_tick == symbol and lpt <= details[0]*0.995 : #doesn't matter time passed - if ur 99.5% or below, sell that position
+                print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
                 orderamt += details[1]
                 details[1] = 0  # quantity gets zeroed
 
             if current_tick == symbol and lpt >= details[0]*1.15 : #doesn't matter time passed - if ur 15% above, sell that position
+                print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
                 orderamt += details[1]
                 details[1] = 0  # quantity gets zeroed
                 
             if current_tick == symbol and int(difference_in_days.days) >=30 and details[0]*1.06 > lpt>= details[0]*1.001: # if the days passed are over 30, then sell possiitions taking all profits you can
+                print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
                 orderamt += details[1]
                 details[1] = 0
             if current_tick == symbol and 30> int(difference_in_days.days) >15 and details[0]*1.15 > lpt >= details[0]*1.06: #if the days passed are over 15 days but under 30, then sell the positionsif you have atleast a 6% profit
@@ -131,9 +144,6 @@ class MLTrader(Strategy):
         three_days_prior = today - Timedelta(days=3)
         return today.strftime('%Y-%m-%d'), three_days_prior.strftime('%Y-%m-%d')
 
-
-
-
     def get_sentiment(self): 
         today, three_days_prior = self.get_dates()
         news = self.api.get_news(symbol=self.symbol, 
@@ -149,48 +159,40 @@ class MLTrader(Strategy):
         date_part = datetime.strptime(date_part, '%Y-%m-%d').date()
         return date_part
 
-    
     def on_trading_iteration(self):
+        # self.simple_check()
+        self.cash_history = 0
         for items in self.symbol:
             self.slope_session(items)
         if len(self.order) > 0:
-            self.submit_orders(self.order)
+            print (self.order)
+            for order in self.order:
+                self.submit_order(order)
+            # self.submit_orders(self.order)
             self.order.clear()
-            self.cash_history = 0
-
-            
-        # print(f"Position: {self.get_position(self.symbol)}, free cash flow : {cash}")
-
-        # today = self.get_datetime()
-        # print (today.strftime('%Y-%m-%d'))
-        # print (self.diary)
-
-
             
 
 
-
+            
 start_date = datetime(2023,1,1)
 end_date = datetime(2023,12,31) 
 broker = Alpaca(ALPACA_CREDS) 
-strategy = MLTrader(name='mlstrat', broker=broker, 
+strategy = MLTrader(name='mlstrat', broker=broker, budget = 100000, 
                     parameters={"symbol":tickertest, 
                                 "budget_buffer_risk":.75})
-
-
 data_source = PolygonDataBacktesting(
     datetime_start=start_date,
     datetime_end=end_date,
     api_key= POLYGONKEY,
     has_paid_subscription=False,  # Set this to True if you have a paid subscription to polygon.io (False assumes you are using the free tier)
 )
-strategy.backtest(
-    PolygonDataBacktesting, 
-    start_date, 
-    end_date, 
-    benchmark_asset = 'SPY',
-    api_key=POLYGONKEY,
-)
-# trader = Trader()
-# trader.add_strategy(strategy)
-# trader.run_all()
+# strategy.backtest(
+#     PolygonDataBacktesting, 
+#     start_date, 
+#     end_date, 
+#     benchmark_asset = 'SPY',
+#     api_key=POLYGONKEY,
+# )
+trader = Trader()
+trader.add_strategy(strategy)
+trader.run_all()
