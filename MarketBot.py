@@ -8,11 +8,15 @@ from alpaca_trade_api import REST  # type: ignore
 from timedelta import Timedelta  # type: ignore
 from finbert_utils import estimate_sentiment
 import numpy as np
+import requests
+import json
+import random
 API_KEY = "PKJYF05FPJGXH57IXVUK" 
 API_SECRET = "t4siryHdAd5gfwTxsfZbMCkwfafvPzJIFEspuuaq" 
 BASE_URL = "https://paper-api.alpaca.markets/v2"
+POSITIONS_URL = "https://paper-api.alpaca.markets/v2/positions"
 POLYGONKEY = "hwXFX1sSXE4ojhYyeKDA7BBJDlaLf6Pf"
-tickertest = ['NVDA','SOXX','AAPL']
+tickertest = ['NVDA','SOXX','AAPL', 'SPY']
 ALPACA_CREDS = {
     "API_KEY":API_KEY, 
     "API_SECRET": API_SECRET, 
@@ -88,14 +92,18 @@ class MLTrader(Strategy):
     
     def slope_session(self, symbol):
         #initializating the strat
-        
+        lossexitper = 0.9975
+        highexit= 1.0005
+        midexit = 1.001
+        lowexit = 1.0005
+
         today = self.get_datetime().strftime('%Y-%m-%d')
         time = self.get_datetime().strftime('%H:%M:%S')
         datetimestring = today + " , " + time
         orderamt = 0
         # probability, sentiment  = self.get_sentiment() 
         self.data[symbol].append(self.get_last_price(symbol)) #uses the last 5 intervals to collect interval cost data (so collect costs and store them in this list)
-        if len (self.data[symbol]) >=5: 
+        if len (self.data[symbol]) >=5:
             fcf_t, qty_f, lpt, temperment  = self.position_sizing(symbol, self.data[symbol][-5:]) #check the last 5 intervals            
             if qty_f > 0 and temperment == "+": #if position analysis is good then use the trend is moving positive - make a buy order at current price
                 self.cash_history+= qty_f*lpt
@@ -105,39 +113,45 @@ class MLTrader(Strategy):
                 else:
                     print (f"Trade not added: current cost for purchase: {qty_f*lpt}, current cash requirement for orders = {self.cash_history}, current cash available = {self.get_cash()}, current floor = {self.initial_budget - (self.risk_p * self.initial_budget)}")
                     self.cash_history-= qty_f*lpt
-        else:
-            print (f"Collecting 5 iterations for {symbol}. Currently at {len(self.data[symbol])}")
-        #iterate over buy data dict
-        for date, details in self.diary.items():
-            date1 = datetime.strptime(today, '%Y-%m-%d').date()
-            date2 = self.extract_date(date)
-            current_tick = details[2]
-            lpt = self.get_last_price(symbol)
-            difference_in_days = date1 - date2 #counter for days passed
-            
-
-            if current_tick == symbol and lpt <= details[0]*0.995 : #doesn't matter time passed - if ur 99.5% or below, sell that position
-                print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
-                orderamt += details[1]
-                details[1] = 0  # quantity gets zeroed
-
-            if current_tick == symbol and lpt >= details[0]*1.15 : #doesn't matter time passed - if ur 15% above, sell that position
-                print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
-                orderamt += details[1]
-                details[1] = 0  # quantity gets zeroed
+            #iterate over buy data dict
+            for date, details in self.diary.items():
+                date1 = datetime.strptime(today, '%Y-%m-%d').date()
+                date2 = self.extract_date(date)
+                current_tick = details[2]
+                qty_f = details[1]
+                ppt = details[0]
+                lpt = self.get_last_price(symbol)
+                difference_in_days = date1 - date2 #counter for days passed
                 
-            if current_tick == symbol and int(difference_in_days.days) >=30 and details[0]*1.06 > lpt>= details[0]*1.001: # if the days passed are over 30, then sell possiitions taking all profits you can
-                print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
-                orderamt += details[1]
-                details[1] = 0
-            if current_tick == symbol and 30> int(difference_in_days.days) >15 and details[0]*1.15 > lpt >= details[0]*1.06: #if the days passed are over 15 days but under 30, then sell the positionsif you have atleast a 6% profit
-                orderamt += details[1]  
-                details[1] = 0
-            
+                if current_tick ==symbol:
+                    print(f"Current strat - sell {qty_f} of {current_tick} if {lpt} drops below {round(ppt*lossexitper,2)} or >= to {round(ppt*highexit,2)}, right now holding for {difference_in_days} days - if between 15 and 30 days then sell at anywhere b/w {round(ppt*highexit,2)} and {round(ppt*midexit,2)}  - if more than 30 days then sell at anywhere b/w {round(ppt*midexit,2)} and {round(ppt*lowexit,2)}")
+                if current_tick == symbol and qty_f > 0 and lpt <= details[0]*lossexitper : #doesn't matter time passed - if ur 99.5% or below, sell that position
+                    print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
+                    orderamt += details[1]
+                    self.order.append(self.create_order(current_tick, quantity= qty_f, side = "sell" ))
+                    details[1] = 0  # quantity gets zeroed
 
-        if orderamt > 0:
-            self.order.append(self.create_order(current_tick, quantity= orderamt, side = "sell" )) #Make a sell with the order amount - determined from above. 
-            orderamt = 0
+                if current_tick == symbol and qty_f > 0 and lpt >= details[0]*highexit : #doesn't matter time passed - if ur 15% above, sell that position
+                    print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
+                    orderamt += details[1]
+                    self.order.append(self.create_order(current_tick, quantity= qty_f, side = "sell" ))
+                    details[1] = 0  # quantity gets zeroed
+                    
+                if current_tick == symbol and qty_f > 0 and int(difference_in_days.days) >=30 and details[0]*midexit > lpt>= details[0]*lowexit: # if the days passed are over 30, then sell possiitions taking all profits you can
+                    print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
+                    orderamt += details[1]
+                    self.order.append(self.create_order(current_tick, quantity= qty_f, side = "sell" ))
+                    details[1] = 0
+                if current_tick == symbol and qty_f > 0 and 30> int(difference_in_days.days) >15 and details[0]*highexit > lpt >= details[0]*midexit: #if the days passed are over 15 days but under 30, then sell the positionsif you have atleast a 6% profit
+                    orderamt += details[1]
+                    self.order.append(self.create_order(current_tick, quantity= qty_f, side = "sell" ))  
+                    details[1] = 0
+        else:
+            print (f"Collecting 5 iterations for {symbol}. Currently at {len(self.data[symbol])}")    
+
+        # if orderamt > 0:
+        #     self.order.append(self.create_order(current_tick, quantity= orderamt, side = "sell" )) #Make a sell with the order amount - determined from above. 
+        #     orderamt = 0
 
     def get_dates(self): 
         today = self.get_datetime()
@@ -159,7 +173,20 @@ class MLTrader(Strategy):
         date_part = datetime.strptime(date_part, '%Y-%m-%d').date()
         return date_part
 
+    def before_starting_trading(self): #Necessary for live trading - need to be commented for backtesting
+        today = self.get_datetime().strftime('%Y-%m-%d')
+        self.headers = {"accept": "application/json", "APCA-API-KEY-ID": API_KEY, "APCA-API-SECRET-KEY": API_SECRET}
+        self.response = requests.get(POSITIONS_URL, headers= self.headers)
+        if self.response:
+            self.json_data = json.loads(self.response.text)
+            for diction in self.json_data:
+                time = random.getrandbits(128)
+                datetimestring = today + " , " + str(time)
+                self.diary[datetimestring] = [float(diction['avg_entry_price']),float(diction['qty']), diction['symbol']] 
+    
+    
     def on_trading_iteration(self):
+        
         # self.simple_check()
         self.cash_history = 0
         for items in self.symbol:
