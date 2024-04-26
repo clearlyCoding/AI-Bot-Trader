@@ -1,0 +1,54 @@
+2024-04-26 07:25:02,604: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-04-26 07:25:04,208: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-04-26 07:25:04,209: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-26 07:25:04,210: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-04-26 07:25:04,210: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-26 07:25:04,720: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-26 07:25:04[0m
+2024-04-26 07:25:11,431: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-26 07:25:11[0m
+2024-04-26 07:25:11,433: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-26 07:25:11,434: root: INFO: Current backtesting datetime 2023-01-03 09:30:01-05:00
+2024-04-26 07:25:11,435: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-26 07:25:11[0m
+2024-04-26 07:25:11,437: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-26 07:25:11[0m
+2024-04-26 07:25:11,438: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-26 07:25:11,439: root: INFO: Current backtesting datetime 2023-01-03 09:30:02-05:00
+2024-04-26 07:25:11,440: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-26 07:25:11[0m
+2024-04-26 07:25:11,441: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-26 07:25:11[0m
+2024-04-26 07:25:11,442: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-26 07:25:11,443: root: INFO: Current backtesting datetime 2023-01-03 09:30:03-05:00
+2024-04-26 07:25:11,443: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-26 07:25:11[0m
+2024-04-26 07:25:11,444: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-26 07:25:11[0m
+2024-04-26 07:25:11,445: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-26 07:25:11,446: root: INFO: Current backtesting datetime 2023-01-03 09:30:04-05:00
+2024-04-26 07:25:11,447: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-26 07:25:11[0m
+2024-04-26 07:25:13,500: asyncio: ERROR: [MLTrader] 'method' object is not subscriptable
+2024-04-26 07:25:13,502: asyncio: ERROR: [MLTrader] Traceback (most recent call last):
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 199, in on_trading_iteration
+    print (f"total cost of {order.quantity} for {self.get_last_price[order.symbol]} = {order.quantity*self.get_last_price[order.symbol]}")
+                                                 ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'method' object is not subscriptable
+
+2024-04-26 07:25:13,503: asyncio: INFO: [MLTrader] Executing the on_bot_crash event method
+2024-04-26 07:25:15,070: root: INFO: Backtesting finished
+2024-04-26 07:25:15,585: root: INFO: There were no trades in this backtest.
+2024-04-26 07:25:15,873: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-04-26 07:25:15,874: backtest_stats: INFO: Backtest took 0:00:13.271219 for a speed of 0.000

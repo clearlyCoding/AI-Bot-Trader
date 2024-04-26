@@ -47,7 +47,7 @@ class MLTrader(Strategy):
         b = self.initial_budget
         t = len(self.symbol)
         lpt = self.get_last_price(symbol)
-        print(f"{lpt} current for {symbol}")
+        # print(f"{lpt} current for {symbol}")
         temperment = "+"
         cash = self.get_cash()
         fcf_t = r*b/t 
@@ -55,9 +55,9 @@ class MLTrader(Strategy):
             slope = self.slope_extract(list)
             if slope > 0 and cash > (b - (r*b)): #keeps budget floor
                 qty_t = round(fcf_t/lpt,0)
-                print (f"{qty_t} qty determined.")
+                # print (f"{qty_t} qty determined.")
             else:
-                print (f"conditions not met, PROC= {slope} current cash = {cash}, willing {b-(r*b)}.")
+                # print (f"conditions not met, PROC= {slope} current cash = {cash}, willing {b-(r*b)}.")
                 qty_t = 0
                 temperment = '-'
 
@@ -109,11 +109,12 @@ class MLTrader(Strategy):
                 self.cash_history+= qty_f*lpt
                 if self.get_cash() - self.cash_history > self.initial_budget - (self.risk_p * self.initial_budget): #ensures that budget floor is mantained
                     self.order.append(self.create_order(symbol, quantity= qty_f, side = 'buy'))
-                    self.diary[datetimestring] = [lpt, qty_f, symbol] #creating diary of date as key, buy price and quantity as values
+                    # self.diary[datetimestring] = [lpt, qty_f, symbol] #creating diary of date as key, buy price and quantity as values
                 else:
-                    print (f"Trade not added: current cost for purchase: {qty_f*lpt}, current cash requirement for orders = {self.cash_history}, current cash available = {self.get_cash()}, current floor = {self.initial_budget - (self.risk_p * self.initial_budget)}")
+                    # print (f"Trade not added: current cost for purchase: {qty_f*lpt}, current cash requirement for orders = {self.cash_history}, current cash available = {self.get_cash()}, current floor = {self.initial_budget - (self.risk_p * self.initial_budget)}")
                     self.cash_history-= qty_f*lpt
             #iterate over buy data dict
+            self.fetch_diary()
             for date, details in self.diary.items():
                 date1 = datetime.strptime(today, '%Y-%m-%d').date()
                 date2 = self.extract_date(date)
@@ -123,22 +124,22 @@ class MLTrader(Strategy):
                 lpt = self.get_last_price(symbol)
                 difference_in_days = date1 - date2 #counter for days passed
                 
-                if current_tick ==symbol:
-                    print(f"Current strat - sell {qty_f} of {current_tick} if {lpt} drops below {round(ppt*lossexitper,2)} or >= to {round(ppt*highexit,2)}, right now holding for {difference_in_days} days - if between 15 and 30 days then sell at anywhere b/w {round(ppt*highexit,2)} and {round(ppt*midexit,2)}  - if more than 30 days then sell at anywhere b/w {round(ppt*midexit,2)} and {round(ppt*lowexit,2)}")
+                # if current_tick ==symbol:
+                    # print(f"Current strat - sell {qty_f} of {current_tick} if {lpt} drops below {round(ppt*lossexitper,2)} or >= to {round(ppt*highexit,2)}, right now holding for {difference_in_days} days - if between 15 and 30 days then sell at anywhere b/w {round(ppt*highexit,2)} and {round(ppt*midexit,2)}  - if more than 30 days then sell at anywhere b/w {round(ppt*midexit,2)} and {round(ppt*lowexit,2)}")
                 if current_tick == symbol and qty_f > 0 and lpt <= details[0]*lossexitper : #doesn't matter time passed - if ur 99.5% or below, sell that position
-                    print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
+                    # print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
                     orderamt += details[1]
                     self.order.append(self.create_order(current_tick, quantity= qty_f, side = "sell" ))
                     details[1] = 0  # quantity gets zeroed
 
                 if current_tick == symbol and qty_f > 0 and lpt >= details[0]*highexit : #doesn't matter time passed - if ur 15% above, sell that position
-                    print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
+                    # print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
                     orderamt += details[1]
                     self.order.append(self.create_order(current_tick, quantity= qty_f, side = "sell" ))
                     details[1] = 0  # quantity gets zeroed
                     
                 if current_tick == symbol and qty_f > 0 and int(difference_in_days.days) >=30 and details[0]*midexit > lpt>= details[0]*lowexit: # if the days passed are over 30, then sell possiitions taking all profits you can
-                    print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
+                    # print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
                     orderamt += details[1]
                     self.order.append(self.create_order(current_tick, quantity= qty_f, side = "sell" ))
                     details[1] = 0
@@ -146,12 +147,8 @@ class MLTrader(Strategy):
                     orderamt += details[1]
                     self.order.append(self.create_order(current_tick, quantity= qty_f, side = "sell" ))  
                     details[1] = 0
-        else:
-            print (f"Collecting 5 iterations for {symbol}. Currently at {len(self.data[symbol])}")    
-
-        # if orderamt > 0:
-        #     self.order.append(self.create_order(current_tick, quantity= orderamt, side = "sell" )) #Make a sell with the order amount - determined from above. 
-        #     orderamt = 0
+        # else:
+            # print (f"Collecting 5 iterations for {symbol}. Currently at {len(self.data[symbol])}")    
 
     def get_dates(self): 
         today = self.get_datetime()
@@ -173,7 +170,7 @@ class MLTrader(Strategy):
         date_part = datetime.strptime(date_part, '%Y-%m-%d').date()
         return date_part
 
-    def before_starting_trading(self): #Necessary for live trading - need to be commented for backtesting
+    def fetch_diary(self):
         today = self.get_datetime().strftime('%Y-%m-%d')
         self.headers = {"accept": "application/json", "APCA-API-KEY-ID": API_KEY, "APCA-API-SECRET-KEY": API_SECRET}
         self.response = requests.get(POSITIONS_URL, headers= self.headers)
@@ -183,6 +180,9 @@ class MLTrader(Strategy):
                 time = random.getrandbits(128)
                 datetimestring = today + " , " + str(time)
                 self.diary[datetimestring] = [float(diction['avg_entry_price']),float(diction['qty']), diction['symbol']] 
+
+    def before_starting_trading(self): #Necessary for live trading - need to be commented for backtesting
+        self.fetch_diary()
     
     
     def on_trading_iteration(self):
@@ -192,8 +192,12 @@ class MLTrader(Strategy):
         for items in self.symbol:
             self.slope_session(items)
         if len(self.order) > 0:
-            print (self.order)
+            
+            # print (self.order)
             for order in self.order:
+                print (order.quantity)
+                # print (self.get_last_price(order.symbol))
+                print (f"total cost of {order.quantity} for {self.get_last_price(order.asset)} = {float(order.quantity)*float(self.get_last_price(order.asset))}")
                 self.submit_order(order)
             # self.submit_orders(self.order)
             self.order.clear()
@@ -202,7 +206,7 @@ class MLTrader(Strategy):
 
             
 start_date = datetime(2023,1,1)
-end_date = datetime(2023,12,31) 
+end_date = datetime(2023,3,31) 
 broker = Alpaca(ALPACA_CREDS) 
 strategy = MLTrader(name='mlstrat', broker=broker, budget = 100000, 
                     parameters={"symbol":tickertest, 
@@ -213,13 +217,13 @@ data_source = PolygonDataBacktesting(
     api_key= POLYGONKEY,
     has_paid_subscription=False,  # Set this to True if you have a paid subscription to polygon.io (False assumes you are using the free tier)
 )
-# strategy.backtest(
-#     PolygonDataBacktesting, 
-#     start_date, 
-#     end_date, 
-#     benchmark_asset = 'SPY',
-#     api_key=POLYGONKEY,
-# )
-trader = Trader()
-trader.add_strategy(strategy)
-trader.run_all()
+strategy.backtest(
+    PolygonDataBacktesting, 
+    start_date, 
+    end_date, 
+    benchmark_asset = 'SPY',
+    api_key=POLYGONKEY,
+)
+# trader = Trader()
+# trader.add_strategy(strategy)
+# trader.run_all()
