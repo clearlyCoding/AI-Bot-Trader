@@ -109,11 +109,12 @@ class MLTrader(Strategy):
                 self.cash_history+= qty_f*lpt
                 if self.get_cash() - self.cash_history > self.initial_budget - (self.risk_p * self.initial_budget): #ensures that budget floor is mantained
                     self.order.append(self.create_order(symbol, quantity= qty_f, side = 'buy'))
-                    self.diary[datetimestring] = [lpt, qty_f, symbol] #creating diary of date as key, buy price and quantity as values
+                    # self.diary[datetimestring] = [lpt, qty_f, symbol] #creating diary of date as key, buy price and quantity as values
                 else:
                     print (f"Trade not added: current cost for purchase: {qty_f*lpt}, current cash requirement for orders = {self.cash_history}, current cash available = {self.get_cash()}, current floor = {self.initial_budget - (self.risk_p * self.initial_budget)}")
                     self.cash_history-= qty_f*lpt
             #iterate over buy data dict
+            self.fetch_diary()
             for date, details in self.diary.items():
                 date1 = datetime.strptime(today, '%Y-%m-%d').date()
                 date2 = self.extract_date(date)
@@ -173,7 +174,8 @@ class MLTrader(Strategy):
         date_part = datetime.strptime(date_part, '%Y-%m-%d').date()
         return date_part
 
-    def before_starting_trading(self): #Necessary for live trading - need to be commented for backtesting
+    def fetch_diary(self):
+        self.diary.clear
         today = self.get_datetime().strftime('%Y-%m-%d')
         self.headers = {"accept": "application/json", "APCA-API-KEY-ID": API_KEY, "APCA-API-SECRET-KEY": API_SECRET}
         self.response = requests.get(POSITIONS_URL, headers= self.headers)
@@ -183,7 +185,9 @@ class MLTrader(Strategy):
                 time = random.getrandbits(128)
                 datetimestring = today + " , " + str(time)
                 self.diary[datetimestring] = [float(diction['avg_entry_price']),float(diction['qty']), diction['symbol']] 
-    
+
+    def before_starting_trading(self): #Necessary for live trading - need to be commented for backtesting
+        self.fetch_diary()
     
     def on_trading_iteration(self):
         
@@ -213,13 +217,13 @@ data_source = PolygonDataBacktesting(
     api_key= POLYGONKEY,
     has_paid_subscription=False,  # Set this to True if you have a paid subscription to polygon.io (False assumes you are using the free tier)
 )
-# strategy.backtest(
-#     PolygonDataBacktesting, 
-#     start_date, 
-#     end_date, 
-#     benchmark_asset = 'SPY',
-#     api_key=POLYGONKEY,
-# )
-trader = Trader()
-trader.add_strategy(strategy)
-trader.run_all()
+strategy.backtest(
+    PolygonDataBacktesting, 
+    start_date, 
+    end_date, 
+    benchmark_asset = 'SPY',
+    api_key=POLYGONKEY,
+)
+# trader = Trader()
+# trader.add_strategy(strategy)
+# trader.run_all()
