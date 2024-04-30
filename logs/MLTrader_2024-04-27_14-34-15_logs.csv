@@ -1,0 +1,61 @@
+2024-04-27 14:34:17,367: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-04-27 14:34:19,011: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-04-27 14:34:19,016: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-27 14:34:19,016: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-04-27 14:34:19,016: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-27 14:34:20,090: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 14:34:20[0m
+2024-04-27 14:34:25,527: root: INFO: Invalidating cache for NVDA because its splits have changed.
+2024-04-27 14:38:52,164: root: INFO: Invalidating cache for SOXX because its splits have changed.
+2024-04-27 14:43:08,265: root: INFO: Invalidating cache for AAPL because its splits have changed.
+2024-04-27 14:47:32,878: root: INFO: Invalidating cache for SPY because its splits have changed.
+2024-04-27 14:52:24,219: alpaca.trading.stream: WARNING: trading stream websocket error, restarting  connection: no close frame received or sent
+2024-04-27 14:52:24,230: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-04-27 14:52:24,600: alpaca.trading.stream: INFO: connected to: BaseURL.TRADING_STREAM_PAPER
+2024-04-27 14:53:37,426: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-27 14:53:37[0m
+2024-04-27 14:53:37,426: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-27 14:53:37,426: root: INFO: Current backtesting datetime 2023-01-03 09:30:01-05:00
+2024-04-27 14:53:37,426: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 14:53:37[0m
+2024-04-27 14:53:37,434: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-27 14:53:37[0m
+2024-04-27 14:53:37,434: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-27 14:53:37,434: root: INFO: Current backtesting datetime 2023-01-03 09:30:02-05:00
+2024-04-27 14:53:37,434: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 14:53:37[0m
+2024-04-27 14:53:37,442: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-27 14:53:37[0m
+2024-04-27 14:53:37,442: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-27 14:53:37,442: root: INFO: Current backtesting datetime 2023-01-03 09:30:03-05:00
+2024-04-27 14:53:37,442: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 14:53:37[0m
+2024-04-27 14:53:37,450: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-27 14:53:37[0m
+2024-04-27 14:53:37,450: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-27 14:53:37,450: root: INFO: Current backtesting datetime 2023-01-03 09:30:04-05:00
+2024-04-27 14:53:37,450: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 14:53:37[0m
+2024-04-27 14:53:42,872: asyncio: ERROR: [MLTrader] 'Order' object has no attribute 'qty'
+2024-04-27 14:53:42,945: asyncio: ERROR: [MLTrader] Traceback (most recent call last):
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\Documents\GitHub\AI-Bot-Trader\MarketBot.py", line 202, in on_trading_iteration
+    total+= order.qty*self.get_last_price(order.symbol)
+            ^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'qty'
+
+2024-04-27 14:53:42,945: asyncio: INFO: [MLTrader] Executing the on_bot_crash event method
+2024-04-27 14:53:47,790: root: INFO: Backtesting finished
+2024-04-27 14:53:49,060: root: INFO: There were no trades in this backtest.
+2024-04-27 14:53:50,157: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-04-27 14:53:50,165: backtest_stats: INFO: Backtest took 0:19:32.805249 for a speed of 0.000

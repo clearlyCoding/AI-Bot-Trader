@@ -1,0 +1,57 @@
+2024-04-27 15:36:29,911: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-04-27 15:36:31,468: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-04-27 15:36:31,468: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-27 15:36:31,468: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-04-27 15:36:31,468: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-27 15:36:32,292: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 15:36:32[0m
+2024-04-27 15:36:38,722: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-27 15:36:38[0m
+2024-04-27 15:36:38,722: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-27 15:36:38,722: root: INFO: Current backtesting datetime 2023-01-03 09:30:01-05:00
+2024-04-27 15:36:38,722: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 15:36:38[0m
+2024-04-27 15:36:38,722: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-27 15:36:38[0m
+2024-04-27 15:36:38,722: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-27 15:36:38,730: root: INFO: Current backtesting datetime 2023-01-03 09:30:02-05:00
+2024-04-27 15:36:38,730: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 15:36:38[0m
+2024-04-27 15:36:38,730: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-27 15:36:38[0m
+2024-04-27 15:36:38,730: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-27 15:36:38,730: root: INFO: Current backtesting datetime 2023-01-03 09:30:03-05:00
+2024-04-27 15:36:38,730: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 15:36:38[0m
+2024-04-27 15:36:38,730: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-27 15:36:38[0m
+2024-04-27 15:36:38,730: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-27 15:36:38,730: root: INFO: Current backtesting datetime 2023-01-03 09:30:04-05:00
+2024-04-27 15:36:38,730: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 15:36:38[0m
+2024-04-27 15:36:38,738: asyncio: ERROR: [MLTrader] str() argument 'encoding' must be str, not int
+2024-04-27 15:36:38,746: asyncio: ERROR: [MLTrader] Traceback (most recent call last):
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\Documents\GitHub\AI-Bot-Trader\MarketBot.py", line 227, in on_trading_iteration
+    total =self.check_buy_orders (reduce = True, factor =1/i)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\Documents\GitHub\AI-Bot-Trader\MarketBot.py", line 208, in check_buy_orders
+    order.quantity = str(round(float(order.quantity)*factor),0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str() argument 'encoding' must be str, not int
+
+2024-04-27 15:36:38,746: asyncio: INFO: [MLTrader] Executing the on_bot_crash event method
+2024-04-27 15:36:40,859: root: INFO: Backtesting finished
+2024-04-27 15:36:41,297: root: INFO: There were no trades in this backtest.
+2024-04-27 15:36:42,298: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-04-27 15:36:42,298: backtest_stats: INFO: Backtest took 0:00:12.407919 for a speed of 0.000
