@@ -1,0 +1,772 @@
+2024-05-01 11:12:06,038: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-05-01 11:12:07,645: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-05-01 11:12:07,646: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 11:12:07,647: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-05-01 11:12:07,647: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 11:12:08,156: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:08[0m
+2024-05-01 11:12:16,684: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:16,688: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:16,691: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:16,694: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:16,697: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:16,700: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:16[0m
+2024-05-01 11:12:16,700: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:16,705: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $148.51 with status fill[0m
+2024-05-01 11:12:16,708: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:16,712: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $148.51 with status fill[0m
+2024-05-01 11:12:16,714: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:16,718: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $117.96 with status fill[0m
+2024-05-01 11:12:16,720: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:16,725: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $117.96 with status fill[0m
+2024-05-01 11:12:16,727: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:16,730: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $117.96 with status fill[0m
+2024-05-01 11:12:16,733: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:16,734: root: INFO: Current backtesting datetime 2023-01-03 16:00:00-05:00
+2024-05-01 11:12:16,734: root: INFO: Current backtesting datetime 2023-01-04 09:30:00-05:00
+2024-05-01 11:12:16,735: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:16[0m
+2024-05-01 11:12:18,881: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:18,885: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:18,888: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:18,891: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:18,893: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:18,896: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:18,899: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:18,902: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:18,905: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:18[0m
+2024-05-01 11:12:18,906: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:18,910: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $145.67 with status fill[0m
+2024-05-01 11:12:18,912: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:18,917: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $145.67 with status fill[0m
+2024-05-01 11:12:18,919: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:18,922: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $145.67 with status fill[0m
+2024-05-01 11:12:18,924: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:18,928: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $145.67 with status fill[0m
+2024-05-01 11:12:18,930: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:18,934: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $117.05 with status fill[0m
+2024-05-01 11:12:18,936: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:18,940: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $117.05 with status fill[0m
+2024-05-01 11:12:18,942: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:18,946: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $117.05 with status fill[0m
+2024-05-01 11:12:18,948: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:18,952: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $117.05 with status fill[0m
+2024-05-01 11:12:18,954: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:18,956: root: INFO: Current backtesting datetime 2023-01-04 16:00:00-05:00
+2024-05-01 11:12:18,956: root: INFO: Current backtesting datetime 2023-01-05 09:30:00-05:00
+2024-05-01 11:12:18,957: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:18[0m
+2024-05-01 11:12:21,010: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:21,015: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:21,018: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:21,021: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:21,024: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:21,027: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:21,030: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:21,033: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:21,036: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:21[0m
+2024-05-01 11:12:21,036: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:21,041: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $144.91 with status fill[0m
+2024-05-01 11:12:21,043: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:21,047: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $144.91 with status fill[0m
+2024-05-01 11:12:21,049: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:21,053: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $144.91 with status fill[0m
+2024-05-01 11:12:21,055: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:21,059: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $144.91 with status fill[0m
+2024-05-01 11:12:21,061: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:21,065: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $116.66 with status fill[0m
+2024-05-01 11:12:21,067: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:21,071: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $116.66 with status fill[0m
+2024-05-01 11:12:21,073: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:21,077: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $116.66 with status fill[0m
+2024-05-01 11:12:21,079: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:21,082: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $116.66 with status fill[0m
+2024-05-01 11:12:21,085: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:21,086: root: INFO: Current backtesting datetime 2023-01-05 16:00:00-05:00
+2024-05-01 11:12:21,087: root: INFO: Current backtesting datetime 2023-01-06 09:30:00-05:00
+2024-05-01 11:12:21,087: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:21[0m
+2024-05-01 11:12:23,139: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:23,143: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:23,146: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:23,149: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:23,152: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:23,155: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:23,158: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:23,161: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:23,164: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:23[0m
+2024-05-01 11:12:23,164: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:23,169: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $144.74 with status fill[0m
+2024-05-01 11:12:23,171: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:23,176: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $144.74 with status fill[0m
+2024-05-01 11:12:23,178: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:23,182: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $144.74 with status fill[0m
+2024-05-01 11:12:23,184: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:23,188: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $144.74 with status fill[0m
+2024-05-01 11:12:23,190: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:23,194: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $117.4 with status fill[0m
+2024-05-01 11:12:23,196: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:23,199: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $117.4 with status fill[0m
+2024-05-01 11:12:23,201: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:23,205: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $117.4 with status fill[0m
+2024-05-01 11:12:23,207: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:23,211: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $117.4 with status fill[0m
+2024-05-01 11:12:23,214: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:23,215: root: INFO: Current backtesting datetime 2023-01-06 16:00:00-05:00
+2024-05-01 11:12:23,216: root: INFO: Current backtesting datetime 2023-01-07 09:30:00-05:00
+2024-05-01 11:12:23,217: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-01 11:12:23,218: root: INFO: Current backtesting datetime 2023-01-07 09:29:00-05:00
+2024-05-01 11:12:23,220: root: INFO: Current backtesting datetime 2023-01-07 09:29:00-05:00
+2024-05-01 11:12:23,220: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-05-01 11:12:23,220: root: INFO: Current backtesting datetime 2023-01-09 08:30:00-05:00
+2024-05-01 11:12:23,221: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 11:12:23,222: root: INFO: Current backtesting datetime 2023-01-09 09:30:00-05:00
+2024-05-01 11:12:23,222: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 11:12:23,732: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:23[0m
+2024-05-01 11:12:25,808: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 123.0 NVDA buy | with status new[0m
+2024-05-01 11:12:25,812: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:25,815: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:25,818: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:25,821: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:25,824: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:25,827: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 152.0 SOXX buy | with status new[0m
+2024-05-01 11:12:25,830: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:25,833: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:25,836: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:25,839: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:25,842: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:25,846: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 48.0 SPY buy | with status new[0m
+2024-05-01 11:12:25,865: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:25[0m
+2024-05-01 11:12:25,865: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:25,870: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 123.0 NVDA buy | at price $152.84 with status fill[0m
+2024-05-01 11:12:25,872: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:25,877: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $152.84 with status fill[0m
+2024-05-01 11:12:25,879: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:25,883: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $152.84 with status fill[0m
+2024-05-01 11:12:25,885: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:25,889: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $152.84 with status fill[0m
+2024-05-01 11:12:25,891: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:25,895: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $152.84 with status fill[0m
+2024-05-01 11:12:25,897: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:25,901: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $152.84 with status fill[0m
+2024-05-01 11:12:25,903: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:25,907: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 152.0 SOXX buy | at price $123.45 with status fill[0m
+2024-05-01 11:12:25,909: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:25,913: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $123.45 with status fill[0m
+2024-05-01 11:12:25,915: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:25,919: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $123.45 with status fill[0m
+2024-05-01 11:12:25,921: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:25,924: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $123.45 with status fill[0m
+2024-05-01 11:12:25,926: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:25,930: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $123.45 with status fill[0m
+2024-05-01 11:12:25,932: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:25,936: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $123.45 with status fill[0m
+2024-05-01 11:12:25,938: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:12:25,942: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 48.0 SPY buy | at price $390.37 with status fill[0m
+2024-05-01 11:12:25,945: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:25,946: root: INFO: Current backtesting datetime 2023-01-09 16:00:00-05:00
+2024-05-01 11:12:25,947: root: INFO: Current backtesting datetime 2023-01-10 09:30:00-05:00
+2024-05-01 11:12:25,948: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:25[0m
+2024-05-01 11:12:28,029: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 121.0 NVDA buy | with status new[0m
+2024-05-01 11:12:28,034: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:28,037: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:28,039: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:28,043: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:28,045: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 152.0 SOXX buy | with status new[0m
+2024-05-01 11:12:28,048: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:28,051: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:28,054: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:28,057: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:28,060: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 144.0 AAPL buy | with status new[0m
+2024-05-01 11:12:28,063: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 48.0 SPY buy | with status new[0m
+2024-05-01 11:12:28,067: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:28[0m
+2024-05-01 11:12:28,067: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:28,071: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 121.0 NVDA buy | at price $155.07 with status fill[0m
+2024-05-01 11:12:28,074: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:28,078: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $155.07 with status fill[0m
+2024-05-01 11:12:28,080: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:28,084: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $155.07 with status fill[0m
+2024-05-01 11:12:28,086: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:28,090: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $155.07 with status fill[0m
+2024-05-01 11:12:28,092: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:28,096: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $155.07 with status fill[0m
+2024-05-01 11:12:28,098: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:28,102: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 152.0 SOXX buy | at price $123.03 with status fill[0m
+2024-05-01 11:12:28,104: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:28,108: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $123.03 with status fill[0m
+2024-05-01 11:12:28,110: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:28,114: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $123.03 with status fill[0m
+2024-05-01 11:12:28,116: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:28,120: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $123.03 with status fill[0m
+2024-05-01 11:12:28,122: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:28,126: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $123.03 with status fill[0m
+2024-05-01 11:12:28,128: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:28,132: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 144.0 AAPL buy | at price $130.26 with status fill[0m
+2024-05-01 11:12:28,134: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:12:28,138: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 48.0 SPY buy | at price $387.25 with status fill[0m
+2024-05-01 11:12:28,142: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:28,143: root: INFO: Current backtesting datetime 2023-01-10 16:00:00-05:00
+2024-05-01 11:12:28,143: root: INFO: Current backtesting datetime 2023-01-11 09:30:00-05:00
+2024-05-01 11:12:28,144: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:28[0m
+2024-05-01 11:12:30,230: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 118.0 NVDA buy | with status new[0m
+2024-05-01 11:12:30,234: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:30,237: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:30,240: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:30,243: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:30,246: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 150.0 SOXX buy | with status new[0m
+2024-05-01 11:12:30,249: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:30,253: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:30,255: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:30,258: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:30,261: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 143.0 AAPL buy | with status new[0m
+2024-05-01 11:12:30,264: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 48.0 SPY buy | with status new[0m
+2024-05-01 11:12:30,268: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:30[0m
+2024-05-01 11:12:30,268: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:30,272: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 118.0 NVDA buy | at price $158.4 with status fill[0m
+2024-05-01 11:12:30,275: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:30,279: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $158.4 with status fill[0m
+2024-05-01 11:12:30,281: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:30,285: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $158.4 with status fill[0m
+2024-05-01 11:12:30,287: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:30,290: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $158.4 with status fill[0m
+2024-05-01 11:12:30,293: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:30,297: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $158.4 with status fill[0m
+2024-05-01 11:12:30,299: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:30,302: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 150.0 SOXX buy | at price $125.13 with status fill[0m
+2024-05-01 11:12:30,304: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:30,308: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $125.13 with status fill[0m
+2024-05-01 11:12:30,310: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:30,314: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $125.13 with status fill[0m
+2024-05-01 11:12:30,316: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:30,320: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $125.13 with status fill[0m
+2024-05-01 11:12:30,322: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:30,326: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $125.13 with status fill[0m
+2024-05-01 11:12:30,328: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:30,332: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 143.0 AAPL buy | at price $131.25 with status fill[0m
+2024-05-01 11:12:30,334: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:12:30,338: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 48.0 SPY buy | at price $392.23 with status fill[0m
+2024-05-01 11:12:30,341: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:30,342: root: INFO: Current backtesting datetime 2023-01-11 16:00:00-05:00
+2024-05-01 11:12:30,343: root: INFO: Current backtesting datetime 2023-01-12 09:30:00-05:00
+2024-05-01 11:12:30,344: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:30[0m
+2024-05-01 11:12:32,435: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 116.0 NVDA buy | with status new[0m
+2024-05-01 11:12:32,439: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:32,442: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:32,445: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:32,448: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:32,451: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 147.0 SOXX buy | with status new[0m
+2024-05-01 11:12:32,454: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:32,457: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:32,460: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:32,463: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:32,466: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 140.0 AAPL buy | with status new[0m
+2024-05-01 11:12:32,469: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 47.0 SPY buy | with status new[0m
+2024-05-01 11:12:32,472: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:32[0m
+2024-05-01 11:12:32,472: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:32,477: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 116.0 NVDA buy | at price $161.0 with status fill[0m
+2024-05-01 11:12:32,479: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:32,493: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $161.0 with status fill[0m
+2024-05-01 11:12:32,495: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:32,499: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $161.0 with status fill[0m
+2024-05-01 11:12:32,501: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:32,505: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $161.0 with status fill[0m
+2024-05-01 11:12:32,507: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:32,511: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $161.0 with status fill[0m
+2024-05-01 11:12:32,513: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:32,517: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 147.0 SOXX buy | at price $127.35 with status fill[0m
+2024-05-01 11:12:32,519: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:32,523: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $127.35 with status fill[0m
+2024-05-01 11:12:32,525: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:32,529: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $127.35 with status fill[0m
+2024-05-01 11:12:32,531: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:32,535: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $127.35 with status fill[0m
+2024-05-01 11:12:32,537: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:32,541: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $127.35 with status fill[0m
+2024-05-01 11:12:32,543: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:32,547: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 140.0 AAPL buy | at price $133.88 with status fill[0m
+2024-05-01 11:12:32,549: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:12:32,553: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 47.0 SPY buy | at price $396.67 with status fill[0m
+2024-05-01 11:12:32,556: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:32,557: root: INFO: Current backtesting datetime 2023-01-12 16:00:00-05:00
+2024-05-01 11:12:32,557: root: INFO: Current backtesting datetime 2023-01-13 09:30:00-05:00
+2024-05-01 11:12:32,558: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:32[0m
+2024-05-01 11:12:34,639: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 115.0 NVDA buy | with status new[0m
+2024-05-01 11:12:34,644: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:34,647: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:34,650: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:34,653: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:34,656: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 148.0 SOXX buy | with status new[0m
+2024-05-01 11:12:34,659: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:34,662: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:34,665: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:34,668: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:34,671: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 142.0 AAPL buy | with status new[0m
+2024-05-01 11:12:34,674: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 48.0 SPY buy | with status new[0m
+2024-05-01 11:12:34,677: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:34[0m
+2024-05-01 11:12:34,677: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:34,681: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 115.0 NVDA buy | at price $162.78 with status fill[0m
+2024-05-01 11:12:34,684: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:34,688: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $162.78 with status fill[0m
+2024-05-01 11:12:34,690: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:34,694: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $162.78 with status fill[0m
+2024-05-01 11:12:34,696: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:34,700: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $162.78 with status fill[0m
+2024-05-01 11:12:34,702: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:34,706: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $162.78 with status fill[0m
+2024-05-01 11:12:34,708: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:34,712: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 148.0 SOXX buy | at price $126.54 with status fill[0m
+2024-05-01 11:12:34,714: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:34,718: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $126.54 with status fill[0m
+2024-05-01 11:12:34,720: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:34,724: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $126.54 with status fill[0m
+2024-05-01 11:12:34,726: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:34,730: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $126.54 with status fill[0m
+2024-05-01 11:12:34,732: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:34,736: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $126.54 with status fill[0m
+2024-05-01 11:12:34,738: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:34,742: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 142.0 AAPL buy | at price $132.03 with status fill[0m
+2024-05-01 11:12:34,744: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:12:34,748: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 48.0 SPY buy | at price $393.62 with status fill[0m
+2024-05-01 11:12:34,751: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:34,752: root: INFO: Current backtesting datetime 2023-01-13 16:00:00-05:00
+2024-05-01 11:12:34,752: root: INFO: Current backtesting datetime 2023-01-14 09:30:00-05:00
+2024-05-01 11:12:34,754: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-01 11:12:34,756: root: INFO: Current backtesting datetime 2023-01-14 09:29:00-05:00
+2024-05-01 11:12:34,757: root: INFO: Current backtesting datetime 2023-01-14 09:29:00-05:00
+2024-05-01 11:12:34,757: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-05-01 11:12:34,758: root: INFO: Current backtesting datetime 2023-01-17 08:30:00-05:00
+2024-05-01 11:12:34,758: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 11:12:34,759: root: INFO: Current backtesting datetime 2023-01-17 09:30:00-05:00
+2024-05-01 11:12:34,759: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 11:12:35,268: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:35[0m
+2024-05-01 11:12:37,367: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 111.0 NVDA buy | with status new[0m
+2024-05-01 11:12:37,371: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:37,374: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:37,377: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:37,380: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:37,384: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:37,387: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 146.0 SOXX buy | with status new[0m
+2024-05-01 11:12:37,390: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:37,393: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:37,396: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:37,399: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:37,402: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:37,405: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 139.0 AAPL buy | with status new[0m
+2024-05-01 11:12:37,408: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 47.0 SPY buy | with status new[0m
+2024-05-01 11:12:37,411: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:37[0m
+2024-05-01 11:12:37,412: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:37,416: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 111.0 NVDA buy | at price $168.99 with status fill[0m
+2024-05-01 11:12:37,419: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:37,423: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $168.99 with status fill[0m
+2024-05-01 11:12:37,425: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:37,429: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $168.99 with status fill[0m
+2024-05-01 11:12:37,431: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:37,435: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $168.99 with status fill[0m
+2024-05-01 11:12:37,437: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:37,441: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $168.99 with status fill[0m
+2024-05-01 11:12:37,443: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:37,447: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $168.99 with status fill[0m
+2024-05-01 11:12:37,449: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:37,453: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 146.0 SOXX buy | at price $128.3 with status fill[0m
+2024-05-01 11:12:37,455: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:37,459: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $128.3 with status fill[0m
+2024-05-01 11:12:37,461: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:37,465: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $128.3 with status fill[0m
+2024-05-01 11:12:37,468: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:37,471: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $128.3 with status fill[0m
+2024-05-01 11:12:37,473: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:37,477: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $128.3 with status fill[0m
+2024-05-01 11:12:37,479: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:37,484: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $128.3 with status fill[0m
+2024-05-01 11:12:37,486: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:37,490: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 139.0 AAPL buy | at price $134.83 with status fill[0m
+2024-05-01 11:12:37,493: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:12:37,497: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 47.0 SPY buy | at price $398.48 with status fill[0m
+2024-05-01 11:12:37,499: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:37,501: root: INFO: Current backtesting datetime 2023-01-17 16:00:00-05:00
+2024-05-01 11:12:37,501: root: INFO: Current backtesting datetime 2023-01-18 09:30:00-05:00
+2024-05-01 11:12:37,502: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:37[0m
+2024-05-01 11:12:39,624: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 106.0 NVDA buy | with status new[0m
+2024-05-01 11:12:39,628: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:39,631: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:39,634: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:39,637: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:39,640: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 144.0 SOXX buy | with status new[0m
+2024-05-01 11:12:39,643: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:39,646: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:39,649: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:39,652: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:39,655: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 137.0 AAPL buy | with status new[0m
+2024-05-01 11:12:39,658: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 47.0 SPY buy | with status new[0m
+2024-05-01 11:12:39,661: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:39[0m
+2024-05-01 11:12:39,661: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:39,666: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 106.0 NVDA buy | at price $176.67 with status fill[0m
+2024-05-01 11:12:39,668: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:39,672: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $176.67 with status fill[0m
+2024-05-01 11:12:39,674: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:39,678: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $176.67 with status fill[0m
+2024-05-01 11:12:39,680: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:39,684: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $176.67 with status fill[0m
+2024-05-01 11:12:39,686: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:39,690: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $176.67 with status fill[0m
+2024-05-01 11:12:39,692: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:39,696: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 144.0 SOXX buy | at price $130.33 with status fill[0m
+2024-05-01 11:12:39,698: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:39,702: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $130.33 with status fill[0m
+2024-05-01 11:12:39,704: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:39,708: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $130.33 with status fill[0m
+2024-05-01 11:12:39,710: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:39,714: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $130.33 with status fill[0m
+2024-05-01 11:12:39,716: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:39,721: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $130.33 with status fill[0m
+2024-05-01 11:12:39,723: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:39,726: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 137.0 AAPL buy | at price $136.81 with status fill[0m
+2024-05-01 11:12:39,728: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:12:39,732: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 47.0 SPY buy | at price $399.01 with status fill[0m
+2024-05-01 11:12:39,735: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:39,737: root: INFO: Current backtesting datetime 2023-01-18 16:00:00-05:00
+2024-05-01 11:12:39,737: root: INFO: Current backtesting datetime 2023-01-19 09:30:00-05:00
+2024-05-01 11:12:39,738: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:39[0m
+2024-05-01 11:12:41,862: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 110.0 NVDA buy | with status new[0m
+2024-05-01 11:12:41,867: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:41,870: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:41,874: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:41,876: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:41,879: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 148.0 SOXX buy | with status new[0m
+2024-05-01 11:12:41,882: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:41,885: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:41,888: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:41,891: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:41,894: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 140.0 AAPL buy | with status new[0m
+2024-05-01 11:12:41,898: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:41[0m
+2024-05-01 11:12:41,898: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:41,903: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 110.0 NVDA buy | at price $170.36 with status fill[0m
+2024-05-01 11:12:41,905: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:41,909: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $170.36 with status fill[0m
+2024-05-01 11:12:41,911: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:41,915: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $170.36 with status fill[0m
+2024-05-01 11:12:41,917: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:41,921: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $170.36 with status fill[0m
+2024-05-01 11:12:41,923: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:41,927: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $170.36 with status fill[0m
+2024-05-01 11:12:41,929: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:41,933: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 148.0 SOXX buy | at price $127.07 with status fill[0m
+2024-05-01 11:12:41,935: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:41,939: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $127.07 with status fill[0m
+2024-05-01 11:12:41,941: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:41,945: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $127.07 with status fill[0m
+2024-05-01 11:12:41,947: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:41,951: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $127.07 with status fill[0m
+2024-05-01 11:12:41,953: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:41,957: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $127.07 with status fill[0m
+2024-05-01 11:12:41,959: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:41,963: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 140.0 AAPL buy | at price $134.08 with status fill[0m
+2024-05-01 11:12:41,965: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:41,967: root: INFO: Current backtesting datetime 2023-01-19 16:00:00-05:00
+2024-05-01 11:12:41,967: root: INFO: Current backtesting datetime 2023-01-20 09:30:00-05:00
+2024-05-01 11:12:41,968: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:41[0m
+2024-05-01 11:12:44,097: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 110.0 NVDA buy | with status new[0m
+2024-05-01 11:12:44,101: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:44,105: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:44,108: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:44,111: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:44,114: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:44,117: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:44,120: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:44,123: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:44,126: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 139.0 AAPL buy | with status new[0m
+2024-05-01 11:12:44,129: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:44[0m
+2024-05-01 11:12:44,129: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:44,134: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 110.0 NVDA buy | at price $170.11 with status fill[0m
+2024-05-01 11:12:44,136: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:44,140: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $170.11 with status fill[0m
+2024-05-01 11:12:44,142: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:44,147: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $170.11 with status fill[0m
+2024-05-01 11:12:44,149: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:44,153: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $170.11 with status fill[0m
+2024-05-01 11:12:44,155: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:44,159: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $170.11 with status fill[0m
+2024-05-01 11:12:44,161: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:44,165: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $125.95 with status fill[0m
+2024-05-01 11:12:44,168: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:44,172: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $125.95 with status fill[0m
+2024-05-01 11:12:44,174: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:44,178: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $125.95 with status fill[0m
+2024-05-01 11:12:44,180: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:44,183: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $125.95 with status fill[0m
+2024-05-01 11:12:44,186: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:44,190: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 139.0 AAPL buy | at price $135.28 with status fill[0m
+2024-05-01 11:12:44,193: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:44,194: root: INFO: Current backtesting datetime 2023-01-20 16:00:00-05:00
+2024-05-01 11:12:44,195: root: INFO: Current backtesting datetime 2023-01-21 09:30:00-05:00
+2024-05-01 11:12:44,196: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-01 11:12:44,197: root: INFO: Current backtesting datetime 2023-01-21 09:29:00-05:00
+2024-05-01 11:12:44,198: root: INFO: Current backtesting datetime 2023-01-21 09:29:00-05:00
+2024-05-01 11:12:44,199: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-05-01 11:12:44,199: root: INFO: Current backtesting datetime 2023-01-23 08:30:00-05:00
+2024-05-01 11:12:44,200: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 11:12:44,201: root: INFO: Current backtesting datetime 2023-01-23 09:30:00-05:00
+2024-05-01 11:12:44,201: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 11:12:44,797: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:44[0m
+2024-05-01 11:12:46,958: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 104.0 NVDA buy | with status new[0m
+2024-05-01 11:12:46,963: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:46,966: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:46,969: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:46,972: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:46,975: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:46,978: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:46,981: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:46,984: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:46,987: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:46,990: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:46,994: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 136.0 AAPL buy | with status new[0m
+2024-05-01 11:12:46,997: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:46[0m
+2024-05-01 11:12:46,997: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:47,001: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 104.0 NVDA buy | at price $180.64 with status fill[0m
+2024-05-01 11:12:47,004: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:47,008: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $180.64 with status fill[0m
+2024-05-01 11:12:47,010: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:47,012: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $180.64 with status fill[0m
+2024-05-01 11:12:47,015: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:47,019: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $180.64 with status fill[0m
+2024-05-01 11:12:47,021: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:47,025: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $180.64 with status fill[0m
+2024-05-01 11:12:47,027: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:47,031: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $180.64 with status fill[0m
+2024-05-01 11:12:47,033: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:47,037: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $129.71 with status fill[0m
+2024-05-01 11:12:47,039: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:47,043: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $129.71 with status fill[0m
+2024-05-01 11:12:47,045: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:47,049: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $129.71 with status fill[0m
+2024-05-01 11:12:47,051: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:47,056: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $129.71 with status fill[0m
+2024-05-01 11:12:47,058: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:47,062: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $129.71 with status fill[0m
+2024-05-01 11:12:47,064: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:47,068: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 136.0 AAPL buy | at price $138.12 with status fill[0m
+2024-05-01 11:12:47,071: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:47,072: root: INFO: Current backtesting datetime 2023-01-23 16:00:00-05:00
+2024-05-01 11:12:47,072: root: INFO: Current backtesting datetime 2023-01-24 09:30:00-05:00
+2024-05-01 11:12:47,073: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:47[0m
+2024-05-01 11:12:49,209: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 100.0 NVDA buy | with status new[0m
+2024-05-01 11:12:49,213: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:49,216: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:49,219: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:49,222: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:49,225: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 141.0 SOXX buy | with status new[0m
+2024-05-01 11:12:49,229: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:49,231: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:49,234: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:49,237: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:49,240: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 134.0 AAPL buy | with status new[0m
+2024-05-01 11:12:49,243: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 47.0 SPY buy | with status new[0m
+2024-05-01 11:12:49,247: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:49[0m
+2024-05-01 11:12:49,247: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:49,251: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 100.0 NVDA buy | at price $188.27 with status fill[0m
+2024-05-01 11:12:49,254: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:49,258: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $188.27 with status fill[0m
+2024-05-01 11:12:49,260: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:49,265: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $188.27 with status fill[0m
+2024-05-01 11:12:49,267: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:49,271: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $188.27 with status fill[0m
+2024-05-01 11:12:49,273: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:49,278: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $188.27 with status fill[0m
+2024-05-01 11:12:49,280: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:49,284: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 141.0 SOXX buy | at price $133.32 with status fill[0m
+2024-05-01 11:12:49,286: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:49,290: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $133.32 with status fill[0m
+2024-05-01 11:12:49,292: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:49,296: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $133.32 with status fill[0m
+2024-05-01 11:12:49,299: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:49,302: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $133.32 with status fill[0m
+2024-05-01 11:12:49,305: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:49,309: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $133.32 with status fill[0m
+2024-05-01 11:12:49,311: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:49,315: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 134.0 AAPL buy | at price $140.31 with status fill[0m
+2024-05-01 11:12:49,318: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:12:49,321: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 47.0 SPY buy | at price $398.88 with status fill[0m
+2024-05-01 11:12:49,324: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:49,326: root: INFO: Current backtesting datetime 2023-01-24 16:00:00-05:00
+2024-05-01 11:12:49,326: root: INFO: Current backtesting datetime 2023-01-25 09:30:00-05:00
+2024-05-01 11:12:49,327: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:49[0m
+2024-05-01 11:12:51,503: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 99.0 NVDA buy | with status new[0m
+2024-05-01 11:12:51,508: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:51,511: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:51,514: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:51,517: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:51,520: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 142.0 SOXX buy | with status new[0m
+2024-05-01 11:12:51,523: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:51,526: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:51,530: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:51,533: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:51,536: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 133.0 AAPL buy | with status new[0m
+2024-05-01 11:12:51,539: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 47.0 SPY buy | with status new[0m
+2024-05-01 11:12:51,542: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:51[0m
+2024-05-01 11:12:51,542: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:51,547: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 99.0 NVDA buy | at price $189.12 with status fill[0m
+2024-05-01 11:12:51,550: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:51,554: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $189.12 with status fill[0m
+2024-05-01 11:12:51,556: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:51,560: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $189.12 with status fill[0m
+2024-05-01 11:12:51,562: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:51,566: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $189.12 with status fill[0m
+2024-05-01 11:12:51,568: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:51,572: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $189.12 with status fill[0m
+2024-05-01 11:12:51,575: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:51,579: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 142.0 SOXX buy | at price $131.59 with status fill[0m
+2024-05-01 11:12:51,581: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:51,585: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $131.59 with status fill[0m
+2024-05-01 11:12:51,587: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:51,591: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $131.59 with status fill[0m
+2024-05-01 11:12:51,593: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:51,597: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $131.59 with status fill[0m
+2024-05-01 11:12:51,599: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:51,603: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $131.59 with status fill[0m
+2024-05-01 11:12:51,605: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:51,609: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 133.0 AAPL buy | at price $140.89 with status fill[0m
+2024-05-01 11:12:51,611: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:12:51,615: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 47.0 SPY buy | at price $395.95 with status fill[0m
+2024-05-01 11:12:51,618: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:51,619: root: INFO: Current backtesting datetime 2023-01-25 16:00:00-05:00
+2024-05-01 11:12:51,619: root: INFO: Current backtesting datetime 2023-01-26 09:30:00-05:00
+2024-05-01 11:12:51,620: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:51[0m
+2024-05-01 11:12:53,788: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 95.0 NVDA buy | with status new[0m
+2024-05-01 11:12:53,792: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:53,795: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:53,798: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:53,801: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:53,804: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 138.0 SOXX buy | with status new[0m
+2024-05-01 11:12:53,807: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:53,810: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:53,813: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:53,816: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:53,819: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 131.0 AAPL buy | with status new[0m
+2024-05-01 11:12:53,822: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 47.0 SPY buy | with status new[0m
+2024-05-01 11:12:53,825: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:53[0m
+2024-05-01 11:12:53,825: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:53,830: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 95.0 NVDA buy | at price $197.01 with status fill[0m
+2024-05-01 11:12:53,832: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:53,837: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $197.01 with status fill[0m
+2024-05-01 11:12:53,839: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:53,843: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $197.01 with status fill[0m
+2024-05-01 11:12:53,845: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:53,849: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $197.01 with status fill[0m
+2024-05-01 11:12:53,851: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:53,855: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $197.01 with status fill[0m
+2024-05-01 11:12:53,857: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:53,861: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 138.0 SOXX buy | at price $135.85 with status fill[0m
+2024-05-01 11:12:53,863: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:53,867: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $135.85 with status fill[0m
+2024-05-01 11:12:53,869: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:53,873: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $135.85 with status fill[0m
+2024-05-01 11:12:53,875: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:53,879: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $135.85 with status fill[0m
+2024-05-01 11:12:53,881: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:53,885: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $135.85 with status fill[0m
+2024-05-01 11:12:53,887: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:53,891: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 131.0 AAPL buy | at price $143.17 with status fill[0m
+2024-05-01 11:12:53,893: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:12:53,897: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 47.0 SPY buy | at price $403.13 with status fill[0m
+2024-05-01 11:12:53,900: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:53,901: root: INFO: Current backtesting datetime 2023-01-26 16:00:00-05:00
+2024-05-01 11:12:53,901: root: INFO: Current backtesting datetime 2023-01-27 09:30:00-05:00
+2024-05-01 11:12:53,902: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:53[0m
+2024-05-01 11:12:56,054: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 96.0 NVDA buy | with status new[0m
+2024-05-01 11:12:56,058: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:56,061: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:56,065: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:56,068: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:56,071: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 140.0 SOXX buy | with status new[0m
+2024-05-01 11:12:56,074: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:56,076: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:56,079: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:56,082: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:56,085: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 131.0 AAPL buy | with status new[0m
+2024-05-01 11:12:56,088: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 SPY buy | with status new[0m
+2024-05-01 11:12:56,091: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:56[0m
+2024-05-01 11:12:56,091: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:56,096: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 96.0 NVDA buy | at price $194.62 with status fill[0m
+2024-05-01 11:12:56,099: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:56,102: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $194.62 with status fill[0m
+2024-05-01 11:12:56,105: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:56,108: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $194.62 with status fill[0m
+2024-05-01 11:12:56,110: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:56,114: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $194.62 with status fill[0m
+2024-05-01 11:12:56,116: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:56,120: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $194.62 with status fill[0m
+2024-05-01 11:12:56,122: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:56,126: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 140.0 SOXX buy | at price $134.21 with status fill[0m
+2024-05-01 11:12:56,128: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:56,132: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $134.21 with status fill[0m
+2024-05-01 11:12:56,134: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:56,138: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $134.21 with status fill[0m
+2024-05-01 11:12:56,140: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:56,144: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $134.21 with status fill[0m
+2024-05-01 11:12:56,146: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:56,150: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $134.21 with status fill[0m
+2024-05-01 11:12:56,152: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:56,156: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 131.0 AAPL buy | at price $143.16 with status fill[0m
+2024-05-01 11:12:56,158: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:12:56,162: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 SPY buy | at price $403.65 with status fill[0m
+2024-05-01 11:12:56,165: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:56,167: root: INFO: Current backtesting datetime 2023-01-27 16:00:00-05:00
+2024-05-01 11:12:56,167: root: INFO: Current backtesting datetime 2023-01-28 09:30:00-05:00
+2024-05-01 11:12:56,168: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-01 11:12:56,170: root: INFO: Current backtesting datetime 2023-01-28 09:29:00-05:00
+2024-05-01 11:12:56,171: root: INFO: Current backtesting datetime 2023-01-28 09:29:00-05:00
+2024-05-01 11:12:56,171: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-05-01 11:12:56,172: root: INFO: Current backtesting datetime 2023-01-30 08:30:00-05:00
+2024-05-01 11:12:56,172: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 11:12:56,173: root: INFO: Current backtesting datetime 2023-01-30 09:30:00-05:00
+2024-05-01 11:12:56,173: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 11:12:56,692: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:12:56[0m
+2024-05-01 11:12:58,884: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 94.0 NVDA buy | with status new[0m
+2024-05-01 11:12:58,888: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:58,891: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:58,894: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:58,897: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:58,900: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 46.0 NVDA sell | with status new[0m
+2024-05-01 11:12:58,904: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 140.0 SOXX buy | with status new[0m
+2024-05-01 11:12:58,907: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:58,910: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:58,913: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:58,916: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:58,919: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 176.0 SOXX sell | with status new[0m
+2024-05-01 11:12:58,922: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 129.0 AAPL buy | with status new[0m
+2024-05-01 11:12:58,925: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 47.0 SPY buy | with status new[0m
+2024-05-01 11:12:58,928: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:12:58[0m
+2024-05-01 11:12:58,928: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:58,933: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 94.0 NVDA buy | at price $199.5 with status fill[0m
+2024-05-01 11:12:58,935: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:58,939: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $199.5 with status fill[0m
+2024-05-01 11:12:58,941: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:58,945: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $199.5 with status fill[0m
+2024-05-01 11:12:58,947: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:58,951: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $199.5 with status fill[0m
+2024-05-01 11:12:58,953: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:58,958: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $199.5 with status fill[0m
+2024-05-01 11:12:58,960: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:12:58,963: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 46.0 NVDA sell | at price $199.5 with status fill[0m
+2024-05-01 11:12:58,965: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:58,970: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 140.0 SOXX buy | at price $133.85 with status fill[0m
+2024-05-01 11:12:58,972: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:58,976: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $133.85 with status fill[0m
+2024-05-01 11:12:58,978: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:58,981: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $133.85 with status fill[0m
+2024-05-01 11:12:58,984: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:58,988: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $133.85 with status fill[0m
+2024-05-01 11:12:58,990: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:58,994: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $133.85 with status fill[0m
+2024-05-01 11:12:58,996: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:12:59,000: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 176.0 SOXX sell | at price $133.85 with status fill[0m
+2024-05-01 11:12:59,002: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:12:59,006: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 129.0 AAPL buy | at price $144.96 with status fill[0m
+2024-05-01 11:12:59,009: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:12:59,012: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 47.0 SPY buy | at price $402.8 with status fill[0m
+2024-05-01 11:12:59,015: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:12:59,017: root: INFO: Current backtesting datetime 2023-01-30 16:00:00-05:00
+2024-05-01 11:12:59,017: root: INFO: Current backtesting datetime 2023-01-31 09:30:00-05:00
+2024-05-01 11:12:59,018: root: INFO: Current backtesting datetime 2023-01-31 15:59:00-05:00
+2024-05-01 11:12:59,019: asyncio: INFO: [MLTrader] Executing the before_market_closes lifecycle method
+2024-05-01 11:12:59,019: root: INFO: Current backtesting datetime 2023-01-31 16:00:00-05:00
+2024-05-01 11:12:59,020: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-05-01 11:12:59,020: asyncio: INFO: [MLTrader] Executing the on_strategy_end lifecycle method
+2024-05-01 11:13:00,445: root: INFO: Backtesting finished
+2024-05-01 11:13:06,631: backtest_stats: INFO: Backtest took 0:01:00.594248 for a speed of 0.000

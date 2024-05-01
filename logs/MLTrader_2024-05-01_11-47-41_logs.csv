@@ -1,0 +1,66 @@
+2024-05-01 11:47:42,788: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-05-01 11:47:44,422: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-05-01 11:47:44,423: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 11:47:44,424: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-05-01 11:47:44,424: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 11:47:44,425: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:47:44[0m
+2024-05-01 11:47:51,271: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:47:51[0m
+2024-05-01 11:47:51,272: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:47:51,273: root: INFO: Current backtesting datetime 2023-01-03 16:00:00-05:00
+2024-05-01 11:47:51,273: root: INFO: Current backtesting datetime 2023-01-04 09:30:00-05:00
+2024-05-01 11:47:51,273: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:47:51[0m
+2024-05-01 11:47:51,275: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:47:51[0m
+2024-05-01 11:47:51,275: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:47:51,276: root: INFO: Current backtesting datetime 2023-01-04 16:00:00-05:00
+2024-05-01 11:47:51,276: root: INFO: Current backtesting datetime 2023-01-05 09:30:00-05:00
+2024-05-01 11:47:51,277: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:47:51[0m
+2024-05-01 11:47:51,278: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:47:51[0m
+2024-05-01 11:47:51,279: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:47:51,280: root: INFO: Current backtesting datetime 2023-01-05 16:00:00-05:00
+2024-05-01 11:47:51,280: root: INFO: Current backtesting datetime 2023-01-06 09:30:00-05:00
+2024-05-01 11:47:51,281: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:47:51[0m
+2024-05-01 11:47:51,281: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:47:51[0m
+2024-05-01 11:47:51,282: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:47:51,284: root: INFO: Current backtesting datetime 2023-01-06 16:00:00-05:00
+2024-05-01 11:47:51,284: root: INFO: Current backtesting datetime 2023-01-07 09:30:00-05:00
+2024-05-01 11:47:51,285: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-01 11:47:51,286: root: INFO: Current backtesting datetime 2023-01-07 09:29:00-05:00
+2024-05-01 11:47:51,287: root: INFO: Current backtesting datetime 2023-01-07 09:29:00-05:00
+2024-05-01 11:47:51,287: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-05-01 11:47:51,288: root: INFO: Current backtesting datetime 2023-01-09 08:30:00-05:00
+2024-05-01 11:47:51,289: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 11:47:51,289: root: INFO: Current backtesting datetime 2023-01-09 09:30:00-05:00
+2024-05-01 11:47:51,289: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 11:47:51,291: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:47:51[0m
+2024-05-01 11:47:51,300: asyncio: ERROR: [MLTrader] too many values to unpack (expected 2)
+2024-05-01 11:47:51,302: asyncio: ERROR: [MLTrader] Traceback (most recent call last):
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 238, in on_trading_iteration
+    for dates, diaryentry in self.diary:
+       ^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+
+2024-05-01 11:47:51,302: asyncio: INFO: [MLTrader] Executing the on_bot_crash event method
+2024-05-01 11:47:52,890: root: INFO: Backtesting finished
+2024-05-01 11:47:53,466: root: INFO: There were no trades in this backtest.
+2024-05-01 11:47:53,953: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-05-01 11:47:53,954: backtest_stats: INFO: Backtest took 0:00:11.167645 for a speed of 0.000

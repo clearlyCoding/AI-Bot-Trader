@@ -1,0 +1,56 @@
+2024-04-27 15:35:43,801: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-04-27 15:35:45,326: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-04-27 15:35:45,328: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-04-27 15:35:45,328: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-04-27 15:35:45,328: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-04-27 15:35:46,214: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 15:35:46[0m
+2024-04-27 15:35:52,473: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-27 15:35:52[0m
+2024-04-27 15:35:52,473: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-27 15:35:52,473: root: INFO: Current backtesting datetime 2023-01-03 09:30:01-05:00
+2024-04-27 15:35:52,481: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 15:35:52[0m
+2024-04-27 15:35:52,483: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-27 15:35:52[0m
+2024-04-27 15:35:52,483: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-27 15:35:52,483: root: INFO: Current backtesting datetime 2023-01-03 09:30:02-05:00
+2024-04-27 15:35:52,483: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 15:35:52[0m
+2024-04-27 15:35:52,483: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-27 15:35:52[0m
+2024-04-27 15:35:52,483: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-27 15:35:52,483: root: INFO: Current backtesting datetime 2023-01-03 09:30:03-05:00
+2024-04-27 15:35:52,483: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 15:35:52[0m
+2024-04-27 15:35:52,483: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-04-27 15:35:52[0m
+2024-04-27 15:35:52,491: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-04-27 15:35:52,491: root: INFO: Current backtesting datetime 2023-01-03 09:30:04-05:00
+2024-04-27 15:35:52,491: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-04-27 15:35:52[0m
+2024-04-27 15:35:52,493: asyncio: ERROR: [MLTrader] 'bool' object is not iterable
+2024-04-27 15:35:52,493: asyncio: ERROR: [MLTrader] Traceback (most recent call last):
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\Documents\GitHub\AI-Bot-Trader\MarketBot.py", line 227, in on_trading_iteration
+    total =self.check_buy_orders (reduce = True, factor =1/i)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OTW\Documents\GitHub\AI-Bot-Trader\MarketBot.py", line 206, in check_buy_orders
+    for order in self.order and reduce:
+TypeError: 'bool' object is not iterable
+
+2024-04-27 15:35:52,493: asyncio: INFO: [MLTrader] Executing the on_bot_crash event method
+2024-04-27 15:35:54,576: root: INFO: Backtesting finished
+2024-04-27 15:35:55,158: root: INFO: There were no trades in this backtest.
+2024-04-27 15:35:55,815: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-04-27 15:35:55,815: backtest_stats: INFO: Backtest took 0:00:12.021128 for a speed of 0.000

@@ -1,0 +1,57 @@
+2024-05-01 09:38:53,332: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-05-01 09:38:54,894: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-05-01 09:38:54,894: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 09:38:54,896: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-05-01 09:38:54,896: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 09:38:55,394: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 09:38:55[0m
+2024-05-01 09:39:01,854: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 09:39:01[0m
+2024-05-01 09:39:01,856: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-05-01 09:39:01,857: root: INFO: Current backtesting datetime 2023-01-03 09:30:01-05:00
+2024-05-01 09:39:01,857: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 09:39:01[0m
+2024-05-01 09:39:01,860: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 09:39:01[0m
+2024-05-01 09:39:01,861: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-05-01 09:39:01,862: root: INFO: Current backtesting datetime 2023-01-03 09:30:02-05:00
+2024-05-01 09:39:01,862: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 09:39:01[0m
+2024-05-01 09:39:01,864: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 09:39:01[0m
+2024-05-01 09:39:01,864: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-05-01 09:39:01,865: root: INFO: Current backtesting datetime 2023-01-03 09:30:03-05:00
+2024-05-01 09:39:01,866: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 09:39:01[0m
+2024-05-01 09:39:01,867: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 09:39:01[0m
+2024-05-01 09:39:01,868: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-05-01 09:39:01,869: root: INFO: Current backtesting datetime 2023-01-03 09:30:04-05:00
+2024-05-01 09:39:01,869: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 09:39:01[0m
+2024-05-01 09:39:01,874: asyncio: ERROR: [MLTrader] optional argument must be a context
+2024-05-01 09:39:01,877: asyncio: ERROR: [MLTrader] Traceback (most recent call last):
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 220, in on_trading_iteration
+    total =self.check_buy_orders (reduce = True, factor =1/i)######ISSUE HEREHREHREHREHREH
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 199, in check_buy_orders
+    order.quantity = decimal.Decimal(quantity, 0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: optional argument must be a context
+
+2024-05-01 09:39:01,878: asyncio: INFO: [MLTrader] Executing the on_bot_crash event method
+2024-05-01 09:39:03,327: root: INFO: Backtesting finished
+2024-05-01 09:39:03,787: root: INFO: There were no trades in this backtest.
+2024-05-01 09:39:04,063: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-05-01 09:39:04,063: backtest_stats: INFO: Backtest took 0:00:10.732987 for a speed of 0.000
