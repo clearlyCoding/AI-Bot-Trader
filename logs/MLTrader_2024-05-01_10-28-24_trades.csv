@@ -1,0 +1,15 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2023-01-09 09:30:00-05:00,MLTrader,497eea48f7324470940f91594410575a,NVDA,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-09 09:30:00-05:00,MLTrader,140e8cba457549968d8fca3c52511735,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-09 09:30:00-05:00,MLTrader,5711e49a00cb45dcb30862753a2106d2,SPY,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-09 09:30:00-05:00,MLTrader,497eea48f7324470940f91594410575a,NVDA,buy,market,fill,1,gtc,0.0,1,stock,152.84,123.0,0.0
+2023-01-09 09:30:00-05:00,MLTrader,140e8cba457549968d8fca3c52511735,SOXX,buy,market,fill,1,gtc,0.0,1,stock,123.4467,152.0,0.0
+2023-01-09 09:30:00-05:00,MLTrader,5711e49a00cb45dcb30862753a2106d2,SPY,buy,market,fill,1,gtc,0.0,1,stock,390.37,48.0,0.0
+2023-01-10 09:30:00-05:00,MLTrader,fbdd9d0fb1a64a809aad09fe70eb48dd,NVDA,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-10 09:30:00-05:00,MLTrader,2a46c221d2a34ed69ef7ab8bcbefa291,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-10 09:30:00-05:00,MLTrader,10ccd4fb637b45e3a6b6c1e3ecad52fe,AAPL,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-10 09:30:00-05:00,MLTrader,9c52425c1c1d439c84e3102b79df84eb,SPY,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-01-10 09:30:00-05:00,MLTrader,fbdd9d0fb1a64a809aad09fe70eb48dd,NVDA,buy,market,fill,1,gtc,0.0,1,stock,155.07,121.0,0.0
+2023-01-10 09:30:00-05:00,MLTrader,2a46c221d2a34ed69ef7ab8bcbefa291,SOXX,buy,market,fill,1,gtc,0.0,1,stock,123.0333,152.0,0.0
+2023-01-10 09:30:00-05:00,MLTrader,10ccd4fb637b45e3a6b6c1e3ecad52fe,AAPL,buy,market,fill,1,gtc,0.0,1,stock,130.26,144.0,0.0
+2023-01-10 09:30:00-05:00,MLTrader,9c52425c1c1d439c84e3102b79df84eb,SPY,buy,market,fill,1,gtc,0.0,1,stock,387.25,48.0,0.0

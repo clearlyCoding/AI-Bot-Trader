@@ -11,17 +11,23 @@ import numpy as np
 import requests
 import json
 import random
+import decimal
 API_KEY = "PKJYF05FPJGXH57IXVUK" 
 API_SECRET = "t4siryHdAd5gfwTxsfZbMCkwfafvPzJIFEspuuaq" 
 BASE_URL = "https://paper-api.alpaca.markets/v2"
 POSITIONS_URL = "https://paper-api.alpaca.markets/v2/positions"
 POLYGONKEY = "hwXFX1sSXE4ojhYyeKDA7BBJDlaLf6Pf"
-tickertest = ['NVDA','SOXX','AAPL', 'SPY']
+tickertest = ['SOXX']
+BUY_STOP_LIMIT = 27500
+FLOOR = 25000
+# LIVE_TRADE = False
+LIVE_TRADE = True
 ALPACA_CREDS = {
     "API_KEY":API_KEY, 
     "API_SECRET": API_SECRET, 
     "PAPER": True
 }
+
 
 class MLTrader(Strategy): 
     data = {}
@@ -32,11 +38,12 @@ class MLTrader(Strategy):
     diary = {}
     pages = {}
     order =[]
-    def initialize(self, symbol:str=tickertest, budget_buffer_risk:float=.75): 
-        self.symbol = symbol
+    def initialize(self, symbol:str=tickertest, budget_buffer_risk:float=.75, live_trading = LIVE_TRADE): 
+        self.symbol = symbol 
+        self.live = LIVE_TRADE
         for items in self.symbol:
             self.data[items] = []
-        self.sleeptime = "1s"
+        self.sleeptime = "10s"
         self.risk_p = budget_buffer_risk
         self.asset = Asset(self.symbol, asset_type=Asset.AssetType.STOCK)
         self.api = REST(base_url=BASE_URL, key_id=API_KEY, secret_key=API_SECRET)
@@ -47,7 +54,7 @@ class MLTrader(Strategy):
         b = self.initial_budget
         t = len(self.symbol)
         lpt = self.get_last_price(symbol)
-        print(f"{lpt} current for {symbol}")
+        # print(f"{lpt} current for {symbol}")
         temperment = "+"
         cash = self.get_cash()
         fcf_t = r*b/t 
@@ -55,7 +62,7 @@ class MLTrader(Strategy):
             slope = self.slope_extract(list)
             if slope > 0 and cash > (b - (r*b)): #keeps budget floor
                 qty_t = round(fcf_t/lpt,0)
-                print (f"{qty_t} qty determined.")
+                # print (f"{qty_t} qty determined.")
             else:
                 print (f"conditions not met, PROC= {slope} current cash = {cash}, willing {b-(r*b)}.")
                 qty_t = 0
@@ -92,10 +99,7 @@ class MLTrader(Strategy):
     
     def slope_session(self, symbol):
         #initializating the strat
-        lossexitper = 0.9975
-        highexit= 1.0005
-        midexit = 1.001
-        lowexit = 1.0005
+        
 
         today = self.get_datetime().strftime('%Y-%m-%d')
         time = self.get_datetime().strftime('%H:%M:%S')
@@ -107,23 +111,17 @@ class MLTrader(Strategy):
             fcf_t, qty_f, lpt, temperment  = self.position_sizing(symbol, self.data[symbol][-5:]) #check the last 5 intervals            
             if qty_f > 0 and temperment == "+": #if position analysis is good then use the trend is moving positive - make a buy order at current price
                 self.order.append(self.create_order(symbol, quantity= qty_f, side = 'buy'))
-                # self.cash_history+= qty_f*lpt
-                # if self.get_cash() - self.cash_history > self.initial_budget - (self.risk_p * self.initial_budget): #ensures that budget floor is mantained
-                #     self.order.append(self.create_order(symbol, quantity= qty_f, side = 'buy'))
-                #     # self.diary[datetimestring] = [lpt, qty_f, symbol] #creating diary of date as key, buy price and quantity as values
-                # else:
-                #     print (f"Trade not added: current cost for purchase: {qty_f*lpt}, current cash requirement for orders = {self.cash_history}, current cash available = {self.get_cash()}, current floor = {self.initial_budget - (self.risk_p * self.initial_budget)}")
-                #     self.cash_history-= qty_f*lpt
-            #iterate over buy data dict
+                if not self.live:
+                    self.diary[datetimestring] = [lpt, qty_f, symbol]
         else:
             print (f"Collecting 5 iterations for {symbol}. Currently at {len(self.data[symbol])}")    
 
-        # if orderamt > 0:
-        #     self.order.append(self.create_order(current_tick, quantity= orderamt, side = "sell" )) #Make a sell with the order amount - determined from above. 
-        #     orderamt = 0
+    def sell_decision(self, symbol):
 
-
-    def sell_decision(self):
+        lossexitper = 0.9975
+        highexit= 1.0005
+        midexit = 1.001
+        lowexit = 1.0005
         self.fetch_diary()
         today = self.get_datetime().strftime('%Y-%m-%d')
         time = self.get_datetime().strftime('%H:%M:%S')
@@ -183,76 +181,100 @@ class MLTrader(Strategy):
         return date_part
 
     def fetch_diary(self):
-        self.diary.clear
-        today = self.get_datetime().strftime('%Y-%m-%d')
-        self.headers = {"accept": "application/json", "APCA-API-KEY-ID": API_KEY, "APCA-API-SECRET-KEY": API_SECRET}
-        self.response = requests.get(POSITIONS_URL, headers= self.headers)
-        if self.response:
-            self.json_data = json.loads(self.response.text)
-            for diction in self.json_data:
-                time = random.getrandbits(128)
-                datetimestring = today + " , " + str(time)
-                self.diary[datetimestring] = [float(diction['avg_entry_price']),float(diction['qty']), diction['symbol']] 
+        
+        if self.live:
+            self.diary.clear()
+            today = self.get_datetime().strftime('%Y-%m-%d')
+            self.headers = {"accept": "application/json", "APCA-API-KEY-ID": API_KEY, "APCA-API-SECRET-KEY": API_SECRET}
+            self.response = requests.get(POSITIONS_URL, headers= self.headers)
+            if self.response:
+                self.json_data = json.loads(self.response.text)
+                for diction in self.json_data:
+                    time = random.getrandbits(128)
+                    datetimestring = today + " , " + str(time)
+                    self.diary[datetimestring] = [float(diction['avg_entry_price']),float(diction['qty']), diction['symbol']] 
 
     def before_starting_trading(self): #Necessary for live trading - need to be commented for backtesting
         self.fetch_diary()
+        print(self.diary)
     def check_buy_orders(self, reduce, factor):
         total = 0 
-        if  not reduce:
+        if not reduce:
             for order in self.order :
                 if order.side == "buy":
                     total+= float(order.quantity)*float(self.get_last_price(order.symbol))
         else:
             for order in self.order:
-                print("making reductions")
-                order.quantity = str(round(float(order.quantity)*factor),0)
+                print(f"making reductions by a factor {1/factor}, current order q: {order.quantity}")
+                quantity = round(round(order.quantity)*factor,0)
+                if quantity <1:
+                    quantity = 1
+                
+                order.quantity = decimal.Decimal(quantity)
+                print (f"making order quantity {order.quantity} for {order.symbol}")
+                total+= float(order.quantity)*float(self.get_last_price(order.symbol))
         return total
+    def mantain_floor(self):
+        if len(self.order) > 0:
+            # print (self.order)
+            total= self.check_buy_orders(reduce = False, factor = 0)
+            print (f"Total Order Submitting ${total}, current cash {self.get_cash()}, after submitting remaining cash : {self.get_cash() - total} ")
+
+            #is tota
+            i=0
+            if self.get_cash() - total <self.initial_budget - self.risk_p*self.initial_budget:
+                while float(self.get_cash()) - total < FLOOR:
+                    print (f"Total Order Submitting ${total}, current cash {self.get_cash()}, after submitting remaining cash : {self.get_cash() - total} ")
+                    i+=1
+                    total =self.check_buy_orders (reduce = True, factor =1/i)
+                    if i>11:
+                        self.order.clear()
+                        break
 
     def on_trading_iteration(self):
-        
-        # self.simple_check()
-        self.cash_history = 0
+        temperment = True
         for items in self.symbol:
-            self.slope_session(items)
-        # self.sell_decision()
-        if len(self.order) > 0:
-            print (self.order)
-            total= self.check_buy_orders(reduce = False, factor = 0)
-            print (f"Total Order Submitting ${total}, ")
-
-            #is total order cost
-            i=0 
-            while float(self.get_cash()) - total < 25000:
-                i+=1
-                total =self.check_buy_orders (reduce = True, factor =1/i)######ISSUE HEREHREHREHREHREH
-
-            self.submit_order(order)
-              
+            if self.get_cash() <= BUY_STOP_LIMIT:
+                temperment = False
+            if temperment:
+                self.slope_session(items)
+            self.sell_decision(items)
+        if temperment:
+            self.mantain_floor()
+                    
+        
+        for orders in self.order:
+            if not self.live:
+                for dates, diaryentry in self.diary.items(): 
+                    if orders.symbol == diaryentry[2] and diaryentry[1] > orders.quantity:
+                        diaryentry[1] = orders.quantity
+                        break
+            self.submit_order(orders)    
             # self.submit_orders(self.order)
-            self.order.clear()
+        self.order.clear()
             
 
 
-            
 start_date = datetime(2023,1,1)
 end_date = datetime(2023,1,31) 
 broker = Alpaca(ALPACA_CREDS) 
 strategy = MLTrader(name='mlstrat', broker=broker, budget = 100000, 
                     parameters={"symbol":tickertest, 
-                                "budget_buffer_risk":.75})
+                                "budget_buffer_risk":.75},
+                    live_trading = LIVE_TRADE)
 data_source = PolygonDataBacktesting(
     datetime_start=start_date,
     datetime_end=end_date,
     api_key= POLYGONKEY,
     has_paid_subscription=False,  # Set this to True if you have a paid subscription to polygon.io (False assumes you are using the free tier)
 )
-strategy.backtest(
-    PolygonDataBacktesting, 
-    start_date, 
-    end_date, 
-    benchmark_asset = 'SPY',
-    api_key=POLYGONKEY,
-)
-# trader = Trader()
-# trader.add_strategy(strategy)
-# trader.run_all()
+# strategy.backtest(
+#     PolygonDataBacktesting, 
+#     start_date, 
+#     end_date, 
+#     benchmark_asset = 'SPY',
+#     api_key=POLYGONKEY,
+# )
+trader = Trader()
+trader.add_strategy(strategy)
+trader.run_all()

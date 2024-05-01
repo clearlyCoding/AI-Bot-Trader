@@ -1,0 +1,140 @@
+2024-05-01 10:45:22,588: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-05-01 10:45:24,182: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-05-01 10:45:24,183: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 10:45:24,184: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-05-01 10:45:24,184: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 10:45:24,694: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 10:45:24[0m
+2024-05-01 10:45:31,375: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 10:45:31[0m
+2024-05-01 10:45:31,377: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 10:45:31,378: root: INFO: Current backtesting datetime 2023-01-03 16:00:00-05:00
+2024-05-01 10:45:31,379: root: INFO: Current backtesting datetime 2023-01-04 09:30:00-05:00
+2024-05-01 10:45:31,379: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 10:45:31[0m
+2024-05-01 10:45:31,380: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 10:45:31[0m
+2024-05-01 10:45:31,381: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 10:45:31,382: root: INFO: Current backtesting datetime 2023-01-04 16:00:00-05:00
+2024-05-01 10:45:31,382: root: INFO: Current backtesting datetime 2023-01-05 09:30:00-05:00
+2024-05-01 10:45:31,383: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 10:45:31[0m
+2024-05-01 10:45:31,384: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 10:45:31[0m
+2024-05-01 10:45:31,385: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 10:45:31,385: root: INFO: Current backtesting datetime 2023-01-05 16:00:00-05:00
+2024-05-01 10:45:31,386: root: INFO: Current backtesting datetime 2023-01-06 09:30:00-05:00
+2024-05-01 10:45:31,386: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 10:45:31[0m
+2024-05-01 10:45:31,387: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 10:45:31[0m
+2024-05-01 10:45:31,388: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 10:45:31,389: root: INFO: Current backtesting datetime 2023-01-06 16:00:00-05:00
+2024-05-01 10:45:31,389: root: INFO: Current backtesting datetime 2023-01-07 09:30:00-05:00
+2024-05-01 10:45:31,390: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-01 10:45:31,391: root: INFO: Current backtesting datetime 2023-01-07 09:29:00-05:00
+2024-05-01 10:45:31,392: root: INFO: Current backtesting datetime 2023-01-07 09:29:00-05:00
+2024-05-01 10:45:31,392: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-05-01 10:45:31,393: root: INFO: Current backtesting datetime 2023-01-09 08:30:00-05:00
+2024-05-01 10:45:31,393: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 10:45:31,395: root: INFO: Current backtesting datetime 2023-01-09 09:30:00-05:00
+2024-05-01 10:45:31,395: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 10:45:31,912: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 10:45:31[0m
+2024-05-01 10:45:31,915: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 123.0 NVDA buy | with status new[0m
+2024-05-01 10:45:31,919: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 152.0 SOXX buy | with status new[0m
+2024-05-01 10:45:31,923: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 48.0 SPY buy | with status new[0m
+2024-05-01 10:45:31,925: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 10:45:31[0m
+2024-05-01 10:45:31,925: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 10:45:31,932: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 123.0 NVDA buy | at price $152.84 with status fill[0m
+2024-05-01 10:45:31,935: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 10:45:31,940: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 152.0 SOXX buy | at price $123.45 with status fill[0m
+2024-05-01 10:45:31,942: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 10:45:31,946: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 48.0 SPY buy | at price $390.37 with status fill[0m
+2024-05-01 10:45:31,950: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 10:45:31,951: root: INFO: Current backtesting datetime 2023-01-09 16:00:00-05:00
+2024-05-01 10:45:31,951: root: INFO: Current backtesting datetime 2023-01-10 09:30:00-05:00
+2024-05-01 10:45:31,952: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 10:45:31[0m
+2024-05-01 10:45:31,958: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 20 NVDA buy | with status new[0m
+2024-05-01 10:45:31,962: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 25 SOXX buy | with status new[0m
+2024-05-01 10:45:31,967: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 24 AAPL buy | with status new[0m
+2024-05-01 10:45:31,971: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 8 SPY buy | with status new[0m
+2024-05-01 10:45:31,974: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 10:45:31[0m
+2024-05-01 10:45:31,974: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 10:45:31,979: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 20 NVDA buy | at price $155.07 with status fill[0m
+2024-05-01 10:45:31,982: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 10:45:31,987: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 25 SOXX buy | at price $123.03 with status fill[0m
+2024-05-01 10:45:31,989: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 10:45:31,993: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 24 AAPL buy | at price $130.26 with status fill[0m
+2024-05-01 10:45:31,995: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 10:45:32,000: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 8 SPY buy | at price $387.25 with status fill[0m
+2024-05-01 10:45:32,003: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 10:45:32,004: root: INFO: Current backtesting datetime 2023-01-10 16:00:00-05:00
+2024-05-01 10:45:32,004: root: INFO: Current backtesting datetime 2023-01-11 09:30:00-05:00
+2024-05-01 10:45:32,005: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 10:45:32[0m
+2024-05-01 10:45:32,035: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 5 NVDA buy | with status new[0m
+2024-05-01 10:45:32,039: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 6 SOXX buy | with status new[0m
+2024-05-01 10:45:32,043: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 6 AAPL buy | with status new[0m
+2024-05-01 10:45:32,046: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 2 SPY buy | with status new[0m
+2024-05-01 10:45:32,050: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 10:45:32[0m
+2024-05-01 10:45:32,051: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 10:45:32,056: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 5 NVDA buy | at price $158.4 with status fill[0m
+2024-05-01 10:45:32,059: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 10:45:32,063: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 6 SOXX buy | at price $125.13 with status fill[0m
+2024-05-01 10:45:32,066: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 10:45:32,071: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 6 AAPL buy | at price $131.25 with status fill[0m
+2024-05-01 10:45:32,073: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 10:45:32,078: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 2 SPY buy | at price $392.23 with status fill[0m
+2024-05-01 10:45:32,081: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 10:45:32,082: root: INFO: Current backtesting datetime 2023-01-11 16:00:00-05:00
+2024-05-01 10:45:32,082: root: INFO: Current backtesting datetime 2023-01-12 09:30:00-05:00
+2024-05-01 10:45:32,083: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 10:45:32[0m
+2024-05-01 10:45:32,113: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 5 NVDA buy | with status new[0m
+2024-05-01 10:45:32,118: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 6 SOXX buy | with status new[0m
+2024-05-01 10:45:32,121: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 6 AAPL buy | with status new[0m
+2024-05-01 10:45:32,124: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 2 SPY buy | with status new[0m
+2024-05-01 10:45:32,128: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 10:45:32[0m
+2024-05-01 10:45:32,128: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 10:45:32,133: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 5 NVDA buy | at price $161.0 with status fill[0m
+2024-05-01 10:45:32,136: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 10:45:32,140: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 6 SOXX buy | at price $127.35 with status fill[0m
+2024-05-01 10:45:32,143: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 10:45:32,147: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 6 AAPL buy | at price $133.88 with status fill[0m
+2024-05-01 10:45:32,149: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 10:45:32,154: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 2 SPY buy | at price $396.67 with status fill[0m
+2024-05-01 10:45:32,157: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 10:45:32,158: root: INFO: Current backtesting datetime 2023-01-12 16:00:00-05:00
+2024-05-01 10:45:32,158: root: INFO: Current backtesting datetime 2023-01-13 09:30:00-05:00
+2024-05-01 10:45:32,159: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 10:45:32[0m
+2024-05-01 10:45:32,194: asyncio: ERROR: [MLTrader] Decimal('0') is not a positive Decimal. Order quantity must be a positive Decimal
+2024-05-01 10:45:32,197: asyncio: ERROR: [MLTrader] Traceback (most recent call last):
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 226, in on_trading_iteration
+    total =self.check_buy_orders (reduce = True, factor =1/i)######ISSUE HEREHREHREHREHREH
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 201, in check_buy_orders
+    order.quantity = 0
+    ^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\entities\order.py", line 552, in quantity
+    self._quantity = check_quantity(quantity, "Order quantity must be a positive Decimal")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\types.py", line 60, in check_quantity
+    result = check_numeric(
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\types.py", line 22, in check_numeric
+    raise error
+ValueError: Decimal('0') is not a positive Decimal. Order quantity must be a positive Decimal
+
+2024-05-01 10:45:32,198: asyncio: INFO: [MLTrader] Executing the on_bot_crash event method
+2024-05-01 10:45:33,721: root: INFO: Backtesting finished
+2024-05-01 10:45:40,098: backtest_stats: INFO: Backtest took 0:00:17.512509 for a speed of 0.000

@@ -1,0 +1,62 @@
+2024-05-01 09:33:30,451: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-05-01 09:33:32,003: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-05-01 09:33:32,004: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 09:33:32,005: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-05-01 09:33:32,005: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 09:33:32,520: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 09:33:32[0m
+2024-05-01 09:33:38,938: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 09:33:38[0m
+2024-05-01 09:33:38,940: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-05-01 09:33:38,941: root: INFO: Current backtesting datetime 2023-01-03 09:30:01-05:00
+2024-05-01 09:33:38,942: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 09:33:38[0m
+2024-05-01 09:33:38,945: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 09:33:38[0m
+2024-05-01 09:33:38,946: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-05-01 09:33:38,947: root: INFO: Current backtesting datetime 2023-01-03 09:30:02-05:00
+2024-05-01 09:33:38,947: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 09:33:38[0m
+2024-05-01 09:33:38,949: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 09:33:38[0m
+2024-05-01 09:33:38,949: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-05-01 09:33:38,950: root: INFO: Current backtesting datetime 2023-01-03 09:30:03-05:00
+2024-05-01 09:33:38,951: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 09:33:38[0m
+2024-05-01 09:33:38,952: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 09:33:38[0m
+2024-05-01 09:33:38,953: asyncio: INFO: [MLTrader] [34mSleeping for 1 seconds[0m
+2024-05-01 09:33:38,954: root: INFO: Current backtesting datetime 2023-01-03 09:30:04-05:00
+2024-05-01 09:33:38,954: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 09:33:38[0m
+2024-05-01 09:33:38,962: asyncio: ERROR: [MLTrader] 'list' object has no attribute 'side'
+2024-05-01 09:33:38,965: asyncio: ERROR: [MLTrader] Traceback (most recent call last):
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 221, in on_trading_iteration
+    self.submit_order(self.order)
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy.py", line 1499, in submit_order
+    return self.broker.submit_order(order)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\backtesting\backtesting_broker.py", line 40, in new_func
+    result = attr(order, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\backtesting\backtesting_broker.py", line 363, in submit_order
+    if order.side in ["buy_to_open", "buy_to_close"]:
+       ^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'side'
+
+2024-05-01 09:33:38,965: asyncio: INFO: [MLTrader] Executing the on_bot_crash event method
+2024-05-01 09:33:40,495: root: INFO: Backtesting finished
+2024-05-01 09:33:40,841: root: INFO: There were no trades in this backtest.
+2024-05-01 09:33:41,122: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-05-01 09:33:41,123: backtest_stats: INFO: Backtest took 0:00:10.674077 for a speed of 0.000

@@ -1,0 +1,40 @@
+2024-05-01 11:09:09,780: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-05-01 11:09:11,381: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-05-01 11:09:11,382: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 11:09:11,383: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-05-01 11:09:11,383: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 11:09:11,896: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:09:11[0m
+2024-05-01 11:09:14,184: asyncio: ERROR: [MLTrader] name 'lossexitper' is not defined
+2024-05-01 11:09:14,220: asyncio: ERROR: [MLTrader] Traceback (most recent call last):
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 226, in on_trading_iteration
+    self.sell_decision(items)
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 132, in sell_decision
+    print(f"Current strat - sell {qty_f} of {current_tick} if {lpt} drops below {round(ppt*lossexitper,2)} or >= to {round(ppt*highexit,2)}, right now holding for {difference_in_days} days - if between 15 and 30 days then sell at anywhere b/w {round(ppt*highexit,2)} and {round(ppt*midexit,2)}  - if more than 30 days then sell at anywhere b/w {round(ppt*midexit,2)} and {round(ppt*lowexit,2)}")
+                                                                                           ^^^^^^^^^^^
+NameError: name 'lossexitper' is not defined
+
+2024-05-01 11:09:14,221: asyncio: INFO: [MLTrader] Executing the on_bot_crash event method
+2024-05-01 11:09:14,247: root: INFO: Backtesting finished
+2024-05-01 11:09:15,800: asyncio: WARNING: [MLTrader] Cannot plot returns because the strategy returns are missing
+2024-05-01 11:09:15,920: asyncio: WARNING: [MLTrader] Cannot create a tearsheet because the strategy returns are missing
+2024-05-01 11:09:15,920: backtest_stats: INFO: Backtest took 0:00:06.142020 for a speed of 0.000

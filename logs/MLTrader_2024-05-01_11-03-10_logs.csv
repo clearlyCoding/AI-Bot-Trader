@@ -1,0 +1,341 @@
+2024-05-01 11:03:10,970: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-05-01 11:03:12,562: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-05-01 11:03:12,563: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 11:03:12,564: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-05-01 11:03:12,564: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 11:03:13,083: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:03:13[0m
+2024-05-01 11:03:19,818: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:03:19[0m
+2024-05-01 11:03:19,819: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:03:19,820: root: INFO: Current backtesting datetime 2023-01-03 16:00:00-05:00
+2024-05-01 11:03:19,820: root: INFO: Current backtesting datetime 2023-01-04 09:30:00-05:00
+2024-05-01 11:03:19,821: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:03:19[0m
+2024-05-01 11:03:19,822: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:03:19[0m
+2024-05-01 11:03:19,823: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:03:19,825: root: INFO: Current backtesting datetime 2023-01-04 16:00:00-05:00
+2024-05-01 11:03:19,825: root: INFO: Current backtesting datetime 2023-01-05 09:30:00-05:00
+2024-05-01 11:03:19,826: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:03:19[0m
+2024-05-01 11:03:19,827: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:03:19[0m
+2024-05-01 11:03:19,828: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:03:19,829: root: INFO: Current backtesting datetime 2023-01-05 16:00:00-05:00
+2024-05-01 11:03:19,829: root: INFO: Current backtesting datetime 2023-01-06 09:30:00-05:00
+2024-05-01 11:03:19,830: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:03:19[0m
+2024-05-01 11:03:19,831: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:03:19[0m
+2024-05-01 11:03:19,831: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:03:19,832: root: INFO: Current backtesting datetime 2023-01-06 16:00:00-05:00
+2024-05-01 11:03:19,832: root: INFO: Current backtesting datetime 2023-01-07 09:30:00-05:00
+2024-05-01 11:03:19,833: asyncio: INFO: [MLTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-01 11:03:19,834: root: INFO: Current backtesting datetime 2023-01-07 09:29:00-05:00
+2024-05-01 11:03:19,835: root: INFO: Current backtesting datetime 2023-01-07 09:29:00-05:00
+2024-05-01 11:03:19,835: asyncio: INFO: [MLTrader] Executing the after_market_closes lifecycle method
+2024-05-01 11:03:19,836: root: INFO: Current backtesting datetime 2023-01-09 08:30:00-05:00
+2024-05-01 11:03:19,837: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-01 11:03:19,838: root: INFO: Current backtesting datetime 2023-01-09 09:30:00-05:00
+2024-05-01 11:03:19,838: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-01 11:03:20,353: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:03:20[0m
+2024-05-01 11:03:20,357: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 123.0 NVDA buy | with status new[0m
+2024-05-01 11:03:20,361: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 152.0 SOXX buy | with status new[0m
+2024-05-01 11:03:20,364: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 48.0 SPY buy | with status new[0m
+2024-05-01 11:03:20,367: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:03:20[0m
+2024-05-01 11:03:20,367: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:03:20,373: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 123.0 NVDA buy | at price $152.84 with status fill[0m
+2024-05-01 11:03:20,376: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:03:20,381: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 152.0 SOXX buy | at price $123.45 with status fill[0m
+2024-05-01 11:03:20,383: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:03:20,387: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 48.0 SPY buy | at price $390.37 with status fill[0m
+2024-05-01 11:03:20,390: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:03:20,391: root: INFO: Current backtesting datetime 2023-01-09 16:00:00-05:00
+2024-05-01 11:03:20,391: root: INFO: Current backtesting datetime 2023-01-10 09:30:00-05:00
+2024-05-01 11:03:20,392: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:03:20[0m
+2024-05-01 11:03:20,398: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 20 NVDA buy | with status new[0m
+2024-05-01 11:03:20,402: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 25 SOXX buy | with status new[0m
+2024-05-01 11:03:20,405: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 24 AAPL buy | with status new[0m
+2024-05-01 11:03:20,408: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 8 SPY buy | with status new[0m
+2024-05-01 11:03:20,411: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:03:20[0m
+2024-05-01 11:03:20,411: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:03:20,416: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 20 NVDA buy | at price $155.07 with status fill[0m
+2024-05-01 11:03:20,419: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:03:20,423: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 25 SOXX buy | at price $123.03 with status fill[0m
+2024-05-01 11:03:20,425: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:03:20,429: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 24 AAPL buy | at price $130.26 with status fill[0m
+2024-05-01 11:03:20,431: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:03:20,435: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 8 SPY buy | at price $387.25 with status fill[0m
+2024-05-01 11:03:20,438: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:03:20,439: root: INFO: Current backtesting datetime 2023-01-10 16:00:00-05:00
+2024-05-01 11:03:20,439: root: INFO: Current backtesting datetime 2023-01-11 09:30:00-05:00
+2024-05-01 11:03:20,440: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:03:20[0m
+2024-05-01 11:03:20,460: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 5 NVDA buy | with status new[0m
+2024-05-01 11:03:20,464: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 6 SOXX buy | with status new[0m
+2024-05-01 11:03:20,467: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 6 AAPL buy | with status new[0m
+2024-05-01 11:03:20,470: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 2 SPY buy | with status new[0m
+2024-05-01 11:03:20,474: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:03:20[0m
+2024-05-01 11:03:20,474: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:03:20,479: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 5 NVDA buy | at price $158.4 with status fill[0m
+2024-05-01 11:03:20,481: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:03:20,485: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 6 SOXX buy | at price $125.13 with status fill[0m
+2024-05-01 11:03:20,487: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:03:20,491: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 6 AAPL buy | at price $131.25 with status fill[0m
+2024-05-01 11:03:20,494: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:03:20,498: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 2 SPY buy | at price $392.23 with status fill[0m
+2024-05-01 11:03:20,500: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:03:20,501: root: INFO: Current backtesting datetime 2023-01-11 16:00:00-05:00
+2024-05-01 11:03:20,502: root: INFO: Current backtesting datetime 2023-01-12 09:30:00-05:00
+2024-05-01 11:03:20,502: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:03:20[0m
+2024-05-01 11:03:20,525: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 5 NVDA buy | with status new[0m
+2024-05-01 11:03:20,530: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 6 SOXX buy | with status new[0m
+2024-05-01 11:03:20,533: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 6 AAPL buy | with status new[0m
+2024-05-01 11:03:20,536: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 2 SPY buy | with status new[0m
+2024-05-01 11:03:20,538: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-01 11:03:20[0m
+2024-05-01 11:03:20,538: asyncio: INFO: [MLTrader] Getting historical prices for NVDA, 2 bars, minute
+2024-05-01 11:03:20,543: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 5 NVDA buy | at price $161.0 with status fill[0m
+2024-05-01 11:03:20,546: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-01 11:03:20,550: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 6 SOXX buy | at price $127.35 with status fill[0m
+2024-05-01 11:03:20,552: asyncio: INFO: [MLTrader] Getting historical prices for AAPL, 2 bars, minute
+2024-05-01 11:03:20,556: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 6 AAPL buy | at price $133.88 with status fill[0m
+2024-05-01 11:03:20,558: asyncio: INFO: [MLTrader] Getting historical prices for SPY, 2 bars, minute
+2024-05-01 11:03:20,562: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 2 SPY buy | at price $396.67 with status fill[0m
+2024-05-01 11:03:20,565: asyncio: INFO: [MLTrader] [34mSleeping for 86400 seconds[0m
+2024-05-01 11:03:20,566: root: INFO: Current backtesting datetime 2023-01-12 16:00:00-05:00
+2024-05-01 11:03:20,566: root: INFO: Current backtesting datetime 2023-01-13 09:30:00-05:00
+2024-05-01 11:03:20,567: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-01 11:03:20[0m
+2024-05-01 12:00:18,949: root: INFO: Untracked order 33ebe1b2-78d4-40d6-9176-9d5037e89938 was logged by broker alpaca
+2024-05-01 12:00:18,954: root: INFO: Untracked order 33ebe1b2-78d4-40d6-9176-9d5037e89938 was logged by broker alpaca
+2024-05-01 12:00:18,983: root: INFO: Untracked order da16a801-a35a-4bbe-bb1c-ed4656e405a8 was logged by broker alpaca
+2024-05-01 12:00:18,989: root: INFO: Untracked order da16a801-a35a-4bbe-bb1c-ed4656e405a8 was logged by broker alpaca
+2024-05-01 12:00:19,032: root: INFO: Untracked order 33ebe1b2-78d4-40d6-9176-9d5037e89938 was logged by broker alpaca
+2024-05-01 12:00:19,151: root: INFO: Untracked order da16a801-a35a-4bbe-bb1c-ed4656e405a8 was logged by broker alpaca
+2024-05-01 12:00:19,537: root: INFO: Untracked order 33ebe1b2-78d4-40d6-9176-9d5037e89938 was logged by broker alpaca
+2024-05-01 12:00:19,646: root: INFO: Untracked order da16a801-a35a-4bbe-bb1c-ed4656e405a8 was logged by broker alpaca
+2024-05-01 12:00:19,901: root: INFO: Untracked order da16a801-a35a-4bbe-bb1c-ed4656e405a8 was logged by broker alpaca
+2024-05-01 12:00:20,051: root: INFO: Untracked order 33ebe1b2-78d4-40d6-9176-9d5037e89938 was logged by broker alpaca
+2024-05-01 12:00:20,350: root: INFO: Untracked order da16a801-a35a-4bbe-bb1c-ed4656e405a8 was logged by broker alpaca
+2024-05-01 12:00:57,461: root: INFO: Untracked order 47a3d6a6-5965-4044-8917-b28e8d5e3ea1 was logged by broker alpaca
+2024-05-01 12:00:57,461: root: INFO: Untracked order 47a3d6a6-5965-4044-8917-b28e8d5e3ea1 was logged by broker alpaca
+2024-05-01 12:00:57,608: root: INFO: Untracked order 47a3d6a6-5965-4044-8917-b28e8d5e3ea1 was logged by broker alpaca
+2024-05-01 12:00:58,032: root: INFO: Untracked order 47a3d6a6-5965-4044-8917-b28e8d5e3ea1 was logged by broker alpaca
+2024-05-01 12:01:09,685: root: INFO: Untracked order 9676892c-fa68-4500-82b0-f089dd697904 was logged by broker alpaca
+2024-05-01 12:01:09,708: root: INFO: Untracked order 9676892c-fa68-4500-82b0-f089dd697904 was logged by broker alpaca
+2024-05-01 12:01:10,055: root: INFO: Untracked order 9676892c-fa68-4500-82b0-f089dd697904 was logged by broker alpaca
+2024-05-01 12:01:10,464: root: INFO: Untracked order 9676892c-fa68-4500-82b0-f089dd697904 was logged by broker alpaca
+2024-05-01 12:01:19,519: root: INFO: Untracked order 3cb84227-d0ca-4e8a-80a7-d622ac19bc6e was logged by broker alpaca
+2024-05-01 12:01:19,524: root: INFO: Untracked order 3cb84227-d0ca-4e8a-80a7-d622ac19bc6e was logged by broker alpaca
+2024-05-01 12:01:19,758: root: INFO: Untracked order 3cb84227-d0ca-4e8a-80a7-d622ac19bc6e was logged by broker alpaca
+2024-05-01 12:01:32,537: root: INFO: Untracked order a5256861-16ea-489f-9a03-2f17ce46014a was logged by broker alpaca
+2024-05-01 12:01:32,542: root: INFO: Untracked order a5256861-16ea-489f-9a03-2f17ce46014a was logged by broker alpaca
+2024-05-01 12:01:32,922: root: INFO: Untracked order a5256861-16ea-489f-9a03-2f17ce46014a was logged by broker alpaca
+2024-05-01 12:01:33,167: root: INFO: Untracked order a5256861-16ea-489f-9a03-2f17ce46014a was logged by broker alpaca
+2024-05-01 12:01:33,561: root: INFO: Untracked order a5256861-16ea-489f-9a03-2f17ce46014a was logged by broker alpaca
+2024-05-01 12:01:33,928: root: INFO: Untracked order a5256861-16ea-489f-9a03-2f17ce46014a was logged by broker alpaca
+2024-05-01 12:01:49,036: root: INFO: Untracked order 781387c2-2163-445c-a4e1-dc7359676292 was logged by broker alpaca
+2024-05-01 12:01:49,040: root: INFO: Untracked order 781387c2-2163-445c-a4e1-dc7359676292 was logged by broker alpaca
+2024-05-01 12:01:49,116: root: INFO: Untracked order fdbb8242-451e-4ac9-b451-899c0a22cefe was logged by broker alpaca
+2024-05-01 12:01:49,124: root: INFO: Untracked order fdbb8242-451e-4ac9-b451-899c0a22cefe was logged by broker alpaca
+2024-05-01 12:01:49,493: root: INFO: Untracked order 781387c2-2163-445c-a4e1-dc7359676292 was logged by broker alpaca
+2024-05-01 12:01:49,515: root: INFO: Untracked order fdbb8242-451e-4ac9-b451-899c0a22cefe was logged by broker alpaca
+2024-05-01 12:01:49,994: root: INFO: Untracked order 781387c2-2163-445c-a4e1-dc7359676292 was logged by broker alpaca
+2024-05-01 12:01:50,014: root: INFO: Untracked order fdbb8242-451e-4ac9-b451-899c0a22cefe was logged by broker alpaca
+2024-05-01 12:01:50,380: root: INFO: Untracked order fdbb8242-451e-4ac9-b451-899c0a22cefe was logged by broker alpaca
+2024-05-01 12:02:12,724: root: INFO: Untracked order 2ab63e26-2d73-450f-95cc-aa13896c2b9a was logged by broker alpaca
+2024-05-01 12:02:12,729: root: INFO: Untracked order 2ab63e26-2d73-450f-95cc-aa13896c2b9a was logged by broker alpaca
+2024-05-01 12:02:12,765: root: INFO: Untracked order 14f33928-ca71-4d8e-bf91-f711641e66f8 was logged by broker alpaca
+2024-05-01 12:02:12,772: root: INFO: Untracked order 14f33928-ca71-4d8e-bf91-f711641e66f8 was logged by broker alpaca
+2024-05-01 12:02:12,847: root: INFO: Untracked order 342c7f03-4d66-4cb7-aa31-51161c1e8b56 was logged by broker alpaca
+2024-05-01 12:02:12,852: root: INFO: Untracked order 342c7f03-4d66-4cb7-aa31-51161c1e8b56 was logged by broker alpaca
+2024-05-01 12:02:12,882: root: INFO: Untracked order 6e68133a-f11c-4642-a612-9d8057bdc80a was logged by broker alpaca
+2024-05-01 12:02:12,886: root: INFO: Untracked order 6e68133a-f11c-4642-a612-9d8057bdc80a was logged by broker alpaca
+2024-05-01 12:02:13,037: root: INFO: Untracked order 6e68133a-f11c-4642-a612-9d8057bdc80a was logged by broker alpaca
+2024-05-01 12:02:13,045: root: INFO: Untracked order 14f33928-ca71-4d8e-bf91-f711641e66f8 was logged by broker alpaca
+2024-05-01 12:02:13,145: root: INFO: Untracked order 342c7f03-4d66-4cb7-aa31-51161c1e8b56 was logged by broker alpaca
+2024-05-01 12:02:13,192: root: INFO: Untracked order 2ab63e26-2d73-450f-95cc-aa13896c2b9a was logged by broker alpaca
+2024-05-01 12:02:13,405: root: INFO: Untracked order 342c7f03-4d66-4cb7-aa31-51161c1e8b56 was logged by broker alpaca
+2024-05-01 12:02:13,514: root: INFO: Untracked order 6e68133a-f11c-4642-a612-9d8057bdc80a was logged by broker alpaca
+2024-05-01 12:02:13,523: root: INFO: Untracked order 14f33928-ca71-4d8e-bf91-f711641e66f8 was logged by broker alpaca
+2024-05-01 12:02:40,544: root: INFO: Untracked order 145dfb51-88e8-4f5e-883b-5033450089ef was logged by broker alpaca
+2024-05-01 12:02:40,547: root: INFO: Untracked order 145dfb51-88e8-4f5e-883b-5033450089ef was logged by broker alpaca
+2024-05-01 12:02:40,580: root: INFO: Untracked order 34d90c8f-b3c7-48e5-88e6-313a9741bb3b was logged by broker alpaca
+2024-05-01 12:02:40,585: root: INFO: Untracked order 34d90c8f-b3c7-48e5-88e6-313a9741bb3b was logged by broker alpaca
+2024-05-01 12:02:40,658: root: INFO: Untracked order ab818b33-cdf3-4161-b9b0-a45b6c123ab1 was logged by broker alpaca
+2024-05-01 12:02:40,685: root: INFO: Untracked order ab818b33-cdf3-4161-b9b0-a45b6c123ab1 was logged by broker alpaca
+2024-05-01 12:02:40,696: root: INFO: Untracked order 29bce26c-05ff-4f65-b185-2f69e450a68d was logged by broker alpaca
+2024-05-01 12:02:40,700: root: INFO: Untracked order 29bce26c-05ff-4f65-b185-2f69e450a68d was logged by broker alpaca
+2024-05-01 12:02:40,749: root: INFO: Untracked order 145dfb51-88e8-4f5e-883b-5033450089ef was logged by broker alpaca
+2024-05-01 12:02:40,802: root: INFO: Untracked order 34d90c8f-b3c7-48e5-88e6-313a9741bb3b was logged by broker alpaca
+2024-05-01 12:02:41,050: root: INFO: Untracked order ab818b33-cdf3-4161-b9b0-a45b6c123ab1 was logged by broker alpaca
+2024-05-01 12:02:41,153: root: INFO: Untracked order 29bce26c-05ff-4f65-b185-2f69e450a68d was logged by broker alpaca
+2024-05-01 12:02:41,180: root: INFO: Untracked order 34d90c8f-b3c7-48e5-88e6-313a9741bb3b was logged by broker alpaca
+2024-05-01 12:02:41,467: root: INFO: Untracked order 34d90c8f-b3c7-48e5-88e6-313a9741bb3b was logged by broker alpaca
+2024-05-01 12:02:41,550: root: INFO: Untracked order ab818b33-cdf3-4161-b9b0-a45b6c123ab1 was logged by broker alpaca
+2024-05-01 12:02:41,718: root: INFO: Untracked order 34d90c8f-b3c7-48e5-88e6-313a9741bb3b was logged by broker alpaca
+2024-05-01 12:03:13,447: root: INFO: Untracked order 66f13860-2451-4df5-a2b8-19968ba18634 was logged by broker alpaca
+2024-05-01 12:03:13,451: root: INFO: Untracked order 66f13860-2451-4df5-a2b8-19968ba18634 was logged by broker alpaca
+2024-05-01 12:03:13,524: root: INFO: Untracked order 171f4a66-79c2-43ad-a787-591bcc201031 was logged by broker alpaca
+2024-05-01 12:03:13,532: root: INFO: Untracked order 171f4a66-79c2-43ad-a787-591bcc201031 was logged by broker alpaca
+2024-05-01 12:03:13,566: root: INFO: Untracked order 66f13860-2451-4df5-a2b8-19968ba18634 was logged by broker alpaca
+2024-05-01 12:03:13,599: root: INFO: Untracked order 1a40b232-e731-4f11-b571-9e0f8591276d was logged by broker alpaca
+2024-05-01 12:03:13,605: root: INFO: Untracked order 1a40b232-e731-4f11-b571-9e0f8591276d was logged by broker alpaca
+2024-05-01 12:03:13,638: root: INFO: Untracked order 8349e6ce-4598-4b6a-8aab-7e27313d0d8d was logged by broker alpaca
+2024-05-01 12:03:13,645: root: INFO: Untracked order 8349e6ce-4598-4b6a-8aab-7e27313d0d8d was logged by broker alpaca
+2024-05-01 12:03:13,909: root: INFO: Untracked order 1a40b232-e731-4f11-b571-9e0f8591276d was logged by broker alpaca
+2024-05-01 12:03:14,040: root: INFO: Untracked order 8349e6ce-4598-4b6a-8aab-7e27313d0d8d was logged by broker alpaca
+2024-05-01 12:03:14,098: root: INFO: Untracked order 171f4a66-79c2-43ad-a787-591bcc201031 was logged by broker alpaca
+2024-05-01 12:03:41,151: root: INFO: Untracked order 12dc0bad-ac63-4c07-8b6f-2ea523990c2a was logged by broker alpaca
+2024-05-01 12:03:41,155: root: INFO: Untracked order 12dc0bad-ac63-4c07-8b6f-2ea523990c2a was logged by broker alpaca
+2024-05-01 12:03:41,188: root: INFO: Untracked order 3e2ec0b8-ec85-4f69-ae2a-f39561a837fb was logged by broker alpaca
+2024-05-01 12:03:41,194: root: INFO: Untracked order 3e2ec0b8-ec85-4f69-ae2a-f39561a837fb was logged by broker alpaca
+2024-05-01 12:03:41,235: root: INFO: Untracked order 909ff834-2570-4ff4-a596-35afb8b3697b was logged by broker alpaca
+2024-05-01 12:03:41,237: root: INFO: Untracked order 909ff834-2570-4ff4-a596-35afb8b3697b was logged by broker alpaca
+2024-05-01 12:03:41,278: root: INFO: Untracked order f7cc484e-0061-40f8-8db2-f0d281d411ac was logged by broker alpaca
+2024-05-01 12:03:41,278: root: INFO: Untracked order f7cc484e-0061-40f8-8db2-f0d281d411ac was logged by broker alpaca
+2024-05-01 12:03:41,505: root: INFO: Untracked order 12dc0bad-ac63-4c07-8b6f-2ea523990c2a was logged by broker alpaca
+2024-05-01 12:03:41,541: root: INFO: Untracked order 3e2ec0b8-ec85-4f69-ae2a-f39561a837fb was logged by broker alpaca
+2024-05-01 12:03:41,602: root: INFO: Untracked order f7cc484e-0061-40f8-8db2-f0d281d411ac was logged by broker alpaca
+2024-05-01 12:03:41,693: root: INFO: Untracked order 909ff834-2570-4ff4-a596-35afb8b3697b was logged by broker alpaca
+2024-05-01 12:03:41,842: root: INFO: Untracked order 3e2ec0b8-ec85-4f69-ae2a-f39561a837fb was logged by broker alpaca
+2024-05-01 12:04:08,878: root: INFO: Untracked order 38c03a96-cd4a-4c45-93bc-4eb0ee370536 was logged by broker alpaca
+2024-05-01 12:04:08,883: root: INFO: Untracked order 38c03a96-cd4a-4c45-93bc-4eb0ee370536 was logged by broker alpaca
+2024-05-01 12:04:08,920: root: INFO: Untracked order 732d8d47-5b6f-4278-bf64-a91c005ba7f3 was logged by broker alpaca
+2024-05-01 12:04:08,924: root: INFO: Untracked order 732d8d47-5b6f-4278-bf64-a91c005ba7f3 was logged by broker alpaca
+2024-05-01 12:04:08,962: root: INFO: Untracked order fd462c2b-a41b-4c07-945d-6c0d11f9d01a was logged by broker alpaca
+2024-05-01 12:04:08,969: root: INFO: Untracked order fd462c2b-a41b-4c07-945d-6c0d11f9d01a was logged by broker alpaca
+2024-05-01 12:04:08,995: root: INFO: Untracked order 38c03a96-cd4a-4c45-93bc-4eb0ee370536 was logged by broker alpaca
+2024-05-01 12:04:08,997: root: INFO: Untracked order 20c91b02-500f-4094-a10a-9aad2e6bd2e4 was logged by broker alpaca
+2024-05-01 12:04:09,012: root: INFO: Untracked order 20c91b02-500f-4094-a10a-9aad2e6bd2e4 was logged by broker alpaca
+2024-05-01 12:04:09,368: root: INFO: Untracked order 732d8d47-5b6f-4278-bf64-a91c005ba7f3 was logged by broker alpaca
+2024-05-01 12:04:09,408: root: INFO: Untracked order 20c91b02-500f-4094-a10a-9aad2e6bd2e4 was logged by broker alpaca
+2024-05-01 12:04:09,523: root: INFO: Untracked order fd462c2b-a41b-4c07-945d-6c0d11f9d01a was logged by broker alpaca
+2024-05-01 12:04:35,302: root: INFO: Untracked order d9245c19-fbdd-48f5-a486-038f34063173 was logged by broker alpaca
+2024-05-01 12:04:35,304: root: INFO: Untracked order d9245c19-fbdd-48f5-a486-038f34063173 was logged by broker alpaca
+2024-05-01 12:04:35,378: root: INFO: Untracked order c52350aa-6db9-4476-9b24-5b9054c25fc4 was logged by broker alpaca
+2024-05-01 12:04:35,383: root: INFO: Untracked order c52350aa-6db9-4476-9b24-5b9054c25fc4 was logged by broker alpaca
+2024-05-01 12:04:35,419: root: INFO: Untracked order 4d8bece2-ea16-4c46-9a15-a31deac36c8a was logged by broker alpaca
+2024-05-01 12:04:35,422: root: INFO: Untracked order 4d8bece2-ea16-4c46-9a15-a31deac36c8a was logged by broker alpaca
+2024-05-01 12:04:35,649: root: INFO: Untracked order 4d8bece2-ea16-4c46-9a15-a31deac36c8a was logged by broker alpaca
+2024-05-01 12:04:35,690: root: INFO: Untracked order d9245c19-fbdd-48f5-a486-038f34063173 was logged by broker alpaca
+2024-05-01 12:04:35,694: root: INFO: Untracked order c52350aa-6db9-4476-9b24-5b9054c25fc4 was logged by broker alpaca
+2024-05-01 12:04:36,009: root: INFO: Untracked order c52350aa-6db9-4476-9b24-5b9054c25fc4 was logged by broker alpaca
+2024-05-01 12:05:04,695: root: INFO: Untracked order 92bc703b-30fb-4dd7-94be-429293a13ca4 was logged by broker alpaca
+2024-05-01 12:05:04,702: root: INFO: Untracked order 92bc703b-30fb-4dd7-94be-429293a13ca4 was logged by broker alpaca
+2024-05-01 12:05:04,795: root: INFO: Untracked order aabc481d-98a8-4ded-bd65-f3e777203817 was logged by broker alpaca
+2024-05-01 12:05:04,800: root: INFO: Untracked order aabc481d-98a8-4ded-bd65-f3e777203817 was logged by broker alpaca
+2024-05-01 12:05:04,821: root: INFO: Untracked order 92bc703b-30fb-4dd7-94be-429293a13ca4 was logged by broker alpaca
+2024-05-01 12:05:04,832: root: INFO: Untracked order 31017d7d-fa60-43e9-81c0-6442cfb87f5f was logged by broker alpaca
+2024-05-01 12:05:04,838: root: INFO: Untracked order 31017d7d-fa60-43e9-81c0-6442cfb87f5f was logged by broker alpaca
+2024-05-01 12:05:05,184: root: INFO: Untracked order aabc481d-98a8-4ded-bd65-f3e777203817 was logged by broker alpaca
+2024-05-01 12:05:05,187: root: INFO: Untracked order 31017d7d-fa60-43e9-81c0-6442cfb87f5f was logged by broker alpaca
+2024-05-01 12:07:48,771: root: INFO: Untracked order 9ae8e29e-3fd7-4e8b-a2bd-d9107098c1b1 was logged by broker alpaca
+2024-05-01 12:07:48,774: root: INFO: Untracked order 9ae8e29e-3fd7-4e8b-a2bd-d9107098c1b1 was logged by broker alpaca
+2024-05-01 12:07:48,810: root: INFO: Untracked order ff85fa57-27a3-477e-aa99-5816326e68a8 was logged by broker alpaca
+2024-05-01 12:07:48,811: root: INFO: Untracked order ff85fa57-27a3-477e-aa99-5816326e68a8 was logged by broker alpaca
+2024-05-01 12:07:49,182: root: INFO: Untracked order ff85fa57-27a3-477e-aa99-5816326e68a8 was logged by broker alpaca
+2024-05-01 12:07:49,278: root: INFO: Untracked order 9ae8e29e-3fd7-4e8b-a2bd-d9107098c1b1 was logged by broker alpaca
+2024-05-01 12:08:09,816: root: INFO: Untracked order 54782551-5726-47be-89fa-6b6e3c2d2a85 was logged by broker alpaca
+2024-05-01 12:08:09,820: root: INFO: Untracked order 54782551-5726-47be-89fa-6b6e3c2d2a85 was logged by broker alpaca
+2024-05-01 12:08:10,153: root: INFO: Untracked order 54782551-5726-47be-89fa-6b6e3c2d2a85 was logged by broker alpaca
+2024-05-01 12:08:30,673: root: INFO: Untracked order 790b8d73-0a0d-4c5d-bbd1-cb34b7efb554 was logged by broker alpaca
+2024-05-01 12:08:30,678: root: INFO: Untracked order 790b8d73-0a0d-4c5d-bbd1-cb34b7efb554 was logged by broker alpaca
+2024-05-01 12:08:30,781: root: INFO: Untracked order 790b8d73-0a0d-4c5d-bbd1-cb34b7efb554 was logged by broker alpaca
+2024-05-01 12:08:54,879: root: INFO: Untracked order dfb4bdfd-7cbe-4508-97b2-d12f2e50b59e was logged by broker alpaca
+2024-05-01 12:08:54,887: root: INFO: Untracked order dfb4bdfd-7cbe-4508-97b2-d12f2e50b59e was logged by broker alpaca
+2024-05-01 12:08:54,958: root: INFO: Untracked order 834e18f3-7cef-487a-a1ee-8b1b3deb8107 was logged by broker alpaca
+2024-05-01 12:08:54,962: root: INFO: Untracked order 834e18f3-7cef-487a-a1ee-8b1b3deb8107 was logged by broker alpaca
+2024-05-01 12:08:55,103: root: INFO: Untracked order dfb4bdfd-7cbe-4508-97b2-d12f2e50b59e was logged by broker alpaca
+2024-05-01 12:08:55,345: root: INFO: Untracked order 834e18f3-7cef-487a-a1ee-8b1b3deb8107 was logged by broker alpaca
+2024-05-01 12:09:15,766: root: INFO: Untracked order 7ddb1acf-3971-49b9-8ce5-7bdbe7a8b40f was logged by broker alpaca
+2024-05-01 12:09:15,772: root: INFO: Untracked order 7ddb1acf-3971-49b9-8ce5-7bdbe7a8b40f was logged by broker alpaca
+2024-05-01 12:09:15,805: root: INFO: Untracked order e7cca8f0-ca22-41d5-9945-970f6d3da624 was logged by broker alpaca
+2024-05-01 12:09:15,810: root: INFO: Untracked order e7cca8f0-ca22-41d5-9945-970f6d3da624 was logged by broker alpaca
+2024-05-01 12:09:16,022: root: INFO: Untracked order 7ddb1acf-3971-49b9-8ce5-7bdbe7a8b40f was logged by broker alpaca
+2024-05-01 12:09:16,083: root: INFO: Untracked order e7cca8f0-ca22-41d5-9945-970f6d3da624 was logged by broker alpaca
+2024-05-01 12:09:31,111: root: INFO: Untracked order 1c683de8-55b6-4f5e-837d-00ce8ad38825 was logged by broker alpaca
+2024-05-01 12:09:31,118: root: INFO: Untracked order 1c683de8-55b6-4f5e-837d-00ce8ad38825 was logged by broker alpaca
+2024-05-01 12:09:31,394: root: INFO: Untracked order 1c683de8-55b6-4f5e-837d-00ce8ad38825 was logged by broker alpaca
+2024-05-01 12:09:46,198: root: INFO: Untracked order a1cb01f0-2ff1-4ee7-890e-61928f648136 was logged by broker alpaca
+2024-05-01 12:09:46,205: root: INFO: Untracked order a1cb01f0-2ff1-4ee7-890e-61928f648136 was logged by broker alpaca
+2024-05-01 12:09:46,236: root: INFO: Untracked order 61a51e37-1235-45e1-a05c-6f8d724d1aab was logged by broker alpaca
+2024-05-01 12:09:46,241: root: INFO: Untracked order 61a51e37-1235-45e1-a05c-6f8d724d1aab was logged by broker alpaca
+2024-05-01 12:09:46,455: root: INFO: Untracked order 61a51e37-1235-45e1-a05c-6f8d724d1aab was logged by broker alpaca
+2024-05-01 12:09:46,471: root: INFO: Untracked order a1cb01f0-2ff1-4ee7-890e-61928f648136 was logged by broker alpaca
+2024-05-01 12:09:46,894: root: INFO: Untracked order 61a51e37-1235-45e1-a05c-6f8d724d1aab was logged by broker alpaca
+2024-05-01 12:10:03,052: root: INFO: Untracked order c36161c9-b4f8-4b19-95e4-873885243680 was logged by broker alpaca
+2024-05-01 12:10:03,056: root: INFO: Untracked order c36161c9-b4f8-4b19-95e4-873885243680 was logged by broker alpaca
+2024-05-01 12:10:03,093: root: INFO: Untracked order 2ce5886f-a71a-4d2e-84ae-f65953cb7192 was logged by broker alpaca
+2024-05-01 12:10:03,096: root: INFO: Untracked order 2ce5886f-a71a-4d2e-84ae-f65953cb7192 was logged by broker alpaca
+2024-05-01 12:10:03,282: root: INFO: Untracked order c36161c9-b4f8-4b19-95e4-873885243680 was logged by broker alpaca
+2024-05-01 12:10:03,347: root: INFO: Untracked order 2ce5886f-a71a-4d2e-84ae-f65953cb7192 was logged by broker alpaca
+2024-05-01 12:10:03,660: root: INFO: Untracked order 2ce5886f-a71a-4d2e-84ae-f65953cb7192 was logged by broker alpaca
+2024-05-01 12:10:26,873: root: INFO: Untracked order 54202cd5-57c5-4cf8-ad9e-6cd20a8b35eb was logged by broker alpaca
+2024-05-01 12:10:26,879: root: INFO: Untracked order 54202cd5-57c5-4cf8-ad9e-6cd20a8b35eb was logged by broker alpaca
+2024-05-01 12:10:26,950: root: INFO: Untracked order 9fb77b7e-3dcc-4afe-bbf8-b20336267e35 was logged by broker alpaca
+2024-05-01 12:10:26,955: root: INFO: Untracked order 9fb77b7e-3dcc-4afe-bbf8-b20336267e35 was logged by broker alpaca
+2024-05-01 12:10:26,991: root: INFO: Untracked order 99b35179-f098-4b3b-b058-8bf600524e16 was logged by broker alpaca
+2024-05-01 12:10:26,995: root: INFO: Untracked order 99b35179-f098-4b3b-b058-8bf600524e16 was logged by broker alpaca
+2024-05-01 12:10:27,155: root: INFO: Untracked order 9fb77b7e-3dcc-4afe-bbf8-b20336267e35 was logged by broker alpaca
+2024-05-01 12:10:27,163: root: INFO: Untracked order 99b35179-f098-4b3b-b058-8bf600524e16 was logged by broker alpaca
+2024-05-01 12:10:27,184: root: INFO: Untracked order 54202cd5-57c5-4cf8-ad9e-6cd20a8b35eb was logged by broker alpaca
+2024-05-01 12:10:27,475: root: INFO: Untracked order 9fb77b7e-3dcc-4afe-bbf8-b20336267e35 was logged by broker alpaca
+2024-05-01 12:10:27,484: root: INFO: Untracked order 99b35179-f098-4b3b-b058-8bf600524e16 was logged by broker alpaca
+2024-05-01 12:10:56,983: root: INFO: Untracked order 4a009d71-df8b-4e9e-a33d-51010baacbe2 was logged by broker alpaca
+2024-05-01 12:10:56,989: root: INFO: Untracked order 4a009d71-df8b-4e9e-a33d-51010baacbe2 was logged by broker alpaca
+2024-05-01 12:10:57,063: root: INFO: Untracked order f666a5ec-9eb9-4dfa-a8e3-51316976c146 was logged by broker alpaca
+2024-05-01 12:10:57,068: root: INFO: Untracked order f666a5ec-9eb9-4dfa-a8e3-51316976c146 was logged by broker alpaca
+2024-05-01 12:10:57,102: root: INFO: Untracked order 10b33d3b-19d8-4d64-838d-58f3b68f48ab was logged by broker alpaca
+2024-05-01 12:10:57,115: root: INFO: Untracked order 10b33d3b-19d8-4d64-838d-58f3b68f48ab was logged by broker alpaca
+2024-05-01 12:10:57,148: root: INFO: Untracked order 85e8068c-8349-46af-8cb2-4f60724daf60 was logged by broker alpaca
+2024-05-01 12:10:57,150: root: INFO: Untracked order 85e8068c-8349-46af-8cb2-4f60724daf60 was logged by broker alpaca
+2024-05-01 12:10:57,362: root: INFO: Untracked order f666a5ec-9eb9-4dfa-a8e3-51316976c146 was logged by broker alpaca
+2024-05-01 12:10:57,385: root: INFO: Untracked order 4a009d71-df8b-4e9e-a33d-51010baacbe2 was logged by broker alpaca
+2024-05-01 12:10:57,447: root: INFO: Untracked order 10b33d3b-19d8-4d64-838d-58f3b68f48ab was logged by broker alpaca
+2024-05-01 12:10:57,458: root: INFO: Untracked order 85e8068c-8349-46af-8cb2-4f60724daf60 was logged by broker alpaca
+2024-05-01 12:18:24,081: root: INFO: Untracked order 112b95cf-eeac-44c3-8475-28ade0cf318e was logged by broker alpaca
+2024-05-01 12:18:24,085: root: INFO: Untracked order 112b95cf-eeac-44c3-8475-28ade0cf318e was logged by broker alpaca
+2024-05-01 12:18:24,123: root: INFO: Untracked order 22c2cb3c-dfbd-40f1-a564-749be2e8f72e was logged by broker alpaca
+2024-05-01 12:18:24,127: root: INFO: Untracked order 22c2cb3c-dfbd-40f1-a564-749be2e8f72e was logged by broker alpaca
+2024-05-01 12:18:24,163: root: INFO: Untracked order 32d11bcb-6c8c-4434-a2ae-a2fb469809d7 was logged by broker alpaca
+2024-05-01 12:18:24,164: root: INFO: Untracked order 112b95cf-eeac-44c3-8475-28ade0cf318e was logged by broker alpaca
+2024-05-01 12:18:24,167: root: INFO: Untracked order 32d11bcb-6c8c-4434-a2ae-a2fb469809d7 was logged by broker alpaca
+2024-05-01 12:18:24,205: root: INFO: Untracked order fdb27522-8f1e-4c1a-b9c5-2b2ee2c99986 was logged by broker alpaca
+2024-05-01 12:18:24,210: root: INFO: Untracked order fdb27522-8f1e-4c1a-b9c5-2b2ee2c99986 was logged by broker alpaca
+2024-05-01 12:18:24,634: root: INFO: Untracked order 22c2cb3c-dfbd-40f1-a564-749be2e8f72e was logged by broker alpaca
+2024-05-01 12:18:24,715: root: INFO: Untracked order 32d11bcb-6c8c-4434-a2ae-a2fb469809d7 was logged by broker alpaca
+2024-05-01 12:18:24,805: root: INFO: Untracked order fdb27522-8f1e-4c1a-b9c5-2b2ee2c99986 was logged by broker alpaca
+2024-05-01 12:18:25,090: root: INFO: Untracked order 32d11bcb-6c8c-4434-a2ae-a2fb469809d7 was logged by broker alpaca
+2024-05-01 12:23:14,513: root: INFO: Untracked order 3505ecde-0ffb-4268-8544-fc77f93de92d was logged by broker alpaca
+2024-05-01 12:23:14,519: root: INFO: Untracked order 3505ecde-0ffb-4268-8544-fc77f93de92d was logged by broker alpaca
+2024-05-01 12:23:14,552: root: INFO: Untracked order 8ed28b2e-3218-4630-87ad-e8d933ac57eb was logged by broker alpaca
+2024-05-01 12:23:14,555: root: INFO: Untracked order 8ed28b2e-3218-4630-87ad-e8d933ac57eb was logged by broker alpaca
+2024-05-01 12:23:14,587: root: INFO: Untracked order ae8e7238-db3e-4f87-8e08-cbec6583b11a was logged by broker alpaca
+2024-05-01 12:23:14,591: root: INFO: Untracked order ae8e7238-db3e-4f87-8e08-cbec6583b11a was logged by broker alpaca
+2024-05-01 12:23:14,883: root: INFO: Untracked order 3505ecde-0ffb-4268-8544-fc77f93de92d was logged by broker alpaca
+2024-05-01 12:23:14,944: root: INFO: Untracked order ae8e7238-db3e-4f87-8e08-cbec6583b11a was logged by broker alpaca
+2024-05-01 12:23:15,010: root: INFO: Untracked order 8ed28b2e-3218-4630-87ad-e8d933ac57eb was logged by broker alpaca
+2024-05-01 12:23:15,182: root: INFO: Untracked order 3505ecde-0ffb-4268-8544-fc77f93de92d was logged by broker alpaca
+2024-05-01 12:23:15,605: root: INFO: Untracked order 3505ecde-0ffb-4268-8544-fc77f93de92d was logged by broker alpaca
+2024-05-01 12:23:15,927: root: INFO: Untracked order 3505ecde-0ffb-4268-8544-fc77f93de92d was logged by broker alpaca
+2024-05-01 12:23:16,293: root: INFO: Untracked order 3505ecde-0ffb-4268-8544-fc77f93de92d was logged by broker alpaca
+2024-05-01 12:23:37,180: root: INFO: Untracked order 5caef7fa-6e26-4f84-9bc3-9d5fe3a4896d was logged by broker alpaca
+2024-05-01 12:23:37,185: root: INFO: Untracked order 5caef7fa-6e26-4f84-9bc3-9d5fe3a4896d was logged by broker alpaca
+2024-05-01 12:23:37,229: root: INFO: Untracked order a69a39a5-93a3-4ae6-ac56-e902e006a735 was logged by broker alpaca
+2024-05-01 12:23:37,233: root: INFO: Untracked order a69a39a5-93a3-4ae6-ac56-e902e006a735 was logged by broker alpaca
+2024-05-01 12:23:37,264: root: INFO: Untracked order 92301d19-e732-4579-8c83-d2c6f93d2ae1 was logged by broker alpaca
+2024-05-01 12:23:37,267: root: INFO: Untracked order 92301d19-e732-4579-8c83-d2c6f93d2ae1 was logged by broker alpaca
+2024-05-01 12:23:37,303: root: INFO: Untracked order e4005654-65ec-4451-920f-d11dcf6c262e was logged by broker alpaca
+2024-05-01 12:23:37,306: root: INFO: Untracked order e4005654-65ec-4451-920f-d11dcf6c262e was logged by broker alpaca
+2024-05-01 12:23:37,557: root: INFO: Untracked order a69a39a5-93a3-4ae6-ac56-e902e006a735 was logged by broker alpaca
+2024-05-01 12:23:37,612: root: INFO: Untracked order 5caef7fa-6e26-4f84-9bc3-9d5fe3a4896d was logged by broker alpaca
+2024-05-01 12:23:37,695: root: INFO: Untracked order 92301d19-e732-4579-8c83-d2c6f93d2ae1 was logged by broker alpaca
+2024-05-01 12:23:37,722: root: INFO: Untracked order e4005654-65ec-4451-920f-d11dcf6c262e was logged by broker alpaca
+2024-05-01 12:23:37,873: root: INFO: Untracked order 5caef7fa-6e26-4f84-9bc3-9d5fe3a4896d was logged by broker alpaca
+2024-05-01 12:23:37,958: root: INFO: Untracked order 92301d19-e732-4579-8c83-d2c6f93d2ae1 was logged by broker alpaca
+2024-05-01 12:23:38,352: root: INFO: Untracked order 92301d19-e732-4579-8c83-d2c6f93d2ae1 was logged by broker alpaca
+2024-05-01 12:24:05,228: root: INFO: Untracked order 235a2dfb-11d9-4af5-a0d5-58a7b5e41d33 was logged by broker alpaca
+2024-05-01 12:24:05,231: root: INFO: Untracked order 235a2dfb-11d9-4af5-a0d5-58a7b5e41d33 was logged by broker alpaca
+2024-05-01 12:24:05,300: root: INFO: Untracked order b71af2ce-5525-4116-af92-996ba4417063 was logged by broker alpaca
+2024-05-01 12:24:05,307: root: INFO: Untracked order b71af2ce-5525-4116-af92-996ba4417063 was logged by broker alpaca
+2024-05-01 12:24:05,343: root: INFO: Untracked order 9bb3b17b-e552-4223-8570-affefbee02d2 was logged by broker alpaca
+2024-05-01 12:24:05,347: root: INFO: Untracked order 9bb3b17b-e552-4223-8570-affefbee02d2 was logged by broker alpaca
+2024-05-01 12:24:05,380: root: INFO: Untracked order 23538acf-abad-4731-bbba-1caad66c17a5 was logged by broker alpaca
+2024-05-01 12:24:05,387: root: INFO: Untracked order 23538acf-abad-4731-bbba-1caad66c17a5 was logged by broker alpaca
+2024-05-01 12:24:05,598: root: INFO: Untracked order 235a2dfb-11d9-4af5-a0d5-58a7b5e41d33 was logged by broker alpaca
+2024-05-01 12:24:05,607: root: INFO: Untracked order 23538acf-abad-4731-bbba-1caad66c17a5 was logged by broker alpaca
+2024-05-01 12:24:05,614: root: INFO: Untracked order 9bb3b17b-e552-4223-8570-affefbee02d2 was logged by broker alpaca
+2024-05-01 12:24:05,711: root: INFO: Untracked order b71af2ce-5525-4116-af92-996ba4417063 was logged by broker alpaca
+2024-05-01 12:24:06,001: root: INFO: Untracked order 9bb3b17b-e552-4223-8570-affefbee02d2 was logged by broker alpaca
