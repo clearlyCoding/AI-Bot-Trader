@@ -1,0 +1,63 @@
+2024-05-14 11:11:17,000: asyncio: INFO: [MLTrader] Executing the initialize lifecycle method
+2024-05-14 11:11:18,607: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2024-05-14 11:11:18,609: asyncio: INFO: [MLTrader] Executing the before_market_opens lifecycle method
+2024-05-14 11:11:18,610: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2024-05-14 11:11:18,610: asyncio: INFO: [MLTrader] Executing the before_starting_trading lifecycle method
+2024-05-14 11:11:18,611: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-14 11:11:18[0m
+2024-05-14 11:11:20,801: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-14 11:11:20[0m
+2024-05-14 11:11:20,803: asyncio: INFO: [MLTrader] [34mSleeping for 10 seconds[0m
+2024-05-14 11:11:20,804: root: INFO: Current backtesting datetime 2023-01-03 09:30:10-05:00
+2024-05-14 11:11:20,804: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-14 11:11:20[0m
+2024-05-14 11:11:20,806: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-14 11:11:20[0m
+2024-05-14 11:11:20,807: asyncio: INFO: [MLTrader] [34mSleeping for 10 seconds[0m
+2024-05-14 11:11:20,807: root: INFO: Current backtesting datetime 2023-01-03 09:30:20-05:00
+2024-05-14 11:11:20,808: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-14 11:11:20[0m
+2024-05-14 11:11:20,809: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-14 11:11:20[0m
+2024-05-14 11:11:20,809: asyncio: INFO: [MLTrader] [34mSleeping for 10 seconds[0m
+2024-05-14 11:11:20,810: root: INFO: Current backtesting datetime 2023-01-03 09:30:30-05:00
+2024-05-14 11:11:20,811: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-14 11:11:20[0m
+2024-05-14 11:11:20,812: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-14 11:11:20[0m
+2024-05-14 11:11:20,812: asyncio: INFO: [MLTrader] [34mSleeping for 10 seconds[0m
+2024-05-14 11:11:20,813: root: INFO: Current backtesting datetime 2023-01-03 09:30:40-05:00
+2024-05-14 11:11:20,814: asyncio: INFO: [MLTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-14 11:11:20[0m
+2024-05-14 11:11:20,832: asyncio: INFO: [MLTrader] [32mNew order was created: market order of | 318 SOXX buy | with status new[0m
+2024-05-14 11:11:20,844: asyncio: INFO: [MLTrader] [34mTrading iteration ended at 2024-05-14 11:11:20[0m
+2024-05-14 11:11:20,844: asyncio: INFO: [MLTrader] Getting historical prices for SOXX, 2 bars, minute
+2024-05-14 11:11:20,859: asyncio: INFO: [MLTrader] [32mOrder was filled: market order of | 318 SOXX buy | at price $117.59 with status fill[0m
+2024-05-14 11:11:20,863: asyncio: INFO: [MLTrader] [34mSleeping for 10 seconds[0m
+2024-05-14 11:11:20,864: asyncio: ERROR: [MLTrader] I/O operation on closed file.
+2024-05-14 11:11:20,866: asyncio: ERROR: [MLTrader] Traceback (most recent call last):
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 875, in _run_trading_session
+    if not self._strategy_sleep():
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 725, in _strategy_sleep
+    self.safe_sleep(strategy_sleeptime)
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 76, in safe_sleep
+    self.process_queue()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 238, in process_queue
+    self.process_event(event, payload)
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 222, in process_event
+    self._on_filled_order(**payload)
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 274, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 458, in _on_filled_order
+    self.strategy.on_filled_order(position, order, price, quantity, multiplier)
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 264, in on_filled_order
+    self.csv_writer(data)
+  File "D:\VVWoodworks Market Trader\AI-Bot-Trader\MarketBot.py", line 273, in csv_writer
+    writer.writeheader()
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\csv.py", line 153, in writeheader
+    return self.writerow(header)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Osama Warsi\AppData\Local\Programs\Python\Python312\Lib\csv.py", line 164, in writerow
+    return self.writer.writerow(self._dict_to_list(rowdict))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: I/O operation on closed file.
+
+2024-05-14 11:11:20,867: asyncio: INFO: [MLTrader] Executing the on_bot_crash event method
+2024-05-14 11:11:25,578: root: INFO: Backtesting finished
+2024-05-14 11:11:30,178: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-05-14 11:11:30,179: backtest_stats: INFO: Backtest took 0:00:13.209605 for a speed of 0.000

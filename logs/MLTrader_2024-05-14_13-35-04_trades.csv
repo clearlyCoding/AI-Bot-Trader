@@ -1,0 +1,15 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2024-05-13 10:10:00-04:00,MLTrader,71698a2322ed4006b9aca699c14935a0,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-05-13 10:10:00-04:00,MLTrader,71698a2322ed4006b9aca699c14935a0,SOXX,buy,market,fill,1,gtc,0.0,1,stock,221.7,338.0,0.0
+2024-05-13 13:10:00-04:00,MLTrader,16cf5535300640c39767ab4c0a766f79,SOXX,sell,market,new,1,gtc,0.0,1,stock,,,
+2024-05-13 13:10:00-04:00,MLTrader,16cf5535300640c39767ab4c0a766f79,SOXX,sell,market,fill,1,gtc,0.0,1,stock,220.57,338.0,0.0
+2024-05-13 14:20:00-04:00,MLTrader,a312af96e6484c099c8fba39040f057b,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-05-13 14:20:00-04:00,MLTrader,a312af96e6484c099c8fba39040f057b,SOXX,buy,market,fill,1,gtc,0.0,1,stock,220.85,170.0,0.0
+2024-05-13 14:30:00-04:00,MLTrader,4406e7e12054450f884afb4525e9a445,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-05-13 14:30:00-04:00,MLTrader,4406e7e12054450f884afb4525e9a445,SOXX,buy,market,fill,1,gtc,0.0,1,stock,220.78,57.0,0.0
+2024-05-13 14:40:00-04:00,MLTrader,ba8b914a84374f6d9d721b09b1b2763b,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-05-13 14:40:00-04:00,MLTrader,c35d4251de1941008656509da2c177f2,SOXX,sell,market,new,1,gtc,0.0,1,stock,,,
+2024-05-13 14:40:00-04:00,MLTrader,ba8b914a84374f6d9d721b09b1b2763b,SOXX,buy,market,fill,1,gtc,0.0,1,stock,220.94,14.0,0.0
+2024-05-13 14:40:00-04:00,MLTrader,c35d4251de1941008656509da2c177f2,SOXX,sell,market,fill,1,gtc,0.0,1,stock,220.94,14.0,0.0
+2024-05-13 14:50:00-04:00,MLTrader,4780399b1a3e4a8c9da4e40b900e7419,SOXX,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-05-13 14:50:00-04:00,MLTrader,4780399b1a3e4a8c9da4e40b900e7419,SOXX,buy,market,fill,1,gtc,0.0,1,stock,220.785,57.0,0.0

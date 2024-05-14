@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trading Wallet</title>
+</head>
+<body>
+<h1>Trading Wallet</h1>
+<form id="transactionForm">
+    <input type="radio" name="type" value="buy" checked> Buy
+    <input type="radio" name="type" value="sell"> Sell<br>
+    <input type="number" id="quantity" placeholder="Quantity" required>
+    <input type="number" step="0.01" id="price" placeholder="Price" required>
+    <button type="submit">Submit Transaction</button>
+</form>
+
+<h2>Wallet</h2>
+<ul id="walletList"></ul>
+
+<h2>Transactions Log</h2>
+<ul id="transactionsLog"></ul>
+
+<script src="app.js"></script>
+</body>
+</html>
