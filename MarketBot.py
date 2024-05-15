@@ -12,6 +12,8 @@ import requests
 import json
 import random
 import decimal
+import csv
+import os
 API_KEY = "PKJYF05FPJGXH57IXVUK" 
 API_SECRET = "t4siryHdAd5gfwTxsfZbMCkwfafvPzJIFEspuuaq" 
 BASE_URL = "https://paper-api.alpaca.markets/v2"
@@ -20,8 +22,9 @@ POLYGONKEY = "hwXFX1sSXE4ojhYyeKDA7BBJDlaLf6Pf"
 tickertest = ['SOXX']
 BUY_STOP_LIMIT = 27500
 FLOOR = 25000
-# LIVE_TRADE = False
-LIVE_TRADE = True
+LIVE_TRADE = False
+TRACE = "trace.csv"
+# LIVE_TRADE = True
 ALPACA_CREDS = {
     "API_KEY":API_KEY, 
     "API_SECRET": API_SECRET, 
@@ -43,12 +46,12 @@ class MLTrader(Strategy):
         self.live = LIVE_TRADE
         for items in self.symbol:
             self.data[items] = []
-        self.sleeptime = "10s"
+        self.sleeptime = "10m"
         self.risk_p = budget_buffer_risk
         self.asset = Asset(self.symbol, asset_type=Asset.AssetType.STOCK)
         self.api = REST(base_url=BASE_URL, key_id=API_KEY, secret_key=API_SECRET)
 
-    def position_sizing(self, symbol, list):
+    def position_sizing(self, symbol, list): 
         SLOPE_PERIODS = 5
         r = self.risk_p
         b = self.initial_budget
@@ -91,6 +94,7 @@ class MLTrader(Strategy):
         symbol = 'SOXX'
         order = self.create_order(symbol, quantity= 10, side = 'buy')
         self.submit_order(order)
+    
     def slope_extract (self, list):
         y = [1,2,3,4,5]
         coefficients = np.polyfit(list,y,1)    #make a line of best fit
@@ -140,19 +144,19 @@ class MLTrader(Strategy):
                 print(f"Current strat - sell {qty_f} of {current_tick} if {lpt} drops below {round(ppt*lossexitper,2)} or >= to {round(ppt*highexit,2)}, right now holding for {difference_in_days} days - if between 15 and 30 days then sell at anywhere b/w {round(ppt*highexit,2)} and {round(ppt*midexit,2)}  - if more than 30 days then sell at anywhere b/w {round(ppt*midexit,2)} and {round(ppt*lowexit,2)}")
             if current_tick == symbol and qty_f > 0 and lpt <= details[0]*lossexitper : #doesn't matter time passed - if ur 99.5% or below, sell that position
                 print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
-                orderamt += details[1]
+                orderamt += float(details[1])
                 self.order.append(self.create_order(current_tick, quantity= qty_f, side = "sell" ))
                 details[1] = 0  # quantity gets zeroed
 
             if current_tick == symbol and qty_f > 0 and lpt >= details[0]*highexit : #doesn't matter time passed - if ur 15% above, sell that position
                 print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
-                orderamt += details[1]
+                orderamt += float(details[1])
                 self.order.append(self.create_order(current_tick, quantity= qty_f, side = "sell" ))
                 details[1] = 0  # quantity gets zeroed
                 
             if current_tick == symbol and qty_f > 0 and int(difference_in_days.days) >=30 and details[0]*midexit > lpt>= details[0]*lowexit: # if the days passed are over 30, then sell possiitions taking all profits you can
                 print (f"Sell decision of {symbol} at {lpt} for {details[1]} pieces | Price difference = {lpt- details[0]} ")
-                orderamt += details[1]
+                orderamt += float(details[1])
                 self.order.append(self.create_order(current_tick, quantity= qty_f, side = "sell" ))
                 details[1] = 0
             if current_tick == symbol and qty_f > 0 and 30> int(difference_in_days.days) >15 and details[0]*highexit > lpt >= details[0]*midexit: #if the days passed are over 15 days but under 30, then sell the positionsif you have atleast a 6% profit
@@ -197,6 +201,7 @@ class MLTrader(Strategy):
     def before_starting_trading(self): #Necessary for live trading - need to be commented for backtesting
         self.fetch_diary()
         print(self.diary)
+    
     def check_buy_orders(self, reduce, factor):
         total = 0 
         if not reduce:
@@ -214,6 +219,7 @@ class MLTrader(Strategy):
                 print (f"making order quantity {order.quantity} for {order.symbol}")
                 total+= float(order.quantity)*float(self.get_last_price(order.symbol))
         return total
+    
     def mantain_floor(self):
         if len(self.order) > 0:
             # print (self.order)
@@ -253,10 +259,25 @@ class MLTrader(Strategy):
             # self.submit_orders(self.order)
         self.order.clear()
             
+    def on_filled_order(self, position, order, price, quantity, multiplier):
+        data = [{"Date":self.get_datetime().strftime('%Y-%m-%d') ,"Side": order.side, "Asset": order.asset, "Price": price, "Quantity":quantity, "Total Dollars": quantity*price}]
+        self.csv_writer(data)
 
+    def csv_writer (self, data):
+        file_exists = os.path.isfile(TRACE) and os.path.getsize(TRACE) > 0
+        with open(TRACE, mode='a', newline='') as file:
+            writer = csv.DictWriter(file, fieldnames=["Date","Side", "Asset", "Price", "Quantity", "Total Dollars"])
+    
+            # Write the header only if the file does not exist or is empty
+            if not file_exists:
+                writer.writeheader()
+    
+            # Append data
+            for entry in data:
+                writer.writerow(entry)
 
-start_date = datetime(2023,1,1)
-end_date = datetime(2023,1,31) 
+start_date = datetime(2024,5,13)
+end_date = datetime(2024,5,14) 
 broker = Alpaca(ALPACA_CREDS) 
 strategy = MLTrader(name='mlstrat', broker=broker, budget = 100000, 
                     parameters={"symbol":tickertest, 
@@ -268,13 +289,13 @@ data_source = PolygonDataBacktesting(
     api_key= POLYGONKEY,
     has_paid_subscription=False,  # Set this to True if you have a paid subscription to polygon.io (False assumes you are using the free tier)
 )
-# strategy.backtest(
-#     PolygonDataBacktesting, 
-#     start_date, 
-#     end_date, 
-#     benchmark_asset = 'SPY',
-#     api_key=POLYGONKEY,
-# )
-trader = Trader()
-trader.add_strategy(strategy)
-trader.run_all()
+strategy.backtest(
+    PolygonDataBacktesting, 
+    start_date, 
+    end_date, 
+    benchmark_asset = 'SPY',
+    api_key=POLYGONKEY,
+)
+# trader = Trader()
+# trader.add_strategy(strategy)
+# trader.run_all()
