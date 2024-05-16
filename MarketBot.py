@@ -14,6 +14,9 @@ import random
 import decimal
 import csv
 import os
+import hashlib
+
+
 API_KEY = "PKJYF05FPJGXH57IXVUK" 
 API_SECRET = "t4siryHdAd5gfwTxsfZbMCkwfafvPzJIFEspuuaq" 
 BASE_URL = "https://paper-api.alpaca.markets/v2"
@@ -256,17 +259,16 @@ class MLTrader(Strategy):
                         diaryentry[1] = orders.quantity
                         break
             self.submit_order(orders)    
-            # self.submit_orders(self.order)
         self.order.clear()
             
     def on_filled_order(self, position, order, price, quantity, multiplier):
-        data = [{"Date":self.get_datetime().strftime('%Y-%m-%d') ,"Side": order.side, "Asset": order.asset, "Price": price, "Quantity":quantity, "Total Dollars": quantity*price}]
+        data = [{"hashkey": order.identifier ,"Date":self.get_datetime().strftime('%Y-%m-%d') ,"Side": order.side, "Asset": order.asset, "Price": price, "Quantity":quantity, "Total Dollars": quantity*price}]
         self.csv_writer(data)
 
     def csv_writer (self, data):
         file_exists = os.path.isfile(TRACE) and os.path.getsize(TRACE) > 0
         with open(TRACE, mode='a', newline='') as file:
-            writer = csv.DictWriter(file, fieldnames=["Date","Side", "Asset", "Price", "Quantity", "Total Dollars"])
+            writer = csv.DictWriter(file, fieldnames=["hashkey", "Date","Side", "Asset", "Price", "Quantity", "Total Dollars"])
     
             # Write the header only if the file does not exist or is empty
             if not file_exists:
@@ -276,6 +278,15 @@ class MLTrader(Strategy):
             for entry in data:
                 writer.writerow(entry)
 
+    def generate_hash(self):
+    # Generate a random number
+        random_number = random.randint(0, int(1e9))
+        # Create a SHA-256 hash object
+        hash_object = hashlib.sha256(str(random_number).encode())
+        # Get the hexadecimal representation of the hash
+        hex_dig = hash_object.hexdigest()
+        # Return the first 8 characters of the hex digest
+        return hex_dig[:8]
 start_date = datetime(2024,5,13)
 end_date = datetime(2024,5,14) 
 broker = Alpaca(ALPACA_CREDS) 
